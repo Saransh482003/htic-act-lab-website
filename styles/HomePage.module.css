@@ -1,0 +1,152 @@
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem;
+    color: white;
+    background: transparent;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.10rem;
+    font-weight: bold;
+    gap: 1.5rem;
+}
+
+.logo > img {
+    filter: brightness(0) invert(1);
+    height: 40px;
+    width: auto;
+}
+
+.navList {
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navLink {
+    color: white;
+    font-size: 1.10rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navLink:hover {
+    color: var(--primary-color, #3b82f6);
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    background-image: url('/home/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 0% 2.5rem;
+}
+
+.banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 30%, transparent 70%),
+        linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 50%, transparent 100%);
+    pointer-events: none;
+}
+
+.bannerHead {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: white;
+    margin-top: 12rem;
+    width: 50%;
+}
+
+.bannerTitle {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.bannerHead span {
+    color: #67ABFF;
+}
+
+.bannerSubtitle {
+    font-style: italic;
+    font-size: 0.65rem;
+    font-weight: normal;
+    letter-spacing: 0.2rem;
+}
+
+.bannerActions {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 2rem;
+    left: 2.5rem;
+}
+
+.publicationButton {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: rgba(103, 171, 255, 0.9);
+    color: white;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    width: fit-content;
+}
+
+.publicationButton:hover {
+    background: rgba(103, 171, 255, 1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(103, 171, 255, 0.3);
+}
+
+.publicationButton .arrow {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.publicationButton:hover .arrow {
+    transform: translateX(4px);
+}
+
+.publicationText {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.publicationTitle {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.publicationSubtitle {
+    font-size: 0.75rem;
+    opacity: 0.9;
+}
