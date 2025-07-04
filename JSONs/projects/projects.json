@@ -1,0 +1,74 @@
+[
+    {
+        "title": "ARTSENS",
+        "description": "A patented non-invasive vascular health monitoring system developed at IIT Madras. It measures carotid stiffness, aortic pulse wave velocity, and central blood pressure in about 15 minutes using piezoelectric probes and cuff sensors.",
+        "category": "Cardiovascular Devices",
+        "tags": ["cardiovascular", "non-invasive", "vascular health", "arterial stiffness", "early detection"],
+        "image": "/projects/ARTSENS.png",
+        "internalLink": "/projects/artsens",
+        "externalLink": "https://artsens.tech/"
+    },
+    {
+        "title": "ARTSENS JV",
+        "description": "A system for non-invasive acquisition and analysis of jugular venous pulse contours using A-mode ultrasound for early detection of cardiac anomalies like tricuspid stenosis and pulmonary hypertension.",
+        "category": "Cardiovascular Devices",
+        "tags": ["cardiovascular", "non-invasive", "ultrasound", "jugular pulse", "early detection"],
+        "image": "/projects/ARTSENS_JV.jpg",
+        "internalLink": "/projects/artsens-jv",
+        "externalLink": ""
+    },
+    {
+        "title": "CARDIOSENS",
+        "description": "A system for early detection of cardiovascular diseases by estimating surrogate markers such as cardiac output, LVEF, and AT/ET ratio using carotid and jugular vein pulses.",
+        "category": "Cardiovascular Devices",
+        "tags": ["cardiovascular", "early detection", "hemodynamics", "cardiac output", "jugular pulse"],
+        "image": "/projects/CARDIOSENS.jpg",
+        "internalLink": "/projects/cardiosens",
+        "externalLink": ""
+    },
+    {
+        "title": "ZTRANSIT",
+        "description": "An affordable bio-impedance-based system for monitoring haemodynamics via pulse transit time, stroke volume, and cardiac output to aid early CVD detection.",
+        "category": "Cardiovascular Devices",
+        "tags": ["cardiovascular", "bio-impedance", "hemodynamics", "early detection", "stroke volume"],
+        "image": "/projects/ZTransit.jpg",
+        "internalLink": "/projects/ztransit",
+        "externalLink": ""
+    },
+    {
+        "title": "WAVES",
+        "description": "A wearable device for continuous monitoring of vascular stiffness using acceleration plethysmogram (APG) signals, tracking vascular aging through amplitude-based markers.",
+        "category": "Wearable Health Tech",
+        "tags": ["cardiovascular", "wearable", "arterial stiffness", "vascular health", "vascular aging"],
+        "image": "/projects/WAVES.jpg",
+        "internalLink": "/projects/waves",
+        "externalLink": ""
+    },
+    {
+        "title": "Self Monitoring of Vascular Health",
+        "description": "An ergonomic, self-use device for arterial stiffness monitoring at home, removing the need for operator expertise and promoting accessible cardiovascular health tracking.",
+        "category": "Home Health Devices",
+        "tags": ["cardiovascular", "arterial stiffness", "home monitoring", "self-monitoring", "non-invasive"],
+        "image": "/projects/Self_Monitoring_of_Vascular_Health.jpg",
+        "internalLink": "/projects/self-monitoring",
+        "externalLink": ""
+    },
+    {
+        "title": "Automated Auscultation BP Monitoring",
+        "description": "A calibration-free BP monitoring method combining auscultatory and oscillometric techniques with pulse morphology analysis, eliminating the need for expert operators.",
+        "category": "Cardiovascular Devices",
+        "tags": ["cardiovascular", "blood pressure", "non-invasive", "automation", "home monitoring"],
+        "image": "/projects/Automated_Auscultation_BP_Monitoring.png",
+        "internalLink": "/projects/automated-bp",
+        "externalLink": ""
+    },
+    {
+        "title": "Endothelial Reactivity Assessment (ERA)",
+        "description": "A non-invasive ERA device that uses A-mode ultrasound and cuff sensors to assess arterial stiffness response during reactive hyperemia, with strong correlation to standard FMD.",
+        "category": "Cardiovascular Devices",
+        "tags": ["cardiovascular", "arterial stiffness", "ultrasound", "non-invasive", "vascular health"],
+        "image": "/projects/ERA.jpg",
+        "internalLink": "/projects/era",
+        "externalLink": ""
+    }
+]
