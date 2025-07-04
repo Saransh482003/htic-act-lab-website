@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }) {
 
   return <>
     <Head>
-      <title>ACT Lab</title>
+      <title>ACT Laboratory</title>
       <meta name="description" content="ACT Lab - Advanced Computing and Technology Lab" />
       <link rel="icon" href="/logo.ico" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
