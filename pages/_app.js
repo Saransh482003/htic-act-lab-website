@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }) {
     <Head>
       <title>ACT Lab</title>
       <meta name="description" content="ACT Lab - Advanced Computing and Technology Lab" />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/logo.ico" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       <link

@@ -2,6 +2,7 @@ import Image from "next/image";
 import styler from "@/styles/HomePage.module.css";
 import { useEffect, useRef, useState } from "react";
 
+
 // Counter component for animated numbers
 function AnimatedCounter({ end, duration = 2000, suffix = "" }) {
   const [count, setCount] = useState(0);
@@ -99,7 +100,7 @@ export default function Home() {
     <>
       <section>
         <nav className={styler.navbar}>
-          <div className={styler.logo}>
+          <div className={styler.logo} onClick={() => window.location.href = "/"}>
             <Image
               src="/logo.png"
               alt="ACT Lab Logo"
