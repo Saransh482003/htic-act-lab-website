@@ -1,12 +1,15 @@
 import * as fs from "fs";
+import path from "path";
 
 export default async function handler(req, res) {
   try {
-    const data = await fs.promises.readFile("JSONs/home/our_work.json", "utf-8");
-    const parsedData = JSON.parse(data); // Convert string to JSON
+    const filePath = path.join(process.cwd(), "JSONs", "home", "our_work.json");
+    const data = await fs.promises.readFile(filePath, "utf-8");
+    const parsedData = JSON.parse(data);
+    
     res.status(200).json(parsedData);
   } catch (err) {
-    console.error(err);
+    console.error("Error reading our_work data:", err);
     res.status(500).json({ error: "Failed to read JSON file" });
   }
 }
