@@ -118,6 +118,39 @@ const Footer = () => {
                 </div>
               </div>
             </div>
+
+            <div className={styler.footerSection}>
+              <h3 className={styler.footerSectionTitle}>Careers</h3>
+              <div className={styler.careersContainer}>
+                <div className={styler.careersBox}>
+                  <p className={styler.careersDescription}>
+                    Join our innovative team in cardiovascular research
+                  </p>
+                  <div className={styler.careerOpportunities}>
+                    <div className={styler.careerItem}>
+                      <span className={styler.careerIcon}>🎓</span>
+                      <strong>PhD</strong>
+                    </div>
+                    <div className={styler.careerItem}>
+                      <span className={styler.careerIcon}>🔬</span>
+                      <strong>Research</strong>
+                    </div>
+                    <div className={styler.careerItem}>
+                      <span className={styler.careerIcon}>👨‍💻</span>
+                      <strong>Technical</strong>
+                    </div>
+                  </div>
+                  <div className={styler.careerActions}>
+                    <a href="/careers/openings" className={styler.careerButton}>
+                      View Openings
+                    </a>
+                    <a href="/careers/internships" className={styler.careerButton}>
+                      Internships
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className={styler.footerBottom}>

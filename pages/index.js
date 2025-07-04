@@ -57,8 +57,38 @@ export default function Home() {
   const [news, setNews] = useState([]);
   const [isLoadingNews, setIsLoadingNews] = useState(true);
   const [newsError, setNewsError] = useState(null);
+  const [aboutStatistics, setAboutStatistics] = useState({});
 
 
+
+  useEffect(() => {
+    const fetchAboutStatistics = async () => {
+      try {
+        const response = await fetch("/api/about_statistics");
+        if (!response.ok) {
+          throw new Error("Failed to fetch about statistics");
+        }
+        const data = await response.json();
+        setAboutStatistics(data);
+      } catch (error) {
+        console.error("Error fetching about statistics:", error);
+      }
+    };
+    fetchAboutStatistics();
+  }, []);
+  useEffect(() => {
+    const fetchOurWork = async () => {
+      try {
+        const response = await fetch("/api/our_work");
+        if (!response.ok) {
+          throw new Error("Failed to fetch our work data");
+        }
+      } catch (error) {
+        console.error("Error fetching our work data:", error);
+      }
+    };
+    fetchOurWork();
+  }, []);
   useEffect(() => {
     const fetchOurWork = async () => {
       try {
@@ -137,24 +167,22 @@ export default function Home() {
         </div>
       </section>
       <section className={styler.quickLinkSection}>
-        <div className={styler.quickCardOuter}>
-          <div className={styler.quickCardInner}>
-            <h3 className={styler.quickCardTitle}>TAKE A LOOK AT OUR VARIOUS HEALTHCARE TECH. PROJECTS</h3>
-            <p className={styler.quickCardContent}>We have been working on several healthcare projects, aiming to save lives and proceed towards a better future.</p>
+        {aboutStatistics.quickSnippets && aboutStatistics.quickSnippets.map((snippet, index) => (
+          <div className={styler.quickCardOuter} key={index} onClick={() => window.location.href = snippet.link}>
+            <div className={styler.quickCardInner}>
+              <h3 className={styler.quickCardTitle}>{snippet.title}</h3>
+              <p className={styler.quickCardContent}>{snippet.description}</p>
+            </div>
           </div>
-        </div>
-        <div className={styler.quickCardOuter}>
-          <div className={styler.quickCardInner}>
-            <h3 className={styler.quickCardTitle}>READ OUR VARIOUS PUBLICATIONS WRITTEN BY VARIOUS PROFs.</h3>
-            <p className={styler.quickCardContent}>We have been working on several healthcare projects, aiming to save lives and proceed towards a better future.</p>
+        ))}
+      </section>
+      <section className={styler.statisticsSection}>
+        {aboutStatistics.statistics && aboutStatistics.statistics.map((statistic, index) => (
+          <div className={styler.statisticCard} key={index}>
+            <AnimatedCounter end={statistic.value} suffix={statistic.suffix} />
+            <p className={styler.statisticLabel}>{statistic.label}</p>
           </div>
-        </div>
-        <div className={styler.quickCardOuter}>
-          <div className={styler.quickCardInner}>
-            <h3 className={styler.quickCardTitle}>READ OUR VARIOUS PUBLICATIONS WRITTEN BY VARIOUS PROFs.</h3>
-            <p className={styler.quickCardContent}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error quos delectus consequatur </p>
-          </div>
-        </div>
+        ))}
       </section>
       <section className={styler.labDescription}>
         <div className={styler.labDescriptionContent}>
@@ -162,32 +190,6 @@ export default function Home() {
           <p className={styler.labDescriptionText}>
             The Advanced Cardiovascular Technology Laboratory (ACT Lab) is a pioneering research initiative at the Indian Institute of Technology Madras, dedicated to advancing cardiovascular healthcare through innovative technology and scientific research. Our mission is to develop cutting-edge solutions that enhance the diagnosis, treatment, and management of cardiovascular diseases, ultimately improving patient outcomes and quality of life.
           </p>
-        </div>
-      </section>
-      <section className={styler.statisticsSection}>
-        <div className={styler.statisticCard}>
-          <AnimatedCounter end={100} suffix="+" />
-          <p className={styler.statisticLabel}>Research Papers Published</p>
-        </div>
-        <div className={styler.statisticCard}>
-          <AnimatedCounter end={50} suffix="+" />
-          <p className={styler.statisticLabel}>Ongoing Projects</p>
-        </div>
-        <div className={styler.statisticCard}>
-          <AnimatedCounter end={200} suffix="+" />
-          <p className={styler.statisticLabel}>Patients Treated</p>
-        </div>
-        <div className={styler.statisticCard}>
-          <AnimatedCounter end={10} suffix="+" />
-          <p className={styler.statisticLabel}>Patents Filed</p>
-        </div>
-        <div className={styler.statisticCard}>
-          <AnimatedCounter end={20} suffix="+" />
-          <p className={styler.statisticLabel}>Collaborating Institutes</p>
-        </div>
-        <div className={styler.statisticCard}>
-          <AnimatedCounter end={15} suffix="+" />
-          <p className={styler.statisticLabel}>Awards & Recognitions</p>
         </div>
       </section>
       <section className={styler.exploreNewsSection}>

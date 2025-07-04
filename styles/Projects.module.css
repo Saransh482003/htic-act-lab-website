@@ -40,8 +40,8 @@
 .bannerContent {
     position: relative;
     z-index: 2;
-    /* margin: 0 auto; */
-    width: 80%;
+    max-width: 1200px;
+    width: 100%;
 }
 
 .bannerTitle {
@@ -88,9 +88,10 @@
 
 .bannerStats {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     gap: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     animation: statsSlideUp 1s ease-out 0.4s both;
 }
 
@@ -106,28 +107,49 @@
 }
 
 .statItem {
-    text-align: center;
+    text-align: left;
     color: white;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem 2rem;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    min-width: 140px;
+}
+
+.statItem:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
 }
 
 .statNumber {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 700;
     display: block;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #ffffff, #f0f8ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .statLabel {
-    font-size: 0.9rem;
-    opacity: 0.8;
+    font-size: 0.85rem;
+    opacity: 0.9;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .bannerActions {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
     gap: 1.5rem;
     animation: actionsSlideUp 1s ease-out 0.6s both;
 }
@@ -144,41 +166,62 @@
 }
 
 .actionButton {
-    padding: 1rem 2rem;
+    padding: 1.2rem 2.5rem;
     border-radius: 50px;
     font-weight: 600;
     text-decoration: none;
-    transition: all 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
     font-size: 1rem;
     border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.actionButton::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.actionButton:hover::before {
+    left: 100%;
 }
 
 .actionButton.primary {
-    background: rgba(255, 255, 255, 0.2);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.15));
     color: white;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
     border-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .actionButton.primary:hover {
-    background: rgba(255, 255, 255, 0.3);
-    transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.25));
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
 }
 
 .actionButton.secondary {
     background: transparent;
     color: white;
-    border-color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
 }
 
 .actionButton.secondary:hover {
     background: rgba(255, 255, 255, 0.1);
-    transform: translateY(-2px);
+    transform: translateY(-3px);
     border-color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .floatingElements {
@@ -249,22 +292,29 @@
     }
     
     .bannerStats {
-        gap: 2rem;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+    
+    .statItem {
+        min-width: 120px;
+        padding: 1.2rem 1.5rem;
     }
     
     .statNumber {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
     .bannerActions {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
     
     .actionButton {
         width: 100%;
-        max-width: 250px;
+        max-width: 280px;
         justify-content: center;
+        padding: 1rem 2rem;
     }
 }
 
@@ -279,10 +329,23 @@
     
     .bannerStats {
         flex-direction: column;
-        gap: 1.5rem;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+    
+    .statItem {
+        width: 100%;
+        max-width: 200px;
+        padding: 1rem 1.25rem;
     }
     
     .statNumber {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
+    }
+    
+    .actionButton {
+        max-width: 100%;
+        padding: 0.9rem 1.8rem;
+        font-size: 0.95rem;
     }
 }

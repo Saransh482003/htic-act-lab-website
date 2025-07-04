@@ -1,0 +1,63 @@
+{
+    "about": {
+        "title": "About ACT Lab",
+        "description": "The ACT Lab is a research group focused on advanced computing and technology solutions. We aim to innovate and push the boundaries of technology to create impactful solutions for real-world problems.",
+        "mission": "To advance the field of computing through innovative research and development, fostering collaboration and knowledge sharing.",
+        "vision": "To be a leading research lab in advanced computing, recognized for our contributions to technology and society."
+    },
+    "statistics": [
+        {
+            "label": "Research Papers Published",
+            "value": 120,
+            "prefix": "",
+            "suffix": "+"
+        },
+        {
+            "label": "Ongoing Projects",
+            "value": 50,
+            "prefix": "",
+            "suffix": "+"
+        },
+        {
+            "label": "Patients Treated",
+            "value": 200,
+            "prefix": "",
+            "suffix": "+"
+        },
+        {
+            "label": "Patents Filed",
+            "value": 10,
+            "prefix": "",
+            "suffix": "+"
+        },
+        {
+            "label": "Collaborating Institutes",
+            "value": 20,
+            "prefix": "",
+            "suffix": "+"
+        },
+        {
+            "label": "Awards & Recognitions",
+            "value": 15,
+            "prefix": "",
+            "suffix": "+"
+        }
+    ],
+    "quickSnippets": [
+        {
+            "title" : "TAKE A LOOK AT OUR VARIOUS HEALTHCARE TECH. PROJECTS",
+            "description": "We have been working on several healthcare projects, aiming to save lives and proceed towards a better future.",
+            "link": "/our-work"
+        },
+        {
+            "title" : "READ OUR VARIOUS PUBLICATIONS WRITTEN BY VARIOUS PROFs.",
+            "description": "We have been working on several healthcare projects, aiming to save lives and proceed towards a better future.",
+            "link": "/our-work"
+        },
+        {
+            "title" : "READ OUR VARIOUS PUBLICATIONS WRITTEN BY VARIOUS PROFs.",
+            "description": "We have been working on several healthcare projects, aiming to save lives and proceed towards a better future.",
+            "link": "/our-work"
+        }
+    ]
+}

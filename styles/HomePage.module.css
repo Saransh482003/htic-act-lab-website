@@ -280,9 +280,98 @@
     line-height: 1.8;
     color: rgba(255, 255, 255, 0.95);
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0 auto 3rem auto;
     font-weight: 300;
-    text-align: justify;
+    text-align: center;
+}
+
+.missionVisionContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.missionVisionCard {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.missionVisionCard:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.missionVisionIcon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.missionVisionTitle {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.missionVisionText {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 300;
+}
+
+/* Responsive Mission and Vision */
+@media (max-width: 768px) {
+    .missionVisionContainer {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .missionVisionCard {
+        padding: 1.5rem;
+    }
+    
+    .missionVisionIcon {
+        font-size: 2.5rem;
+    }
+    
+    .missionVisionTitle {
+        font-size: 1.1rem;
+    }
+    
+    .missionVisionText {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .missionVisionCard {
+        padding: 1.2rem;
+    }
+    
+    .missionVisionIcon {
+        font-size: 2rem;
+    }
+    
+    .missionVisionTitle {
+        font-size: 1rem;
+    }
+    
+    .missionVisionText {
+        font-size: 0.85rem;
+    }
 }
 
 .statisticsSection {
