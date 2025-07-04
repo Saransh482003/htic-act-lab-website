@@ -1,0 +1,38 @@
+[
+    {
+      "id": 0,
+      "image": "/home/engineering.png",
+      "cardImage": "/home/engineering_card.jpg",
+      "title": "Engineering",
+      "description": "Explore our engineering projects that are transforming cardiovascular healthcare through innovative technology.",
+      "link": "/projects",
+      "linkText": "Explore Projects"
+    },
+    {
+      "id": 1,
+      "image": "/home/research.png",
+      "cardImage": "/home/research_card.png",
+      "title": "Research",
+      "description": "Discover our cutting-edge research in cardiovascular technology and medical device innovation.",
+      "link": "/scientific-research",
+      "linkText": "View Research"
+    },
+    {
+      "id": 2,
+      "image": "/home/clinical.png",
+      "cardImage": "/home/clinical_card.png",
+      "title": "Clinical Studies",
+      "description": "Learn about our clinical studies and trials that are advancing cardiovascular treatment methods.",
+      "link": "/clinical-studies",
+      "linkText": "Read Studies"
+    },
+    {
+      "id": 3,
+      "image": "/home/facilities.png",
+      "cardImage": "/home/facilities_card.jpg",
+      "title": "Publications",
+      "description": "Access our published research papers and academic contributions to cardiovascular science.",
+      "link": "/publications",
+      "linkText": "Browse Publications"
+    }
+  ]

@@ -1,0 +1,207 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "Breakthrough in Cardiovascular Device Technology",
+      "description": "Our latest research has led to significant improvements in cardiac monitoring devices, featuring enhanced accuracy and patient comfort.",
+      "category": "Research",
+      "date": {
+        "day": "15",
+        "month": "JUN",
+        "year": "2024",
+        "full": "2024-06-15"
+      },
+      "image":"/home/default_news.png",
+      "slug": "breakthrough-cardiovascular-device",
+      "link": "/news/breakthrough-cardiovascular-device",
+      "author": "Dr. Rajesh Kumar",
+      "readTime": "5 min read",
+      "featured": true,
+      "tags": ["cardiac monitoring", "medical devices", "innovation"],
+      "summary": "Revolutionary advances in cardiac monitoring technology promise better patient outcomes and real-time health tracking."
+    },
+    {
+      "id": 2,
+      "title": "ACT Lab Receives National Innovation Award",
+      "description": "Recognition for our outstanding contribution to cardiovascular healthcare technology and medical device innovation.",
+      "category": "Achievement",
+      "date": {
+        "day": "08",
+        "month": "JUN",
+        "year": "2024",
+        "full": "2024-06-08"
+      },
+      "image":"/home/default_news.png",
+      "slug": "national-innovation-award",
+      "link": "/news/national-innovation-award",
+      "author": "ACT Lab Team",
+      "readTime": "3 min read",
+      "featured": true,
+      "tags": ["award", "recognition", "innovation"],
+      "summary": "ACT Lab honored with prestigious national award for groundbreaking contributions to cardiovascular medicine."
+    },
+    {
+      "id": 3,
+      "title": "New Clinical Trial for Heart Valve Technology",
+      "description": "Launching Phase II clinical trials for our revolutionary bio-compatible heart valve replacement technology.",
+      "category": "Clinical Study",
+      "date": {
+        "day": "25",
+        "month": "MAY",
+        "year": "2024",
+        "full": "2024-05-25"
+      },
+      "image":"/home/default_news.png",
+      "slug": "heart-valve-clinical-trial",
+      "link": "/news/heart-valve-clinical-trial",
+      "author": "Dr. Priya Sharma",
+      "readTime": "7 min read",
+      "featured": false,
+      "tags": ["clinical trial", "heart valve", "biocompatible"],
+      "summary": "Advanced heart valve technology enters critical Phase II trials with promising preliminary results."
+    },
+    {
+      "id": 4,
+      "title": "AI-Powered Cardiac Risk Assessment Tool",
+      "description": "Developing machine learning algorithms to predict cardiovascular events with 95% accuracy using patient data.",
+      "category": "AI Research",
+      "date": {
+        "day": "10",
+        "month": "MAY",
+        "year": "2024",
+        "full": "2024-05-10"
+      },
+      "image":"/home/default_news.png",
+      "slug": "ai-cardiac-risk-assessment",
+      "link": "/news/ai-cardiac-risk-assessment",
+      "author": "Dr. Arjun Patel",
+      "readTime": "6 min read",
+      "featured": false,
+      "tags": ["artificial intelligence", "risk assessment", "machine learning"],
+      "summary": "Revolutionary AI system demonstrates unprecedented accuracy in predicting cardiovascular events."
+    },
+    {
+      "id": 5,
+      "title": "International Collaboration with Mayo Clinic",
+      "description": "ACT Lab partners with Mayo Clinic for joint research on minimally invasive cardiac procedures.",
+      "category": "Collaboration",
+      "date": {
+        "day": "28",
+        "month": "APR",
+        "year": "2024",
+        "full": "2024-04-28"
+      },
+      "image": "/home/banner.jpg",
+      "slug": "mayo-clinic-collaboration",
+      "link": "/news/mayo-clinic-collaboration",
+      "author": "Prof. Suresh Menon",
+      "readTime": "4 min read",
+      "featured": false,
+      "tags": ["collaboration", "international", "minimally invasive"],
+      "summary": "Strategic partnership with Mayo Clinic opens new avenues for cardiovascular research and innovation."
+    },
+    {
+      "id": 6,
+      "title": "Nanotechnology in Drug Delivery Systems",
+      "description": "Breakthrough research in targeted drug delivery using nanoparticles for cardiovascular medications.",
+      "category": "Research",
+      "date": {
+        "day": "15",
+        "month": "APR",
+        "year": "2024",
+        "full": "2024-04-15"
+      },
+      "image": "/home/research.png",
+      "slug": "nanotechnology-drug-delivery",
+      "link": "/news/nanotechnology-drug-delivery",
+      "author": "Dr. Meera Krishnan",
+      "readTime": "8 min read",
+      "featured": false,
+      "tags": ["nanotechnology", "drug delivery", "targeted therapy"],
+      "summary": "Novel nanoparticle systems show promise for precise cardiovascular drug delivery with minimal side effects."
+    },
+    {
+      "id": 7,
+      "title": "Student Research Excellence Awards 2024",
+      "description": "Celebrating outstanding research contributions by our graduate students in cardiovascular technology.",
+      "category": "Academic",
+      "date": {
+        "day": "02",
+        "month": "APR",
+        "year": "2024",
+        "full": "2024-04-02"
+      },
+      "image": "/home/clinical.png",
+      "slug": "student-research-awards-2024",
+      "link": "/news/student-research-awards-2024",
+      "author": "Academic Committee",
+      "readTime": "3 min read",
+      "featured": false,
+      "tags": ["students", "awards", "research excellence"],
+      "summary": "Recognizing exceptional research achievements by graduate students in cardiovascular technology."
+    },
+    {
+      "id": 8,
+      "title": "Telemedicine Platform for Rural Cardiac Care",
+      "description": "Launching innovative telemedicine solution to provide cardiac care access in remote rural areas.",
+      "category": "Healthcare Access",
+      "date": {
+        "day": "20",
+        "month": "MAR",
+        "year": "2024",
+        "full": "2024-03-20"
+      },
+      "image": "/home/engineering.png",
+      "slug": "telemedicine-rural-cardiac-care",
+      "link": "/news/telemedicine-rural-cardiac-care",
+      "author": "Dr. Kavitha Reddy",
+      "readTime": "5 min read",
+      "featured": false,
+      "tags": ["telemedicine", "rural healthcare", "accessibility"],
+      "summary": "Innovative telemedicine platform bridges healthcare gap for cardiac patients in rural communities."
+    }
+  ],
+  "categories": [
+    {
+      "name": "Research",
+      "color": "#3b82f6",
+      "icon": "🔬"
+    },
+    {
+      "name": "Achievement",
+      "color": "#10b981",
+      "icon": "🏆"
+    },
+    {
+      "name": "Clinical Study",
+      "color": "#8b5cf6",
+      "icon": "🏥"
+    },
+    {
+      "name": "AI Research",
+      "color": "#f59e0b",
+      "icon": "🤖"
+    },
+    {
+      "name": "Collaboration",
+      "color": "#ef4444",
+      "icon": "🤝"
+    },
+    {
+      "name": "Academic",
+      "color": "#06b6d4",
+      "icon": "🎓"
+    },
+    {
+      "name": "Healthcare Access",
+      "color": "#84cc16",
+      "icon": "🌍"
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2024-06-15T10:30:00Z",
+    "totalNews": 8,
+    "featuredCount": 2,
+    "version": "1.0"
+  }
+}

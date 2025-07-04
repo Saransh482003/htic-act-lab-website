@@ -5,6 +5,8 @@
   --foreground: #171717;
   --primary-color: #255EA4;
   --secondary-color: #E4E4E4;
+  --border-radius: 0.25rem;
+  --border-radius-large: 1rem;
 }
 
 @theme inline {
@@ -26,5 +28,14 @@ body {
   color: var(--foreground);
   font-family: "Hanken Grotesk", Helvetica, sans-serif;
 }
+html, body {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;
+}
 
