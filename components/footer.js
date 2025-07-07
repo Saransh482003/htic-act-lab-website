@@ -10,7 +10,7 @@ const Footer = () => {
             <div className={styler.footerSection}>
               <div className={styler.footerLogo}>
                 <Image
-                  src="/actlabs_logo.png"
+                  src="/actlabs_logo_home.png"
                   alt="ACT Lab Logo"
                   width={50}
                   height={50}
@@ -29,7 +29,7 @@ const Footer = () => {
                   <Image src="/footer/linkedin.png" alt="LinkedIn" width={24} height={24} className={styler.socialIcon} />
                 </a>
                 <a href="https://x.com/actlab_iitm" className={styler.socialLink} target="_blank" rel="noopener noreferrer">
-                  <Image src="/footer/x.png" alt="Twitter" width={24} height={24} className={styler.socialIcon} />
+                  <Image src="/footer/x.png" alt="X" width={24} height={24} className={styler.socialIcon} />
                 </a>
                 <a href="https://youtube.com/@actlab-iitm" className={styler.socialLink} target="_blank" rel="noopener noreferrer">
                   <Image src="/footer/youtube.png" alt="YouTube" width={24} height={24} className={styler.socialIcon} />

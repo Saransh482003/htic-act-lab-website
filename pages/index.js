@@ -132,7 +132,7 @@ export default function Home() {
         <nav className={styler.navbar}>
           <div className={styler.logo} onClick={() => window.location.href = "/"}>
             <Image
-              src="/actlabs_logo.png"
+              src="/actlabs_logo_home.png"
               alt="ACT Lab Logo"
               width={50}
               height={50}

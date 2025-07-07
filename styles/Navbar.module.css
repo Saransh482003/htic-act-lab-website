@@ -12,7 +12,8 @@
     align-items: center;
     font-size: 1rem;
     font-weight: bold;
-    gap: 1.5rem;
+    gap: 1rem;
+    cursor: pointer;
 }
 
 .logo > img {
@@ -20,6 +21,7 @@
     width: auto;
     transition: all 0.3s ease;
     cursor: pointer;
+    border-radius: 0.2rem;
 }
 .logoText {
     letter-spacing: 0.04rem;

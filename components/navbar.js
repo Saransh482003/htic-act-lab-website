@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <section>
         <nav className={styler.navbar}>
-            <div className={styler.logo}>
+            <div className={styler.logo} onClick={() => window.location.href = "/"}>
                 <Image
                     src="/actlabs_logo.png"
                     alt="ACT Lab Logo"

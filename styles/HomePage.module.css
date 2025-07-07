@@ -18,7 +18,8 @@
     align-items: center;
     font-size: 1rem;
     font-weight: bold;
-    gap: 1.5rem;
+    gap: 1rem;
+    cursor: pointer;
 }
 
 .logo > img {
@@ -28,7 +29,7 @@
     transition: all 0.3s ease;
 }
 .logoText {
-    letter-spacing: 0.04rem;
+    letter-spacing: 0.05rem;
 }
 
 /* Heartbeat animation */
