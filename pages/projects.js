@@ -8,20 +8,41 @@ const Projects = () => {
   const [allProjects, setAllProjects] = useState([]);
   const [projects, setProjects] = useState([]);
   const [tags, setTags] = useState([]);
-  const [activeFilter, setActiveFilter] = useState('');
+  const [activeFilters, setActiveFilters] = useState([]);
 
   const handleFilterClick = (tag) => {
-    if (activeFilter === tag) {
-      // If clicking the already active filter, deactivate it and show all projects
-      setActiveFilter('');
+    let newActiveFilters;
+    
+    if (activeFilters.includes(tag)) {
+      // Remove the tag if it's already selected
+      newActiveFilters = activeFilters.filter(filter => filter !== tag);
+    } else {
+      // Add the tag to the selected filters
+      newActiveFilters = [...activeFilters, tag];
+    }
+    
+    setActiveFilters(newActiveFilters);
+    
+    if (newActiveFilters.length === 0) {
+      // If no filters are active, show all projects
       setProjects(allProjects);
     } else {
-      // Activate the new filter
-      setActiveFilter(tag);
+      // Filter projects that match any of the selected filters
       const filteredProjects = allProjects.filter(project => 
-        project.tags.includes(tag) || project.category === tag
+        newActiveFilters.some(filter => 
+          project.tags.includes(filter) || project.category === filter
+        )
       );
       setProjects(filteredProjects);
+    }
+    
+    // Scroll to the featured-projects section
+    const featuredProjectsElement = document.getElementById('featured-projects');
+    if (featuredProjectsElement) {
+      featuredProjectsElement.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
     }
   };
 
@@ -77,20 +98,34 @@ const Projects = () => {
           </div>
         </div>
       </section>
-      <section className={styler.projectSection}>
+      <section className={styler.projectSection} id='featured-projects'>
         <div className={styler.projectContainer}>
           {/* Filter Sidebar */}
           <div className={styler.filterSidebar}>
             <div className={styler.filterContainer}>
               <h2 className={styler.filterTitle}>Filter by Category</h2>
+              <p className={styler.filterSubtitle}>Select multiple categories to filter projects</p>
               <div className={styler.filterTags}>
                 {
                   tags.map((tag, index) => (
-                    <button key={index} className={`${styler.filterTag} ${activeFilter === tag ? styler.active : ''}`} onClick={() => handleFilterClick(tag)}>
+                    <button key={index} className={`${styler.filterTag} ${activeFilters.includes(tag) ? styler.active : ''}`} onClick={() => handleFilterClick(tag)}>
                       {tag}
                     </button>
                   ))}
               </div>
+              {activeFilters.length > 0 && (
+                <div className={styler.filterActions}>
+                  <button 
+                    className={styler.clearFiltersButton} 
+                    onClick={() => {
+                      setActiveFilters([]);
+                      setProjects(allProjects);
+                    }}
+                  >
+                    Clear All Filters ({activeFilters.length})
+                  </button>
+                </div>
+              )}
             </div>
           </div>
 

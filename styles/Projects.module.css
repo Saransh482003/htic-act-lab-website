@@ -386,8 +386,16 @@
     font-size: 1.5rem;
     font-weight: 700;
     color: #1e293b;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.filterSubtitle {
+    font-size: 0.85rem;
+    color: #64748b;
     margin-bottom: 1.5rem;
     text-align: left;
+    line-height: 1.4;
 }
 
 .filterTags {
@@ -395,6 +403,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     gap: 0.75rem;
+    margin-bottom: 1.5rem;
 }
 
 .filterTag {
@@ -447,6 +456,49 @@
     background: linear-gradient(135deg, #5a6fd8, #6d42a0);
     transform: translateX(5px);
     box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
+}
+
+/* Filter Actions */
+.filterActions {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.clearFiltersButton {
+    background: linear-gradient(135deg, #ef4444, #dc2626);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.clearFiltersButton::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.clearFiltersButton:hover::before {
+    left: 100%;
+}
+
+.clearFiltersButton:hover {
+    background: linear-gradient(135deg, #dc2626, #b91c1c);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(239, 68, 68, 0.4);
 }
 
 /* Project Display Section */

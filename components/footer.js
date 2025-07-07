@@ -10,7 +10,7 @@ const Footer = () => {
             <div className={styler.footerSection}>
               <div className={styler.footerLogo}>
                 <Image
-                  src="/logo.png"
+                  src="/actlabs_logo.png"
                   alt="ACT Lab Logo"
                   width={50}
                   height={50}
@@ -73,9 +73,7 @@ const Footer = () => {
                   <span className={styler.contactIcon}>📍</span>
                   <div>
                     <strong>Address:</strong><br />
-                    Department of Applied Mechanics<br />
-                    Indian Institute of Technology Madras<br />
-                    Chennai - 600036, Tamil Nadu, India
+                    Electrical Sciences Block, Indian Institute Of Technology, Chennai, Tamil Nadu 600036
                   </div>
                 </div>
                 <div className={styler.contactItem}>
@@ -100,21 +98,7 @@ const Footer = () => {
               <div className={styler.mapContainer}>
                 {/* Add your iframe map embed here */}
                 <div className={styler.mapPlaceholder}>
-                  <p>🗺️ Interactive Map</p>
-                  <p>Replace this section with your Google Maps iframe embed</p>
-                  {/* 
-                  Example iframe structure:
-                  <iframe
-                    src="YOUR_GOOGLE_MAPS_EMBED_URL"
-                    width="100%"
-                    height="200"
-                    style={{ border: 0, borderRadius: '8px' }}
-                    allowFullScreen=""
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    title="IIT Madras Location"
-                  ></iframe>
-                  */}
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7303525228785!2d80.22800857585729!3d12.98909081449306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525db4e3e021e7%3A0xb8bdd68a0a873706!2sElectrical%20Sciences%20Block!5e0!3m2!1sen!2sin!4v1751866513958!5m2!1sen!2sin" width="600" height="450" style={{border:0, width:'100%'}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
               </div>
             </div>
@@ -155,7 +139,7 @@ const Footer = () => {
 
           <div className={styler.footerBottom}>
             <div className={styler.footerCopyright}>
-              © 2024 <span>ACT Lab, IIT Madras</span>. All rights reserved.
+              © 2025 <span>ACT Lab, IIT Madras</span>. All rights reserved.
             </div>
             <div className={styler.footerLegal}>
               <a href="/privacy-policy">Privacy Policy</a>

@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav className={styler.navbar}>
             <div className={styler.logo}>
                 <Image
-                    src="/logo.png"
+                    src="/actlabs_logo.png"
                     alt="ACT Lab Logo"
                     width={40}
                     height={40}

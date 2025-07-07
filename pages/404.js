@@ -91,7 +91,7 @@ export default function Custom404() {
         
         <div className={styler.labBranding}>
           <Image
-            src="/logo.png"
+            src="/actlabs_logo.png"
             alt="ACT Lab Logo"
             width={60}
             height={60}
