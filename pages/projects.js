@@ -49,7 +49,7 @@ const Projects = () => {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await fetch('/api/projects');
+        const response = await fetch('/api/projects/getProjects');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }

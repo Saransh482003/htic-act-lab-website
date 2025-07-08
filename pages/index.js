@@ -64,7 +64,7 @@ export default function Home() {
   useEffect(() => {
     const fetchAboutStatistics = async () => {
       try {
-        const response = await fetch("/api/about_statistics");
+        const response = await fetch("/api/home/about_statistics");
         if (!response.ok) {
           throw new Error("Failed to fetch about statistics");
         }
@@ -79,7 +79,7 @@ export default function Home() {
   useEffect(() => {
     const fetchOurWork = async () => {
       try {
-        const response = await fetch("/api/our_work");
+        const response = await fetch("/api/home/our_work");
         if (!response.ok) {
           throw new Error("Failed to fetch our work data");
         }
@@ -92,7 +92,7 @@ export default function Home() {
   useEffect(() => {
     const fetchOurWork = async () => {
       try {
-        const response = await fetch("/api/our_work");
+        const response = await fetch("/api/home/our_work");
         if (!response.ok) {
           throw new Error("Failed to fetch our work data");
         }
@@ -109,7 +109,7 @@ export default function Home() {
       try {
         setIsLoadingNews(true);
         setNewsError(null);
-        const response = await fetch("/api/news");
+        const response = await fetch("/api/home/news");
         if (!response.ok) {
           throw new Error('Failed to fetch news');
         }

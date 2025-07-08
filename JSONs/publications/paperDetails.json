@@ -1,0 +1,93 @@
+[
+    {
+        "title": "Psi-Net: Shape and boundary aware joint multi-task deep network for medical image segmentation",
+        "authors": [
+            "Balamurali Murugesan",
+            "Kaushik Sarveswaran",
+            "Sharath M Shankaranarayana",
+            "Keerthi Ram",
+            "Jayaraj Joseph",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "publicationDate": "23 July 2019",
+        "conference": "2019 41st Annual international conference of the IEEE engineering in medicine and biology society (EMBC)",
+        "pages": "7223-7226",
+        "publisher": "IEEE",
+        "description": "Image segmentation is a primary task in many medical applications. Recently, many deep networks derived from U-Net has been extensively used in various medical image segmentation tasks. However, in most of the cases, networks similar to U-net produce coarse and non-smooth segmentations with lots of discontinuities. To improve and refine the performance of U-Net like networks, we propose the use of parallel decoders which along with performing the mask predictions also perform contour prediction and distance map estimation. The contour and distance map aid in ensuring smoothness in the segmentation predictions. To facilitate joint training of three tasks, we propose a novel architecture called Psi-Net with a single encoder and three parallel decoders (thus having a shape of Ψ), one decoder to learn the segmentation mask prediction and other two decoders to learn the auxiliary tasks of contour�…",
+        "citations": 210
+    },
+    {
+        "title": "Local pulse wave velocity: theory, methods, advancements, and clinical applications",
+        "authors": [
+            "PM Nabeel",
+            "V Raj Kiran",
+            "Jayaraj Joseph",
+            "VV Abhidev",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "publicationDate": "29 July 2019",
+        "conference": "IEEE Reviews in Biomedical Engineering",
+        "pages": "13",
+        "publisher": "74-112",
+        "description": "IEEE",
+        "citations": 0
+    },
+    {
+        "title": "Non-contact sensing of neonatal pulse rate using camera-based imaging: a clinical feasibility study",
+        "authors": [
+            "M Paul",
+            "S Karthik",
+            "J Joseph",
+            "M Sivaprakasam",
+            "J Kumutha",
+            "S Leonhardt",
+            "C Hoog Antink"
+        ],
+        "publicationDate": "09 March 2020",
+        "conference": "Physiological measurement",
+        "pages": "41",
+        "publisher": "2",
+        "description": "024001",
+        "citations": 0
+    },
+    {
+        "title": "Fast body part segmentation and tracking of neonatal video data using deep learning",
+        "authors": [
+            "Christoph Hoog Antink",
+            "Joana Carlos Mesquita Ferreira",
+            "Michael Paul",
+            "Simon Lyra",
+            "Konrad Heimann",
+            "Srinivasa Karthik",
+            "Jayaraj Joseph",
+            "Kumutha Jayaraman",
+            "Thorsten Orlikowsky",
+            "Mohanasankar Sivaprakasam",
+            "Steffen Leonhardt"
+        ],
+        "publicationDate": "Invalid Date",
+        "conference": "Medical & Biological Engineering & Computing",
+        "pages": "58",
+        "publisher": "3049-3061",
+        "description": "Springer Berlin Heidelberg",
+        "citations": 0
+    },
+    {
+        "title": "Ecgnet: Deep network for arrhythmia classification",
+        "authors": [
+            "Balamurali Murugesan",
+            "Vignesh Ravichandran",
+            "Keerthi Ram",
+            "Preejith SP",
+            "Jayaraj Joseph",
+            "Sharath M Shankaranarayana",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "publicationDate": "11 June 2018",
+        "conference": "2018 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "pages": "1-6",
+        "publisher": "IEEE",
+        "description": "Cardiac arrhythmias are presently diagnosed by manual interpretation of Electrocardiography (ECG) signals. Automated ECG interpretation is required to perform efficient screening of arrhythmia from long term ECG data. Existing automated ECG interpretation tools however require extensive preprocessing and knowledge to determine relevant features. Thus there is a need for a comprehensive feature extractor and classifier to analyze ECG signals. In this paper, we propose three robust deep neural network (DNN) architectures to perform feature extraction and classification of a given two second ECG signal. The first network is a Convolutional Neural Network (CNN) with multiple kernel sizes, the second network is a Long Short Term Memory (LSTM) network and the third network is a combination of CNN and LSTM based feature extractor, CLSTM network. The proposed networks are end to end networks which�…",
+        "citations": 99
+    }
+]
