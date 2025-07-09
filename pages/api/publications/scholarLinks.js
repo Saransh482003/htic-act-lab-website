@@ -6,12 +6,12 @@ export default async function handler(req, res) {
      const action = req.query?.action || "";
     try {
         if (action === "refetch") {
-            mechanics.fetchAllScholarLinks(path.join(process.cwd(), "JSONs", "publications", "gScholarLinks.json"))
+            mechanics.fetchAllScholarLinks(path.join(process.cwd(), "JSONs", "publications", "scholarLinks.json"))
                 .then(() => console.log('Scraping completed successfully.'))
                 .catch(error => console.error("Error during scraping:", error));
         }
 
-        const filePath = path.join(process.cwd(), "JSONs", "publications", "gScholarLinks.json");
+        const filePath = path.join(process.cwd(), "JSONs", "publications", "scholarLinks.json");
         const data = await fs.promises.readFile(filePath, "utf-8");
         const parsedData = JSON.parse(data);
         

@@ -491,6 +491,19 @@
     font-size: 0.9rem;
     color: #3b82f6;
     font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.authorName {
+    color: #3b82f6;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.authorName:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .publicationJournal {
@@ -498,6 +511,113 @@
     color: #10b981;
     font-weight: 600;
     font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.publicationMeta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+    padding: 0.75rem;
+    background: linear-gradient(135deg, rgba(248, 250, 252, 0.8), rgba(241, 245, 249, 0.6));
+    border-radius: 12px;
+    border: 1px solid rgba(16, 185, 129, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.publicationPages {
+    font-weight: 600;
+    color: #475569;
+    background: rgba(71, 85, 105, 0.08);
+    padding: 0.3rem 0.75rem;
+    border-radius: 20px;
+    border: 1px solid rgba(71, 85, 105, 0.15);
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    transition: all 0.2s ease;
+}
+
+.publicationPages::before {
+    content: "📄";
+    font-size: 0.7rem;
+}
+
+.publicationPages:hover {
+    background: rgba(71, 85, 105, 0.12);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(71, 85, 105, 0.15);
+}
+
+.publicationPublisher {
+    font-weight: 600;
+    color: #3b82f6;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.12), rgba(59, 130, 246, 0.08));
+    padding: 0.3rem 0.75rem;
+    border-radius: 20px;
+    border: 1px solid rgba(59, 130, 246, 0.25);
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    transition: all 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.publicationPublisher::before {
+    content: "🏢";
+    font-size: 0.7rem;
+}
+
+.publicationPublisher::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: left 0.5s ease;
+}
+
+.publicationPublisher:hover::after {
+    left: 100%;
+}
+
+.publicationPublisher:hover {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.18), rgba(59, 130, 246, 0.12));
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+    border-color: rgba(59, 130, 246, 0.4);
+}
+
+.publicationDate {
+    font-size: 0.8rem;
+    color: #10b981;
+    font-style: italic;
+    font-weight: 600;
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.12), rgba(16, 185, 129, 0.08));
+    padding: 0.3rem 0.75rem;
+    border-radius: 20px;
+    border: 1px solid rgba(16, 185, 129, 0.25);
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    transition: all 0.2s ease;
+}
+
+.publicationDate::before {
+    content: "📅";
+    font-size: 0.7rem;
+}
+
+.publicationDate:hover {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.18), rgba(16, 185, 129, 0.12));
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
+    border-color: rgba(16, 185, 129, 0.4);
 }
 
 .publicationAbstract {
@@ -510,18 +630,26 @@
 .publicationTopics {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.4rem;
-    margin: 0.5rem 0;
+    gap: 0.5rem;
+    margin: 1rem 0;
 }
 
 .publicationTopic {
-    background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(59, 130, 246, 0.1));
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(59, 130, 246, 0.15));
     color: #1e293b;
-    padding: 0.3rem 0.8rem;
-    border-radius: 15px;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
     font-size: 0.75rem;
-    font-weight: 500;
-    border: 1px solid rgba(16, 185, 129, 0.2);
+    font-weight: 600;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    transition: all 0.2s ease;
+}
+
+.publicationTopic:hover {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.25), rgba(59, 130, 246, 0.25));
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
+    border-color: rgba(16, 185, 129, 0.5);
 }
 
 .publicationActions {
@@ -662,6 +790,24 @@
     
     .publicationTitle {
         font-size: 1.1rem;
+    }
+    
+    .publicationMeta {
+        gap: 0.5rem;
+        padding: 0.6rem;
+    }
+    
+    .publicationPages,
+    .publicationPublisher,
+    .publicationDate {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.6rem;
+    }
+    
+    .publicationPages::before,
+    .publicationPublisher::before,
+    .publicationDate::before {
+        font-size: 0.6rem;
     }
     
     .publicationActions {
