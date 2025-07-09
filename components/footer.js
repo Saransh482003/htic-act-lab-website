@@ -73,7 +73,7 @@ const Footer = () => {
                   <span className={styler.contactIcon}>📍</span>
                   <div>
                     <strong>Address:</strong><br />
-                    Electrical Sciences Block, Indian Institute Of Technology, Chennai, Tamil Nadu 600036
+                    Room 307, Third Floor, Electrical Sciences Block, Indian Institute Of Technology, Chennai, Tamil Nadu 600036
                   </div>
                 </div>
                 <div className={styler.contactItem}>

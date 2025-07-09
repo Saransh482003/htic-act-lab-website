@@ -1,0 +1,512 @@
+.pageBanner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 60vh;
+    background: 
+        radial-gradient(circle at 30% 70%, rgba(239, 68, 68, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 70% 30%, rgba(139, 92, 246, 0.3) 0%, transparent 50%),
+        linear-gradient(135deg, #ef4444 0%, #8b5cf6 50%, #6366f1 100%);
+    position: relative;
+    padding: 6rem 2.5rem;
+    text-align: left;
+    overflow: hidden;
+}
+
+.pageBanner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        url("data:image/svg+xml,%3Csvg width='50' height='50' viewBox='0 0 50 50' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M25 0L50 25L25 50L0 25z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+        url("data:image/svg+xml,%3Csvg width='70' height='70' viewBox='0 0 70 70' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Cpath d='M35 10a25 25 0 1 0 0 50 25 25 0 0 0 0-50zm0 5a20 20 0 1 1 0 40 20 20 0 0 1 0-40z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    opacity: 0.4;
+    animation: textureFloat 30s ease-in-out infinite;
+}
+
+@keyframes textureFloat {
+    0%, 100% { transform: translateX(0) translateY(0) rotate(0deg); }
+    25% { transform: translateX(-4px) translateY(-8px) rotate(1.5deg); }
+    50% { transform: translateX(8px) translateY(-3px) rotate(-1.5deg); }
+    75% { transform: translateX(-6px) translateY(5px) rotate(0.8deg); }
+}
+
+.bannerContent {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.bannerTitle {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    animation: titleSlideUp 1s ease-out;
+}
+
+@keyframes titleSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.bannerDescription {
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    animation: descriptionSlideUp 1s ease-out 0.2s both;
+}
+
+@keyframes descriptionSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.bannerStats {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 3rem;
+    animation: statsSlideUp 1s ease-out 0.4s both;
+}
+
+@keyframes statsSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.statItem {
+    text-align: center;
+    color: white;
+}
+
+.statNumber {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.statLabel {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.bannerActions {
+    display: flex;
+    gap: 1.5rem;
+    animation: actionsSlideUp 1s ease-out 0.6s both;
+}
+
+@keyframes actionsSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.actionButton {
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.actionButton::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.actionButton:hover::before {
+    left: 100%;
+}
+
+.actionButton.primary {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.actionButton.primary:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.actionButton.secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.actionButton.secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.6);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section */
+.contactSection {
+    padding: 4.5rem 2.5rem;
+    background: linear-gradient(to bottom, #f8fafc, #e2e8f0);
+    min-height: 80vh;
+    width: 100%;
+}
+
+.contactContainer {
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.sectionHeader {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.sectionHeader h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+}
+
+.teamSections {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+}
+
+.teamSection {
+    background: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+}
+
+.teamSection:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.teamSectionTitle {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    position: relative;
+}
+
+.teamSectionTitle::after {
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(135deg, #ef4444, #8b5cf6);
+    border-radius: 2px;
+}
+
+.teamGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    width: 100%;
+}
+
+.teamMember {
+    transition: transform 0.3s ease;
+}
+
+.teamMember:hover {
+    transform: scale(1.02);
+}
+
+.memberCard {
+    background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 20rem;
+}
+
+.memberCard:hover {
+    border-color: #cbd5e1;
+    background: linear-gradient(135deg, #ffffff, #f1f5f9);
+}
+
+.memberImage {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    border: 3px solid #e2e8f0;
+    transition: border-color 0.3s ease;
+}
+
+.memberCard:hover .memberImage {
+    border-color: #8b5cf6;
+}
+
+.memberImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.memberInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.memberName {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin: 0;
+}
+
+.memberDesignation {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #6366f1;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.memberEmail {
+    font-size: 0.9rem;
+    color: #64748b;
+    margin: 0;
+    font-style: italic;
+}
+
+.memberEmail:hover {
+    color: #ef4444;
+    cursor: pointer;
+}
+
+.contactContent {
+    text-align: center;
+    padding: 3rem;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.contactContent h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 1rem;
+}
+
+.contactContent p {
+    font-size: 1.1rem;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    .pageBanner {
+        padding: 4rem 1.5rem;
+        min-height: 50vh;
+    }
+    
+    .bannerTitle {
+        font-size: 2.5rem;
+    }
+    
+    .bannerDescription {
+        font-size: 1.1rem;
+    }
+    
+    .bannerStats {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+    
+    .statNumber {
+        font-size: 2rem;
+    }
+    
+    .bannerActions {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .actionButton {
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .contactSection {
+        padding: 4.5rem 1.5rem;
+    }
+    
+    .sectionHeader h2 {
+        font-size: 2rem;
+    }
+    
+    .teamSections {
+        gap: 2rem;
+    }
+    
+    .teamSection {
+        padding: 1.5rem;
+    }
+    
+    .teamSectionTitle {
+        font-size: 1.5rem;
+    }
+    
+    .teamGrid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+    
+    .memberCard {
+        padding: 1.25rem;
+    }
+    
+    .memberImage {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .contactContent {
+        padding: 2rem;
+    }
+    
+    .contactContent h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .bannerTitle {
+        font-size: 2rem;
+    }
+    
+    .bannerDescription {
+        font-size: 1rem;
+    }
+    
+    .statNumber {
+        font-size: 1.8rem;
+    }
+    
+    .statLabel {
+        font-size: 0.8rem;
+    }
+    
+    .contactSection {
+        padding: 4.5rem 1rem;
+    }
+    
+    .sectionHeader h2 {
+        font-size: 1.8rem;
+    }
+    
+    .teamSectionTitle {
+        font-size: 1.3rem;
+    }
+    
+    .teamGrid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .memberCard {
+        padding: 1rem;
+    }
+    
+    .memberImage {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .memberName {
+        font-size: 1.1rem;
+    }
+    
+    .memberDesignation {
+        font-size: 0.8rem;
+    }
+    
+    .memberEmail {
+        font-size: 0.85rem;
+    }
+    
+    .contactContent h2 {
+        font-size: 1.8rem;
+    }
+}

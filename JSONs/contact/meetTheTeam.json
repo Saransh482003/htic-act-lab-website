@@ -1,0 +1,80 @@
+{
+    "professors_scientists": [
+        {
+            "name": "Dr. Mohanasankar Sivaprakasam",
+            "designation": "Professor",
+            "email": "mohan@ee.iitm.ac.in",
+            "image": "/contact/professors_scientists/mohan.jpg"
+        },
+        {
+            "name": "Dr. Boby George",
+            "designation": "Professor",
+            "email": "boby@ee.iitm.ac.in",
+            "image": "/contact/professors_scientists/boby_george.jpg"
+        },
+        {
+            "name": "Dr. Jayaraj Joseph",
+            "designation": "Assistant Professor",
+            "email": "jayaraj@ee.iitm.ac.in",
+            "image": "/contact/professors_scientists/jayaraj.jpg"
+        },
+        {
+            "name": "Dr. Nabeel P.M.",
+            "designation": "Principal Research Scientist",
+            "email": "nabeel@htic.iitm.ac.in",
+            "image": "/contact/professors_scientists/nabeel.jpg"
+        },
+        {
+            "name": "Raj Kiran V",
+            "designation": "Principal Project Scientist",
+            "email": "rajkiran.v@htic.iitm.ac.in",
+            "image": "/contact/professors_scientists/raj.jpg"
+        }
+    ],
+    "phd_ms":[
+        {
+            "name":"Rahul Manoj",
+            "designation": "PhD Scholar",
+            "email": "rahul_manoj@htic.iitm.ac.in",
+            "image": "/contact/phd_ms/rahul_manoj.png"
+        },
+        {
+            "name":"Navya Rose George",
+            "designation": "PhD Scholar",
+            "email": "ee20d014@smail.iitm.ac.in",
+            "image": "/contact/phd_ms/navya_rose_george.jpeg"
+        },
+        {
+            "name":"Nimmi Sudarshan",
+            "designation": "PhD Scholar",
+            "email": "ee20d055@smail.iitm.ac.in",
+            "image": "/contact/phd_ms/nimmi_sudarshan.jpg"
+        },
+        {
+            "name":"Jaganathan G",
+            "designation": "PhD Scholar",
+            "email": "ee21d029@smail.iitm.ac.in",
+            "image": "/contact/phd_ms/jaganathan_g.jpeg"
+        },
+        {
+            "name":"Smit Sanjay Shah",
+            "designation": "PhD Scholar",
+            "email": "ee22d013@smail.iitm.ac.in",
+            "image": "/contact/phd_ms/smit_sanjay_shah.png"
+        }
+    ],
+    "employees_interns":[
+        {
+            "name":"Amit Kumar Gupta",
+            "designation": "DL & AI Researcher",
+            "email": "amitkumar@htic.iitm.ac.in",
+            "image": "/contact/employees_interns/amit_kumar_gupta.png"
+        },
+        {
+            "name":"Saransh Saini",
+            "designation": "Project Intern",
+            "email": "22f1001123@ds.study.iitm.ac.in",
+            "image": "/contact/employees_interns/saransh_saini.jpeg"
+        }
+    ]
+}

@@ -133,7 +133,7 @@ function Error({ statusCode, hasGetInitialProps, err }) {
         
         <div className={styler.labBranding}>
           <Image
-            src="/actlabs_logo.png"
+            src="/actlabs_logo_home.png"
             alt="ACT Lab Logo"
             width={60}
             height={60}
