@@ -60,7 +60,37 @@
             "name":"Smit Sanjay Shah",
             "designation": "PhD Scholar",
             "email": "ee22d013@smail.iitm.ac.in",
-            "image": "/contact/phd_ms/smit_sanjay_shah.png"
+            "image": "/contact/phd_ms/smit_sanjay_shah.jpg"
+        },
+        {
+            "name":"Ponkalaivani S",
+            "designation": "PhD Scholar",
+            "email": "ponkalaivani.s@htic.iitm.ac.in",
+            "image": "/contact/phd_ms/ponkalaivani_s.jpeg"
+        },
+        {
+            "name":"V V Girish",
+            "designation": "MS Scholar",
+            "email": "girishvv6@gmail.com",
+            "image": "/contact/phd_ms/v_v_girish.jpg"
+        },
+        {
+            "name":"Ishwarya S",
+            "designation": "MS Scholar",
+            "email": "ishwarya.s@htic.iitm.ac.in",
+            "image": "/contact/phd_ms/ishwarya_s.jpg"
+        },
+        {
+            "name":"Arjun R K",
+            "designation": "MS Scholar",
+            "email": "arjunrk@htic.iitm.ac.in",
+            "image": "/contact/phd_ms/arjun_r_k.jpg"
+        },
+        {
+            "name":"Mathew Cigi",
+            "designation": "MS Scholar",
+            "email": "mathewcigi@htic.iitm.ac.in",
+            "image": "/contact/phd_ms/mathew_cigi.jpg"
         }
     ],
     "employees_interns":[
