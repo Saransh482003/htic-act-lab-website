@@ -47,7 +47,8 @@ const Footer = () => {
                 <li><a href="/projects" className={styler.footerLink}>Research Projects</a></li>
                 <li><a href="/publications" className={styler.footerLink}>Publications</a></li>
                 <li><a href="/clinical-studies" className={styler.footerLink}>Clinical Studies</a></li>
-                <li><a href="/team" className={styler.footerLink}>Our Team</a></li>
+                <li><a href="/careers" className={styler.footerLink}>Careers</a></li>
+                <li><a href="/contact" className={styler.footerLink}>Our Team</a></li>
                 <li><a href="/collaborations" className={styler.footerLink}>Collaborations</a></li>
                 <li><a href="/news" className={styler.footerLink}>News & Events</a></li>
               </ul>

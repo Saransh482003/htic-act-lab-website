@@ -1,6 +1,7 @@
 import React from 'react'
 import styler from '@/styles/Publications.module.css'
 import { useEffect, useState } from 'react';
+import Head from 'next/head';
 
 const Publications = () => {
   const [allPublications, setAllPublications] = useState([]);
@@ -172,6 +173,10 @@ const Publications = () => {
   }, []);
   return (
     <>
+      <Head>
+        <title>Publications | Advanced Cardiovascular Technology Laboratory</title>
+        <meta name="description" content="Browse our extensive collection of research papers, journal articles, and academic publications on cardiovascular technology and biomedical engineering." />
+      </Head>
       <section className={styler.pageBanner}>        
         <div className={styler.bannerContent}>
           <h1 className={styler.bannerTitle}>Publications</h1>

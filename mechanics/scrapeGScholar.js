@@ -143,7 +143,7 @@ module.exports = {
 //     .then(() => console.log('Scraping completed successfully.'))
 //     .catch(error => console.error("Error during scraping:", error));
 
-(async () => {
-  const paper = await fetchPaperDetails("https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jkACmbEAAAAJ&pagesize=100&citation_for_view=jkACmbEAAAAJ:yxmsSjX2EkcC");
-  console.log(paper);
-})();
+// (async () => {
+//   const paper = await fetchPaperDetails("https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jkACmbEAAAAJ&pagesize=100&citation_for_view=jkACmbEAAAAJ:yxmsSjX2EkcC");
+//   console.log(paper);
+// })();

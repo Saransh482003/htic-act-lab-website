@@ -3,6 +3,7 @@ import React from 'react'
 import styler from '@/styles/Projects.module.css'
 import Image from 'next/image'
 import { useEffect, useState } from 'react';
+import Head from 'next/head';
 
 const Projects = () => {
   const [allProjects, setAllProjects] = useState([]);
@@ -65,6 +66,10 @@ const Projects = () => {
   }, []);
   return (
     <>
+      <Head>
+        <title>Projects | Advanced Cardiovascular Technology Laboratory</title>
+        <meta name="description" content="Explore innovative cardiovascular technology projects at ACT Lab, from non-invasive diagnostics to medical imaging and wearable monitoring solutions." />
+      </Head>
       <section className={styler.pageBanner}>        
         <div className={styler.bannerContent}>
           <h1 className={styler.bannerTitle}>Research Projects</h1>

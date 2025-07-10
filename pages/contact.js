@@ -2,6 +2,7 @@ import React from 'react'
 import styler from '@/styles/Contact.module.css'
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
+import Head from 'next/head';
 
 const Contact = () => {
     const [teamData, setTeamData] = useState([]);
@@ -23,6 +24,10 @@ const Contact = () => {
 
     return (
         <>
+            <Head>
+                <title>Contact Us | Advanced Cardiovascular Technology Laboratory</title>
+                <meta name="description" content="Connect with the ACT Lab team. Reach out to our professors, researchers, and staff for collaborations, inquiries, or to learn more about our cardiovascular research." />
+            </Head>
             <section className={styler.pageBanner}>
                 <div className={styler.bannerContent}>
                     <h1 className={styler.bannerTitle}>Contact Us</h1>

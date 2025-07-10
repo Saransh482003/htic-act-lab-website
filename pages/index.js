@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styler from "@/styles/HomePage.module.css";
 import { useEffect, useRef, useState } from "react";
+import Head from "next/head";
 
 
 // Counter component for animated numbers
@@ -128,6 +129,10 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>Advanced Cardiovascular Technology Laboratory | IIT Madras</title>
+        <meta name="description" content="The Advanced Cardiovascular Technology Laboratory (ACT Lab) is a pioneering research initiative at IIT Madras, dedicated to advancing cardiovascular healthcare through innovative technology." />
+      </Head>
       <section>
         <nav className={styler.navbar}>
           <div className={styler.logo} onClick={() => window.location.href = "/"}>

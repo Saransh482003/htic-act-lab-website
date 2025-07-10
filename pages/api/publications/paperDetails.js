@@ -1,35 +1,35 @@
-import * as fs from "fs";
+import fs from "fs/promises";
 import path from "path";
-import * as mechanics from "@/mechanics/scrapeGScholar.js";
+import mechanics from "@/mechanics/scrapeGScholar.js"; // Ensure alias is configured
 
-function sleepRandom(min = 8000, max = 15000) {
-  const delay = Math.floor(Math.random() * (max - min + 1)) + min;
-  return new Promise(resolve => setTimeout(resolve, delay));
+function sleep(ms = 3000) {
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 export default async function handler(req, res) {
+  if (req.method !== "GET") {
+    return res.status(405).json({ error: "Method Not Allowed" });
+  }
+
   const action = req.query?.action || "";
 
   try {
-    if (action === "refetch") {
-      const linksFile = path.join(process.cwd(), "JSONs", "publications", "scholarLinks.json");
-      const savePath = path.join(process.cwd(), "JSONs", "publications", "paperDetails.json");
+    const linksFile = path.join(process.cwd(), "JSONs", "publications", "scholarLinks.json");
+    const savePath = path.join(process.cwd(), "JSONs", "publications", "paperDetails.json");
 
-      // Load all scholar links
-      const linksData = await fs.promises.readFile(linksFile, "utf-8");
+    if (action === "refetch") {
+      const linksData = await fs.readFile(linksFile, "utf-8");
       const allLinks = JSON.parse(linksData);
 
-      // Load existing data if available
       let existingData = [];
       try {
-        const prevData = await fs.promises.readFile(savePath, "utf-8");
-        existingData = JSON.parse(prevData);
-      } catch (e) {
-        console.log("No previous data found. Starting fresh.");
+        const prevData = await fs.readFile(savePath, "utf-8");
+        existingData = prevData.trim() ? JSON.parse(prevData) : [];
+      } catch {
+        console.log("No previous data found or file is empty. Starting fresh.");
       }
 
       let startIndex = existingData.length;
-
       console.log(`🔁 Resuming from index ${startIndex}`);
 
       for (let i = startIndex; i < allLinks.length; i++) {
@@ -42,21 +42,19 @@ export default async function handler(req, res) {
             ...paperDetails,
           });
 
-          // Save progress immediately
-          await fs.promises.writeFile(savePath, JSON.stringify(existingData, null, 4), "utf-8");
+          await fs.writeFile(savePath, JSON.stringify(existingData, null, 4), "utf-8");
           console.log(`✅ Saved index ${i + 1}`);
         }
 
-        await sleep(3000); // Wait before next fetch
+        await sleep(3000); // Wait 3 seconds before next fetch
       }
 
       console.log("🎉 Refetch complete.");
     }
 
-    // READ FROM FILE TO RESPOND
-    const filePath = path.join(process.cwd(), "JSONs", "publications", "paperDetails.json");
-    const data = await fs.promises.readFile(filePath, "utf-8");
-    const parsedData = JSON.parse(data);
+    // Always respond with final saved data
+    const data = await fs.readFile(savePath, "utf-8");
+    const parsedData = data.trim() ? JSON.parse(data) : [];
 
     res.status(200).json(parsedData);
   } catch (err) {

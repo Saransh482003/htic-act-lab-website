@@ -1,0 +1,413 @@
+.pageBanner {
+  position: relative;
+  min-height: 60vh;
+  background: linear-gradient(135deg, #0c2340 0%, #1a3a64 100%);
+  color: #fff;
+  padding: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.pageBanner::before {
+  content: '';
+  position: absolute;
+  width: 40vw;
+  height: 40vw;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(65, 105, 225, 0.3) 0%, rgba(0, 32, 91, 0) 70%);
+  top: -10vw;
+  right: -10vw;
+  z-index: 1;
+}
+
+.pageBanner::after {
+  content: '';
+  position: absolute;
+  width: 35vw;
+  height: 35vw;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(100, 149, 237, 0.25) 0%, rgba(0, 32, 91, 0) 70%);
+  bottom: -15vw;
+  left: -10vw;
+  z-index: 1;
+}
+
+.bannerContent {
+  max-width: 100%;
+  padding: 4.5rem 2.5rem;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.bannerTitle {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.bannerDescription {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  position: relative;
+  animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+.bannerDescription::after {
+  content: '';
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(30, 144, 255, 0.2) 0%, rgba(0, 32, 91, 0) 70%);
+  top: -10vh;
+  right: -25vw;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.bannerActions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  position: relative;
+  z-index: 3;
+  animation: fadeInUp 0.8s ease-out 0.6s both;
+}
+
+.actionButton {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.primary {
+  background-color: #e63946;
+  color: white;
+}
+
+.primary:hover {
+  background-color: #d32f3d;
+}
+
+.secondary {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.careersSection {
+  max-width: 100%;
+  /* margin: ; */
+  padding: 4.5rem 4.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.careersSection::before {
+  content: '';
+  position: absolute;
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(65, 105, 225, 0.08) 0%, rgba(0, 32, 91, 0) 70%);
+  top: 20%;
+  right: -10vw;
+  z-index: 0;
+}
+
+.careersSection::after {
+  content: '';
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(30, 144, 255, 0.06) 0%, rgba(0, 32, 91, 0) 70%);
+  bottom: 10%;
+  left: -5vw;
+  z-index: 0;
+}
+
+.sectionHeader {
+  margin-bottom: 3rem;
+  text-align: center;
+  position: relative;
+}
+
+.sectionHeader::before {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #1e90ff, #0c2340);
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  color: #0c2340;
+  margin-bottom: 1rem;
+  background: linear-gradient(90deg, #0c2340, #1e5799);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.sectionSubtitle {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.opportunitiesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+  justify-content: center;
+  justify-items: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.opportunityCard {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 350px;
+}
+
+.opportunityCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.cardHeader {
+  background-color: #0c2340;
+  color: white;
+  padding: 1.5rem;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.cardDepartment {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.cardBody {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardDescription {
+  margin-bottom: 1.5rem;
+  color: #333;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.cardFooter {
+  padding: 1rem 1.5rem;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardMetadata {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.applyButton {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #e63946;
+  color: white;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.applyButton:hover {
+  background-color: #d32f3d;
+}
+
+.formSection {
+  background-color: #f8f9fa;
+  padding: 4rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.formSection::before {
+  content: '';
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(65, 105, 225, 0.1) 0%, rgba(0, 32, 91, 0) 70%);
+  top: 10%;
+  right: -5vw;
+}
+
+.formSection::after {
+  content: '';
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(30, 144, 255, 0.15) 0%, rgba(0, 32, 91, 0) 70%);
+  bottom: 5%;
+  left: -5vw;
+}
+
+.formContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  position: relative;
+  z-index: 2;
+  border-top: 4px solid #1e90ff;
+}
+
+.formTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #0c2340;
+  font-size: 2rem;
+}
+
+.formDescription {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #666;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formPlaceholder {
+  border: 2px dashed #ddd;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.formPlaceholderText {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .bannerTitle {
+    font-size: 2.5rem;
+  }
+  
+  .opportunitiesGrid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .bannerActions {
+    flex-direction: column;
+  }
+  
+  .opportunityCard {
+    max-width: 320px;
+  }
+  
+  .pageBanner::before,
+  .pageBanner::after,
+  .bannerDescription::after,
+  .careersSection::before,
+  .careersSection::after,
+  .formSection::before,
+  .formSection::after {
+    opacity: 0.5;
+    width: 50vw;
+    height: 50vw;
+  }
+  
+  .careersSection {
+    padding: 4rem 2rem;
+  }
+  
+  .sectionHeader::before {
+    width: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bannerTitle {
+    font-size: 2rem;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  
+  .pageBanner::before,
+  .pageBanner::after,
+  .bannerDescription::after,
+  .careersSection::before,
+  .careersSection::after,
+  .formSection::before,
+  .formSection::after {
+    opacity: 0.3;
+  }
+  
+  .careersSection {
+    padding: 3rem 1.5rem;
+  }
+}
