@@ -1,9 +1,7 @@
 [
     {
         "index": 1,
-        "title": "Psi-Net: Shape and boundary aware joint multi-task deep network for medical image segmentation",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/8857339/",
-        "authors": [
+        "Authors": [
             "Balamurali Murugesan",
             "Kaushik Sarveswaran",
             "Sharath M Shankaranarayana",
@@ -11,36 +9,35 @@
             "Jayaraj Joseph",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "23 July 2019",
-        "conference": "2019 41st Annual international conference of the IEEE engineering in medicine and biology society (EMBC)",
-        "pages": "7223-7226",
-        "publisher": "IEEE",
-        "description": "Image segmentation is a primary task in many medical applications. Recently, many deep networks derived from U-Net has been extensively used in various medical image segmentation tasks. However, in most of the cases, networks similar to U-net produce coarse and non-smooth segmentations with lots of discontinuities. To improve and refine the performance of U-Net like networks, we propose the use of parallel decoders which along with performing the mask predictions also perform contour prediction and distance map estimation. The contour and distance map aid in ensuring smoothness in the segmentation predictions. To facilitate joint training of three tasks, we propose a novel architecture called Psi-Net with a single encoder and three parallel decoders (thus having a shape of Ψ), one decoder to learn the segmentation mask prediction and other two decoders to learn the auxiliary tasks of contour …",
-        "citations": 210
+        "Publication date": "2019/7/23",
+        "Conference": "2019 41st Annual international conference of the IEEE engineering in medicine and biology society (EMBC)",
+        "Pages": "7223-7226",
+        "Publisher": "IEEE",
+        "Description": "Image segmentation is a primary task in many medical applications. Recently, many deep networks derived from U-Net has been extensively used in various medical image segmentation tasks. However, in most of the cases, networks similar to U-net produce coarse and non-smooth segmentations with lots of discontinuities. To improve and refine the performance of U-Net like networks, we propose the use of parallel decoders which along with performing the mask predictions also perform contour prediction and distance map estimation. The contour and distance map aid in ensuring smoothness in the segmentation predictions. To facilitate joint training of three tasks, we propose a novel architecture called Psi-Net with a single encoder and three parallel decoders (thus having a shape of Ψ), one decoder to learn the segmentation mask prediction and other two decoders to learn the auxiliary tasks of contour …",
+        "Total citations": "210",
+        "Scholar articles": "Psi-Net: Shape and boundary aware joint multi-task deep network for medical image segmentationB Murugesan, K Sarveswaran, SM Shankaranarayana… - 2019 41st Annual international conference of the IEEE …, 2019Cited by 210 Related articles All 9 versions"
     },
     {
         "index": 2,
-        "title": "Local pulse wave velocity: theory, methods, advancements, and clinical applications",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/8778763/",
-        "authors": [
+        "Authors": [
             "PM Nabeel",
             "V Raj Kiran",
             "Jayaraj Joseph",
             "VV Abhidev",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "29 July 2019",
-        "conference": "IEEE Reviews in Biomedical Engineering",
-        "pages": "13",
-        "publisher": "74-112",
-        "description": "IEEE",
-        "citations": 0
+        "Publication date": "2019/7/29",
+        "Source": "IEEE Reviews in Biomedical Engineering",
+        "Volume": "13",
+        "Pages": "74-112",
+        "Publisher": "IEEE",
+        "Description": "Local pulse wave velocity (PWV) is evolving as one of the important determinants of arterial hemodynamics, localized vessel stiffening associated with several pathologies, and a host of other cardiovascular events. Although PWV was introduced over a century ago, only in recent decades, due to various technological advancements, has emphasis been directed toward its measurement from a single arterial section or from piecewise segments of a target arterial section. This emerging worldwide trend in the exploration of instrumental solutions for local PWV measurement has produced several invasive and noninvasive methods. As of yet, however, a univocal opinion on the ideal measurement method has not emerged. Neither have there been extensive comparative studies on the accuracy of the available methods. Recognizing this reality, makes apparent the need to establish guideline-recommended standards …",
+        "Total citations": "150",
+        "Scholar articles": "Local pulse wave velocity: theory, methods, advancements, and clinical applicationsPM Nabeel, VR Kiran, J Joseph, VV Abhidev… - IEEE Reviews in Biomedical Engineering, 2019Cited by 150 Related articles All 3 versions"
     },
     {
         "index": 3,
-        "title": "Non-contact sensing of neonatal pulse rate using camera-based imaging: a clinical feasibility study",
-        "paperLink": "https://iopscience.iop.org/article/10.1088/1361-6579/ab755c/meta",
-        "authors": [
+        "Authors": [
             "M Paul",
             "S Karthik",
             "J Joseph",
@@ -49,18 +46,19 @@
             "S Leonhardt",
             "C Hoog Antink"
         ],
-        "publicationDate": "09 March 2020",
-        "conference": "Physiological measurement",
-        "pages": "41",
-        "publisher": "2",
-        "description": "024001",
-        "citations": 0
+        "Publication date": "2020/3/9",
+        "Journal": "Physiological measurement",
+        "Volume": "41",
+        "Issue": "2",
+        "Pages": "024001",
+        "Publisher": "IOP Publishing",
+        "Description": "Objective Neonates and infants are patients who would benefit from less invasive vital sign sensing, especially from fewer cables and the avoidance of adhesive electrodes. Photoplethysmography imaging (PPGI) has been studied for medical applications in recent years: it is possible to assess various vital signs remotely, non-invasively, and without contact by using video cameras and light. However, studies on infants and especially on neonates in clinical settings are still rare. Hence, we conducted a single-center study to assess heart activity by estimating the pulse rate (PR) of 19 neonates. Approach Time series were generated from tracked regions of interest (ROIs) and PR was estimated via a joint time-frequency analysis using a short-time Fourier transform. Artifacts, for example, induced by movement, were detected and flagged by applying a signal quality index in the frequency domain. Main results The …",
+        "Total citations": "111",
+        "Scholar articles": "Non-contact sensing of neonatal pulse rate using camera-based imaging: a clinical feasibility studyM Paul, S Karthik, J Joseph, M Sivaprakasam… - Physiological measurement, 2020Cited by 111 Related articles All 4 versions"
     },
     {
         "index": 4,
-        "title": "Fast body part segmentation and tracking of neonatal video data using deep learning",
-        "paperLink": "https://link.springer.com/article/10.1007/s11517-020-02251-4",
-        "authors": [
+        "Authors": [
             "Christoph Hoog Antink",
             "Joana Carlos Mesquita Ferreira",
             "Michael Paul",
@@ -73,18 +71,19 @@
             "Mohanasankar Sivaprakasam",
             "Steffen Leonhardt"
         ],
-        "publicationDate": "Invalid Date",
-        "conference": "Medical & Biological Engineering & Computing",
-        "pages": "58",
-        "publisher": "3049-3061",
-        "description": "Springer Berlin Heidelberg",
-        "citations": 0
+        "Publication date": "2020/12",
+        "Journal": "Medical & Biological Engineering & Computing",
+        "Volume": "58",
+        "Issue": "12",
+        "Pages": "3049-3061",
+        "Publisher": "Springer Berlin Heidelberg",
+        "Description": "Photoplethysmography imaging (PPGI) for non-contact monitoring of preterm infants in the neonatal intensive care unit (NICU) is a promising technology, as it could reduce medical adhesive-related skin injuries and associated complications. For practical implementations of PPGI, a region of interest has to be detected automatically in real time. As the neonates’ body proportions differ significantly from adults, existing approaches may not be used in a straightforward way, and color-based skin detection requires RGB data, thus prohibiting the use of less-intrusive near-infrared (NIR) acquisition. In this paper, we present a deep learning-based method for segmentation of neonatal video data. We augmented an existing encoder-decoder semantic segmentation method with a modified version of the ResNet-50 encoder. This reduced the computational time by a factor of 7.5, so that 30 frames per second can be …",
+        "Total citations": "99",
+        "Scholar articles": "Fast body part segmentation and tracking of neonatal video data using deep learningCH Antink, JCM Ferreira, M Paul, S Lyra, K Heimann… - Medical & Biological Engineering & Computing, 2020Cited by 99 Related articles All 12 versions"
     },
     {
         "index": 5,
-        "title": "Ecgnet: Deep network for arrhythmia classification",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/8438739/",
-        "authors": [
+        "Authors": [
             "Balamurali Murugesan",
             "Vignesh Ravichandran",
             "Keerthi Ram",
@@ -93,87 +92,90 @@
             "Sharath M Shankaranarayana",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "11 June 2018",
-        "conference": "2018 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
-        "pages": "1-6",
-        "publisher": "IEEE",
-        "description": "Cardiac arrhythmias are presently diagnosed by manual interpretation of Electrocardiography (ECG) signals. Automated ECG interpretation is required to perform efficient screening of arrhythmia from long term ECG data. Existing automated ECG interpretation tools however require extensive preprocessing and knowledge to determine relevant features. Thus there is a need for a comprehensive feature extractor and classifier to analyze ECG signals. In this paper, we propose three robust deep neural network (DNN) architectures to perform feature extraction and classification of a given two second ECG signal. The first network is a Convolutional Neural Network (CNN) with multiple kernel sizes, the second network is a Long Short Term Memory (LSTM) network and the third network is a combination of CNN and LSTM based feature extractor, CLSTM network. The proposed networks are end to end networks which …",
-        "citations": 99
+        "Publication date": "2018/6/11",
+        "Conference": "2018 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "Cardiac arrhythmias are presently diagnosed by manual interpretation of Electrocardiography (ECG) signals. Automated ECG interpretation is required to perform efficient screening of arrhythmia from long term ECG data. Existing automated ECG interpretation tools however require extensive preprocessing and knowledge to determine relevant features. Thus there is a need for a comprehensive feature extractor and classifier to analyze ECG signals. In this paper, we propose three robust deep neural network (DNN) architectures to perform feature extraction and classification of a given two second ECG signal. The first network is a Convolutional Neural Network (CNN) with multiple kernel sizes, the second network is a Long Short Term Memory (LSTM) network and the third network is a combination of CNN and LSTM based feature extractor, CLSTM network. The proposed networks are end to end networks which …",
+        "Total citations": "100",
+        "Scholar articles": "Ecgnet: Deep network for arrhythmia classificationB Murugesan, V Ravichandran, K Ram, P SP, J Joseph… - 2018 IEEE International Symposium on Medical …, 2018Cited by 100 Related articles All 3 versions"
     },
     {
         "index": 6,
-        "title": "Single-source PPG-based local pulse wave velocity measurement: a potential cuffless blood pressure estimation technique",
-        "paperLink": "https://iopscience.iop.org/article/10.1088/1361-6579/aa9550/meta",
-        "authors": [
+        "Authors": [
             "PM Nabeel",
             "J Jayaraj",
             "S Mohanasankar"
         ],
-        "publicationDate": "28 November 2017",
-        "conference": "Physiological measurement",
-        "pages": "38",
-        "publisher": "12",
-        "description": "2122",
-        "citations": 0
+        "Publication date": "2017/11/28",
+        "Journal": "Physiological measurement",
+        "Volume": "38",
+        "Issue": "12",
+        "Pages": "2122",
+        "Publisher": "IOP Publishing",
+        "Description": "Objective A novel photoplethysmograph probe employing dual photodiodes excited using a single infrared light source was developed for local pulse wave velocity (PWV) measurement. The potential use of the proposed system in cuffless blood pressure (BP) techniques was demonstrated. Approach Initial validation measurements were performed on a phantom using a reference method. Further, an in vivo study was carried out in 35 volunteers (age= 28±4.5 years). The carotid local PWV, carotid to finger pulse transit time (PTT R) and pulse arrival time at the carotid artery (PAT C) were simultaneously measured. Beat-by-beat variation of the local PWV due to BP changes was studied during post-exercise relaxation. The cuffless BP estimation accuracy of local PWV, PAT C, and PTT R was investigated based on inter-and intra-subject models with best-case calibration. Main results The accuracy of the proposed …",
+        "Total citations": "87",
+        "Scholar articles": "Single-source PPG-based local pulse wave velocity measurement: a potential cuffless blood pressure estimation techniquePM Nabeel, J Jayaraj, S Mohanasankar - Physiological measurement, 2017Cited by 87 Related articles All 5 versions"
     },
     {
         "index": 7,
-        "title": "Arterial blood pressure estimation from local pulse wave velocity using dual-element photoplethysmograph probe",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/8301581/",
-        "authors": [
+        "Authors": [
             "PM Nabeel",
             "Srinivasa Karthik",
             "Jayaraj Joseph",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "23 February 2018",
-        "conference": "IEEE Transactions on Instrumentation and Measurement",
-        "pages": "67",
-        "publisher": "6",
-        "description": "1399-1408",
-        "citations": 0
+        "Publication date": "2018/2/23",
+        "Journal": "IEEE Transactions on Instrumentation and Measurement",
+        "Volume": "67",
+        "Issue": "6",
+        "Pages": "1399-1408",
+        "Publisher": "IEEE",
+        "Description": "An arterial compliance, dual-element photoplethysmograph probe for local pulse wave velocity (PWV) measurement was developed. Initially, the experimental validation study was performed on 25 young volunteers (age =24.5 ± 4 years). Local PWV was assessed from a small section (23 mm) of the carotid artery. The prototype device demonstrated its capability of measuring reliable, repeatable, and reproducible carotid local PWV. Further, in 15 healthy male volunteers (age = 22.25 ± 3.5 years), carotid local PWV and brachial blood pressure (BP) were continuously recorded during their postexercise recovery period. Local PWV followed the changes in arterial BP parameters. The group average correlation coefficients (r) of local PWV versus BP parameters were between 0.772 ± 0.033 and 0.934 ± 0.028. In a population of 50 patients (normotensive and hypertensive) aged 24-80 years, local PWV-BP correlations …",
+        "Total citations": "79",
+        "Scholar articles": "Arterial blood pressure estimation from local pulse wave velocity using dual-element photoplethysmograph probePM Nabeel, S Karthik, J Joseph, M Sivaprakasam - IEEE Transactions on Instrumentation and …, 2018Cited by 79 Related articles All 2 versions"
     },
     {
         "index": 8,
-        "title": "Bi-modal arterial compliance probe for calibration-free cuffless blood pressure estimation",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/8440703/",
-        "authors": [
+        "Authors": [
             "PM Nabeel",
             "Joseph Jayaraj",
             "Karthik Srinivasa",
             "Sivaprakasam Mohanasankar",
             "M Chenniappan"
         ],
-        "publicationDate": "20 August 2018",
-        "conference": "IEEE Transactions on Biomedical Engineering",
-        "pages": "65",
-        "publisher": "11",
-        "description": "2392-2404",
-        "citations": 0
+        "Publication date": "2018/8/20",
+        "Journal": "IEEE Transactions on Biomedical Engineering",
+        "Volume": "65",
+        "Issue": "11",
+        "Pages": "2392-2404",
+        "Publisher": "IEEE",
+        "Description": "Objective We propose a calibration-free method and system for cuffless blood pressure (BP) measurement from superficial arteries. A prototype device with bi-modal probe arrangement was designed and developed to estimate carotid BP - an indicator of central aortic pressure. Methods Mathematical models relating BP parameters of an arterial segment to its dimensions and local pulse wave velocity (PWV) are introduced. A bi-modal probe utilizing ultrasound and photoplethysmograph sensors was developed and used to measure diameter values and local PWV from the carotid artery. Carotid BP was estimated using the measured physiological parameters without any subject- or population-specific calibration procedures. The proposed cuffless BP estimation method and system were tested for accuracy, usability, and for potential utility in hypertension screening, on a total of 83 subjects. Results The prototype …",
+        "Total citations": "76",
+        "Scholar articles": "Bi-modal arterial compliance probe for calibration-free cuffless blood pressure estimationPM Nabeel, J Jayaraj, K Srinivasa, S Mohanasankar… - IEEE Transactions on Biomedical Engineering, 2018Cited by 76 Related articles All 3 versions"
     },
     {
         "index": 9,
-        "title": "Physiological signal based work stress detection using unobtrusive sensors",
-        "paperLink": "https://iopscience.iop.org/article/10.1088/2057-1976/aadbd4/meta",
-        "authors": [
+        "Authors": [
             "AS Anusha",
             "Joy Jose",
             "SP Preejith",
             "Joseph Jayaraj",
             "Sivaprakasam Mohanasankar"
         ],
-        "publicationDate": "07 September 2018",
-        "conference": "Biomedical Physics & Engineering Express",
-        "pages": "4",
-        "publisher": "6",
-        "description": "065001",
-        "citations": 0
+        "Publication date": "2018/9/7",
+        "Journal": "Biomedical Physics & Engineering Express",
+        "Volume": "4",
+        "Issue": "6",
+        "Pages": "065001",
+        "Publisher": "IOP Publishing",
+        "Description": "Objective Work stress is identified as the'health epidemic of 21st century'by WHO because, when left unchecked, it wreaks havoc on human mind and body by accelerating the onset and progression of several health disorders. Hence, the evolution of strategies for early detection of mental stress is pivotal. The study presented here is one step towards the goal of developing a physiological parameter based psychological stress detection scheme which can further be incorporated into a wearable vital signs monitor. Approach A group of 34 subjects (14 females and 20 males, age: 21.4±1.7 years; mean±SD) volunteered to participate in a pilot laboratory intervention that emulated real-life job stress scenarios by incorporating stress factors like mental workload, time pressure, performance pressure and social evaluative threat. Electrodermal Activity (EDA), Electrocardiogram (ECG), and Skin Temperature (ST) were …",
+        "Total citations": "72",
+        "Scholar articles": "Physiological signal based work stress detection using unobtrusive sensorsAS Anusha, J Jose, SP Preejith, J Jayaraj… - Biomedical Physics & Engineering Express, 2018Cited by 72 Related articles"
     },
     {
         "index": 10,
-        "title": "RPnet: A Deep Learning approach for robust R Peak detection in noisy ECG",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/9176084/",
-        "authors": [
+        "Authors": [
             "Sricharan Vijayarangan",
             "R Vignesh",
             "Balamurali Murugesan",
@@ -181,18 +183,17 @@
             "Jayaraj Joseph",
             "Mohansankar Sivaprakasam"
         ],
-        "publicationDate": "20 July 2020",
-        "conference": "2020 42nd annual international conference of the IEEE engineering in medicine & biology society (EMBC)",
-        "pages": "345-348",
-        "publisher": "IEEE",
-        "description": "Automatic detection of R-peaks in an Electrocardiogram signal is crucial in a multitude of applications including Heart Rate Variability (HRV) analysis and Cardio Vascular Disease(CVD) diagnosis. Although there have been numerous approaches that have successfully addressed the problem, there has been a notable dip in the performance of these existing detectors on ECG episodes that contain noise and HRV Irregulates. On the other hand, Deep Learning(DL) based methods have shown to be adept at modelling data that contain noise. In image to image translation, Unet is the fundamental block in many of the networks. In this work, a novel application of the Unet combined with Inception and Residual blocks is proposed to perform the extraction of R-peaks from an ECG. Furthermore, the problem formulation also robustly deals with issues of variability and sparsity of ECG R-peaks. The proposed network was …",
-        "citations": 70
+        "Publication date": "2020/7/20",
+        "Conference": "2020 42nd annual international conference of the IEEE engineering in medicine & biology society (EMBC)",
+        "Pages": "345-348",
+        "Publisher": "IEEE",
+        "Description": "Automatic detection of R-peaks in an Electrocardiogram signal is crucial in a multitude of applications including Heart Rate Variability (HRV) analysis and Cardio Vascular Disease(CVD) diagnosis. Although there have been numerous approaches that have successfully addressed the problem, there has been a notable dip in the performance of these existing detectors on ECG episodes that contain noise and HRV Irregulates. On the other hand, Deep Learning(DL) based methods have shown to be adept at modelling data that contain noise. In image to image translation, Unet is the fundamental block in many of the networks. In this work, a novel application of the Unet combined with Inception and Residual blocks is proposed to perform the extraction of R-peaks from an ECG. Furthermore, the problem formulation also robustly deals with issues of variability and sparsity of ECG R-peaks. The proposed network was …",
+        "Total citations": "70",
+        "Scholar articles": "RPnet: A Deep Learning approach for robust R Peak detection in noisy ECGS Vijayarangan, R Vignesh, B Murugesan, SP Preejith… - 2020 42nd annual international conference of the IEEE …, 2020Cited by 70 Related articles All 7 versions"
     },
     {
         "index": 11,
-        "title": "RespNet: A deep learning model for extraction of respiration from photoplethysmogram",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/8856301/",
-        "authors": [
+        "Authors": [
             "Vignesh Ravichandran",
             "Balamurali Murugesan",
             "Vaishali Balakarthikeyan",
@@ -201,204 +202,199 @@
             "Jayaraj Joseph",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "23 July 2019",
-        "conference": "2019 41st annual international conference of the IEEE engineering in medicine and biology society (EMBC)",
-        "pages": "5556-5559",
-        "publisher": "IEEE",
-        "description": "Respiratory ailments afflict a wide range of people and manifests itself through conditions like asthma and sleep apnea. Continuous monitoring of chronic respiratory ailments is seldom used outside the intensive care ward due to the large size and cost of the monitoring system. While Electrocardiogram (ECG) based respiration extraction is a validated approach, its adoption is limited by access to a suitable continuous ECG monitor. Recently, due to the widespread adoption of wearable smartwatches with in-built Photoplethysmogram (PPG) sensor, it is being considered as a viable candidate for continuous and unobtrusive respiration monitoring. Research in this domain, however, has been predominantly focussed on estimating respiration rate from PPG. In this work, a novel end-to-end deep learning network called RespNet is proposed to perform the task of extracting the respiration signal from a given input PPG …",
-        "citations": 70
+        "Publication date": "2019/7/23",
+        "Conference": "2019 41st annual international conference of the IEEE engineering in medicine and biology society (EMBC)",
+        "Pages": "5556-5559",
+        "Publisher": "IEEE",
+        "Description": "Respiratory ailments afflict a wide range of people and manifests itself through conditions like asthma and sleep apnea. Continuous monitoring of chronic respiratory ailments is seldom used outside the intensive care ward due to the large size and cost of the monitoring system. While Electrocardiogram (ECG) based respiration extraction is a validated approach, its adoption is limited by access to a suitable continuous ECG monitor. Recently, due to the widespread adoption of wearable smartwatches with in-built Photoplethysmogram (PPG) sensor, it is being considered as a viable candidate for continuous and unobtrusive respiration monitoring. Research in this domain, however, has been predominantly focussed on estimating respiration rate from PPG. In this work, a novel end-to-end deep learning network called RespNet is proposed to perform the task of extracting the respiration signal from a given input PPG …",
+        "Total citations": "70",
+        "Scholar articles": "RespNet: A deep learning model for extraction of respiration from photoplethysmogramV Ravichandran, B Murugesan, V Balakarthikeyan… - 2019 41st annual international conference of the IEEE …, 2019Cited by 70 Related articles All 5 versions"
     },
     {
         "index": 12,
-        "title": "Technical validation of ARTSENS–An image free device for evaluation of vascular stiffness",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/7105853/",
-        "authors": [
+        "Authors": [
             "Jayaraj Joseph",
             "Ravikumar Radhakrishnan",
             "Shitanshu Kusmakar",
             "Arya Sree Thrivikraman",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "12 May 2015",
-        "conference": "IEEE journal of translational engineering in health and medicine",
-        "pages": "3",
-        "publisher": "1-13",
-        "description": "IEEE",
-        "citations": 0
+        "Publication date": "2015/5/12",
+        "Journal": "IEEE journal of translational engineering in health and medicine",
+        "Volume": "3",
+        "Pages": "1-13",
+        "Publisher": "IEEE",
+        "Description": "Vascular stiffness is an indicator of cardiovascular health, with carotid artery stiffness having established correlation to coronary heart disease and utility in cardiovascular diagnosis and screening. State of art equipment for stiffness evaluation are expensive, require expertise to operate and not amenable for field deployment. In this context, we developed ARTerial Stiffness Evaluation for Noninvasive Screening (ARTSENS), a device for image free, noninvasive, automated evaluation of vascular stiffness amenable for field use. ARTSENS has a frugal hardware design, utilizing a single ultrasound transducer to interrogate the carotid artery, integrated with robust algorithms that extract arterial dimensions and compute clinically accepted measures of arterial stiffness. The ability of ARTSENS to measure vascular stiffness in vivo was validated by performing measurements on 125 subjects. The accuracy of results was …",
+        "Total citations": "67",
+        "Scholar articles": "Technical validation of ARTSENS–An image free device for evaluation of vascular stiffnessJ Joseph, R Radhakrishnan, S Kusmakar… - IEEE journal of translational engineering in health and …, 2015Cited by 67 Related articles All 5 versions"
     },
     {
         "index": 13,
-        "title": "Wearable ECG platform for continuous cardiac monitoring",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/7590779/",
-        "authors": [
+        "Authors": [
             "SP Preejith",
             "R Dhinesh",
             "Jayaraj Joseph",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "16 August 2016",
-        "conference": "2016 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
-        "pages": "623-626",
-        "publisher": "IEEE",
-        "description": "An ultra-low power ECG platform for continuous and minimally intrusive monitoring for systems with minimal processing capabilities, is presented in this paper. The platform is capable of detecting abnormalities in the ECG signal by extracting and analyzing features related to various cardiac trends. The platform is built to continuously operate on any of the 12 leads and the presented work includes a single lead implementation that works on lead I or II. A single lead, wearable ECG patch that can detect rhythm based arrhythmias and continuously monitor beat-to-beat heart rate and respiratory rate has been developed. In addition, the device stores raw ECG waveform locally and is designed to run for 10 days on a single charge. The ECG patch works in conjunction with a front end device or tablet and updates the results on the tablet interface. Upon detection of an abnormality or an arrhythmia the device switches to …",
-        "citations": 64
+        "Publication date": "2016/8/16",
+        "Conference": "2016 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+        "Pages": "623-626",
+        "Publisher": "IEEE",
+        "Description": "An ultra-low power ECG platform for continuous and minimally intrusive monitoring for systems with minimal processing capabilities, is presented in this paper. The platform is capable of detecting abnormalities in the ECG signal by extracting and analyzing features related to various cardiac trends. The platform is built to continuously operate on any of the 12 leads and the presented work includes a single lead implementation that works on lead I or II. A single lead, wearable ECG patch that can detect rhythm based arrhythmias and continuously monitor beat-to-beat heart rate and respiratory rate has been developed. In addition, the device stores raw ECG waveform locally and is designed to run for 10 days on a single charge. The ECG patch works in conjunction with a front end device or tablet and updates the results on the tablet interface. Upon detection of an abnormality or an arrhythmia the device switches to …",
+        "Total citations": "64",
+        "Scholar articles": "Wearable ECG platform for continuous cardiac monitoringSP Preejith, R Dhinesh, J Joseph, M Sivaprakasam - 2016 38th Annual International Conference of the IEEE …, 2016Cited by 64 Related articles All 5 versions"
     },
     {
         "index": 14,
-        "title": "Accelerometer based system for continuous respiratory rate monitoring",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/7985870/",
-        "authors": [
+        "Authors": [
             "SP Preejith",
             "Ahamed Jeelani",
             "Paresh Maniyar",
             "Jayaraj Joseph",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "07 May 2017",
-        "conference": "2017 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
-        "pages": "171-176",
-        "publisher": "IEEE",
-        "description": "Recent advances in sensor technologies, wireless connectivity, cloud storage and availability of compact hardware allow for designing of cost effective physiological monitoring devices. There is a growing demand for wearable technologies with continuous and minimally intrusive physiological parameter monitoring capabilities. Continuous respiratory rate monitoring using a three-axis accelerometer from the sternum or abdomen is highly challenging due to motion corruption and presents a potential area of research. A system design for continuous and long term respiratory rate monitoring, in a wearable form factor with capability of remote monitoring is presented in this paper. The device runs on a low power ARM Cortex M0 microcontroller and uses inbuilt BLE (Bluetooth Low energy) module for wireless connectivity. A respiratory rate computation algorithm using motion artifact rejection is implemented on the …",
-        "citations": 57
+        "Publication date": "2017/5/7",
+        "Conference": "2017 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "171-176",
+        "Publisher": "IEEE",
+        "Description": "Recent advances in sensor technologies, wireless connectivity, cloud storage and availability of compact hardware allow for designing of cost effective physiological monitoring devices. There is a growing demand for wearable technologies with continuous and minimally intrusive physiological parameter monitoring capabilities. Continuous respiratory rate monitoring using a three-axis accelerometer from the sternum or abdomen is highly challenging due to motion corruption and presents a potential area of research. A system design for continuous and long term respiratory rate monitoring, in a wearable form factor with capability of remote monitoring is presented in this paper. The device runs on a low power ARM Cortex M0 microcontroller and uses inbuilt BLE (Bluetooth Low energy) module for wireless connectivity. A respiratory rate computation algorithm using motion artifact rejection is implemented on the …",
+        "Total citations": "58",
+        "Scholar articles": "Accelerometer based system for continuous respiratory rate monitoringSP Preejith, A Jeelani, P Maniyar, J Joseph… - 2017 IEEE International Symposium on Medical …, 2017Cited by 58 Related articles All 3 versions"
     },
     {
         "index": 15,
-        "title": "PPGnet: Deep network for device independent heart rate estimation from photoplethysmogram",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/8856989/",
-        "authors": [
+        "Authors": [
             "A Shyam",
             "Vignesh Ravichandran",
             "SP Preejith",
             "Jayaraj Joseph",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "23 July 2019",
-        "conference": "2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
-        "pages": "1899-1902",
-        "publisher": "IEEE",
-        "description": "Photoplethysmogram (PPG) is increasingly used to provide monitoring of the cardiovascular system under ambulatory conditions. Wearable devices like smartwatches use PPG to allow long-term unobtrusive monitoring of heart rate in free-living conditions. PPG based heart rate measurement is unfortunately highly susceptible to motion artifacts, particularly when measured from the wrist. Traditional machine learning and deep learning approaches rely on tri-axial accelerometer data along with PPG to perform heart rate estimation. The conventional learning based approaches have not addressed the need for device-specific modeling due to differences in hardware design among PPG devices. In this paper, we propose a novel end-to-end deep learning model to perform heart rate estimation using 8-second length input PPG signal. We evaluate the proposed model on the IEEE SPC 2015 dataset, achieving a mean …",
-        "citations": 53
+        "Publication date": "2019/7/23",
+        "Conference": "2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+        "Pages": "1899-1902",
+        "Publisher": "IEEE",
+        "Description": "Photoplethysmogram (PPG) is increasingly used to provide monitoring of the cardiovascular system under ambulatory conditions. Wearable devices like smartwatches use PPG to allow long-term unobtrusive monitoring of heart rate in free-living conditions. PPG based heart rate measurement is unfortunately highly susceptible to motion artifacts, particularly when measured from the wrist. Traditional machine learning and deep learning approaches rely on tri-axial accelerometer data along with PPG to perform heart rate estimation. The conventional learning based approaches have not addressed the need for device-specific modeling due to differences in hardware design among PPG devices. In this paper, we propose a novel end-to-end deep learning model to perform heart rate estimation using 8-second length input PPG signal. We evaluate the proposed model on the IEEE SPC 2015 dataset, achieving a mean …",
+        "Total citations": "54",
+        "Scholar articles": "PPGnet: Deep network for device independent heart rate estimation from photoplethysmogramA Shyam, V Ravichandran, SP Preejith, J Joseph… - 2019 41st Annual International Conference of the IEEE …, 2019Cited by 54 Related articles All 5 versions"
     },
     {
         "index": 16,
-        "title": "A magnetic plethysmograph probe for local pulse wave velocity measurement",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/8019790/",
-        "authors": [
+        "Authors": [
             "PM Nabeel",
             "Jayaraj Joseph",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "29 August 2017",
-        "conference": "IEEE transactions on biomedical circuits and systems",
-        "pages": "11",
-        "publisher": "5",
-        "description": "1065-1076",
-        "citations": 0
+        "Publication date": "2017/8/29",
+        "Journal": "IEEE transactions on biomedical circuits and systems",
+        "Volume": "11",
+        "Issue": "5",
+        "Pages": "1065-1076",
+        "Publisher": "IEEE",
+        "Description": "Objective We present the design and experimental validation of an arterial compliance probe with dual magnetic plethysmograph (MPG) transducers for local pulse wave velocity (PWV) measurement. The MPG transducers (positioned at 23 mm distance apart) utilizes Hall-effect sensors and permanent magnets for arterial blood pulse detection. Methods The MPG probe was initially validated on an arterial flow phantom using a reference method. Further, 20 normotensive subjects (14 males, age = 24 ± 3.5 years) were studied under two different physical conditions: 1) Physically relaxed condition, 2) Postexercise condition. Local PWV was measured from the left carotid artery using the MPG probe. Brachial blood pressure (BP) was measured to investigate the correlation of BP with local PWV. Results The proposed MPG arterial compliance probe was capable of detecting high-fidelity blood pulse waveforms …",
+        "Total citations": "51",
+        "Scholar articles": "A magnetic plethysmograph probe for local pulse wave velocity measurementPM Nabeel, J Joseph, M Sivaprakasam - IEEE transactions on biomedical circuits and systems, 2017Cited by 51 Related articles All 4 versions"
     },
     {
         "index": 17,
-        "title": "Design, development and clinical validation of a wrist-based optical heart rate monitor",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/7533786/",
-        "authors": [
+        "Authors": [
             "SP Preejith",
             "Annamol Alex",
             "Jayaraj Joseph",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "15 May 2016",
-        "conference": "2016 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
-        "pages": "1-6",
-        "publisher": "IEEE",
-        "description": "Development in the field of sensor technology, hardware miniaturization, ubiquitous computing and connected solutions paved the way for the development of wearables for continuous physiological parameter monitoring. Continuous heart rate monitoring with clinical accuracy using reflectance photoplethysmogram signals from wrist is highly challenging and presents a potential area of research. In this work, we present a wearable device in a wrist watch form factor for heart rate monitoring. The device runs on a low power ARM cortex M4 microcontroller and integrates a BLE (Bluetooth Low energy) module for wireless connectivity. A heart rate computation algorithm using reflectance photoplethysmography and a 3 axes accelerometer for motion artifact removal is presented in the paper. Heart rate computed by the wrist worn device was validated against heart rate measured using Masimo Radical-7 on 256 …",
-        "citations": 51
+        "Publication date": "2016/5/15",
+        "Conference": "2016 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "Development in the field of sensor technology, hardware miniaturization, ubiquitous computing and connected solutions paved the way for the development of wearables for continuous physiological parameter monitoring. Continuous heart rate monitoring with clinical accuracy using reflectance photoplethysmogram signals from wrist is highly challenging and presents a potential area of research. In this work, we present a wearable device in a wrist watch form factor for heart rate monitoring. The device runs on a low power ARM cortex M4 microcontroller and integrates a BLE (Bluetooth Low energy) module for wireless connectivity. A heart rate computation algorithm using reflectance photoplethysmography and a 3 axes accelerometer for motion artifact removal is presented in the paper. Heart rate computed by the wrist worn device was validated against heart rate measured using Masimo Radical-7 on 256 …",
+        "Total citations": "50",
+        "Scholar articles": "Design, development and clinical validation of a wrist-based optical heart rate monitorSP Preejith, A Alex, J Joseph, M Sivaprakasam - 2016 IEEE International Symposium on Medical …, 2016Cited by 50 Related articles All 3 versions"
     },
     {
         "index": 18,
-        "title": "Polyp segmentation using generative adversarial network",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/8857958/",
-        "authors": [
+        "Authors": [
             "JM Poorneshwaran",
             "S Santhosh Kumar",
             "Keerthi Ram",
             "Jayaraj Joseph",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "23 July 2019",
-        "conference": "2019 41St annual international conference of the IEEE engineering in medicine and biology society (EMBC)",
-        "pages": "7201-7204",
-        "publisher": "IEEE",
-        "description": "Colorectal cancer is one of the highest causes of cancer-related death and the patient's survival rate depends on the stage at which polyps are detected. Polyp segmentation is a challenging research task due to variations in the size and shape of polyps leading to necessitate robust approaches for diagnosis. This paper studies the deep generative convolutional framework for the task of polyp segmentation. Here, the analysis of polyp segmentation has been explored with the pix2pix conditional generative adversarial network. On CVC- Clinic dataset, the proposed network achieves Jaccard index of 81.27% and Dice index of 88.48%.",
-        "citations": 46
+        "Publication date": "2019/7/23",
+        "Conference": "2019 41St annual international conference of the IEEE engineering in medicine and biology society (EMBC)",
+        "Pages": "7201-7204",
+        "Publisher": "IEEE",
+        "Description": "Colorectal cancer is one of the highest causes of cancer-related death and the patient's survival rate depends on the stage at which polyps are detected. Polyp segmentation is a challenging research task due to variations in the size and shape of polyps leading to necessitate robust approaches for diagnosis. This paper studies the deep generative convolutional framework for the task of polyp segmentation. Here, the analysis of polyp segmentation has been explored with the pix2pix conditional generative adversarial network. On CVC- Clinic dataset, the proposed network achieves Jaccard index of 81.27% and Dice index of 88.48%.",
+        "Total citations": "49",
+        "Scholar articles": "Polyp segmentation using generative adversarial networkJM Poorneshwaran, SS Kumar, K Ram, J Joseph… - 2019 41St annual international conference of the IEEE …, 2019Cited by 49 Related articles All 3 versions"
     },
     {
         "index": 19,
-        "title": "Automatic measurement of end-diastolic arterial lumen diameter in ARTSENS",
-        "paperLink": "https://asmedigitalcollection.asme.org/medicaldevices/article-abstract/9/4/041002/376815",
-        "authors": [
+        "Authors": [
             "Ashish Kumar Sahani",
             "Jayaraj Joseph",
             "Ravikumar Radhakrishnan",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "01 December 2015",
-        "conference": "Journal of Medical Devices",
-        "pages": "9",
-        "publisher": "4",
-        "description": "041002",
-        "citations": 0
+        "Publication date": "2015/12/1",
+        "Journal": "Journal of Medical Devices",
+        "Volume": "9",
+        "Issue": "4",
+        "Pages": "041002",
+        "Publisher": "American Society of Mechanical Engineers",
+        "Description": "Over past few years, we are developing a system for facilitating large scale screening of patients for cardiovascular risk—arterial stiffness evaluation for noninvasive screening (ARTSENS). ARTSENS is an image-free device that uses a single element ultrasound transducer to obtain noninvasive measurements of arterial stiffness (AS) in a fully automated manner. AS is directly proportional to end-diastolic lumen diameter (). Multilayered structure of the arterial walls and indistinct characteristics of intima-lumen interface (ILI) makes it quite difficult to accurately estimate  in A-mode radio-frequency (RF) frames obtained from ARTSENS. In this paper, we propose a few methods based on fitting simple mathematical models to the echoes from arterial walls, followed by a novel method to fuse the information from curve fitting error and distension curve to arrive at an accurate measure of . To bring down the curve fitting time …",
+        "Total citations": "45",
+        "Scholar articles": "Automatic measurement of end-diastolic arterial lumen diameter in ARTSENSAK Sahani, J Joseph, R Radhakrishnan… - Journal of Medical Devices, 2015Cited by 45 Related articles All 2 versions"
     },
     {
         "index": 20,
-        "title": "Automated system for imageless evaluation of arterial compliance",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/6345911/",
-        "authors": [
+        "Authors": [
             "Ashish Kumar Sahani",
             "Jayaraj Joseph",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "28 August 2012",
-        "conference": "2012 Annual International Conference of the IEEE Engineering in Medicine and Biology Society",
-        "pages": "227-231",
-        "publisher": "IEEE",
-        "description": "Evaluation of arterial compliance is very significant in early detection of coronary heart disease. Here we present an imageless portable system for automated estimation of local arterial compliance, designed to be operated by a general medical practitioner with no prior knowledge of ultrasonography. An algorithm for automatic detection and tracking of the arterial wall locations has been developed to minimize the operator expertise required for measurement. The performance of the automated algorithm was thoroughly characterized using a simulation platform developed for the purpose. Measurements performed on a few human volunteers by untrained personnel clearly illustrated the practical utility of the automatic algorithm during in-vivo tests. The proposed system could be used for developing an inexpensive cardiovascular screening device for large scale deployment in primary health care centers.",
-        "citations": 45
+        "Publication date": "2012/8/28",
+        "Conference": "2012 Annual International Conference of the IEEE Engineering in Medicine and Biology Society",
+        "Pages": "227-231",
+        "Publisher": "IEEE",
+        "Description": "Evaluation of arterial compliance is very significant in early detection of coronary heart disease. Here we present an imageless portable system for automated estimation of local arterial compliance, designed to be operated by a general medical practitioner with no prior knowledge of ultrasonography. An algorithm for automatic detection and tracking of the arterial wall locations has been developed to minimize the operator expertise required for measurement. The performance of the automated algorithm was thoroughly characterized using a simulation platform developed for the purpose. Measurements performed on a few human volunteers by untrained personnel clearly illustrated the practical utility of the automatic algorithm during in-vivo tests. The proposed system could be used for developing an inexpensive cardiovascular screening device for large scale deployment in primary health care centers.",
+        "Total citations": "45",
+        "Scholar articles": "Automated system for imageless evaluation of arterial complianceAK Sahani, J Joseph, M Sivaprakasam - 2012 Annual International Conference of the IEEE …, 2012Cited by 45 Related articles All 4 versions"
     },
     {
         "index": 21,
-        "title": "A virtual instrument for automated measurement of arterial compliance",
-        "paperLink": "https://asmedigitalcollection.asme.org/medicaldevices/article-abstract/4/4/045004/432596",
-        "authors": [
+        "Authors": [
             "Jayaraj Joseph",
             "V Jayashankar"
         ],
-        "publicationDate": "01 December 2010",
-        "conference": "4",
-        "pages": "4",
-        "publisher": "045004",
-        "description": "Measurement of arterial distensibility is very important in cardiovascular diagnosis for early detection of coronary heart disease and possible prediction of future cardiac events. Conventionally, B-mode ultrasound imaging systems have been used along with expensive vessel wall tracking systems for estimation of arterial distension and calculation of various estimates of compliance. We present a simple instrument for noninvasive in vivo evaluation of arterial compliance using a single element ultrasound transducer. The measurement methodology is initially validated using a proof of concept pilot experiment using a commercial ultrasound pulser-receiver. A prototype system is then developed around a PXI chassis using LABVIEW software. The virtual instrument employs a dynamic threshold algorithm to identify the artery walls and then utilizes a correlation based tracking technique to estimate arterial distension. The …",
-        "citations": 43
+        "Publication date": "2010/12/1",
+        "Volume": "4",
+        "Issue": "4",
+        "Pages": "045004",
+        "Description": "Measurement of arterial distensibility is very important in cardiovascular diagnosis for early detection of coronary heart disease and possible prediction of future cardiac events. Conventionally, B-mode ultrasound imaging systems have been used along with expensive vessel wall tracking systems for estimation of arterial distension and calculation of various estimates of compliance. We present a simple instrument for noninvasive in vivo evaluation of arterial compliance using a single element ultrasound transducer. The measurement methodology is initially validated using a proof of concept pilot experiment using a commercial ultrasound pulser-receiver. A prototype system is then developed around a PXI chassis using LABVIEW software. The virtual instrument employs a dynamic threshold algorithm to identify the artery walls and then utilizes a correlation based tracking technique to estimate arterial distension. The …",
+        "Total citations": "43",
+        "Scholar articles": "A virtual instrument for automated measurement of arterial complianceJ Joseph, V Jayashankar - 2010Cited by 43 Related articles All 4 versions"
     },
     {
         "index": 22,
-        "title": "A cellulose paper-based fluorescent lateral flow immunoassay for the quantitative detection of cardiac troponin I",
-        "paperLink": "https://www.mdpi.com/2079-6374/11/2/49",
-        "authors": [
+        "Authors": [
             "Satheesh Natarajan",
             "Joseph Jayaraj",
             "Duarte Miguel F Prazeres"
         ],
-        "publicationDate": "14 February 2021",
-        "conference": "Biosensors",
-        "pages": "11",
-        "publisher": "2",
-        "description": "49",
-        "citations": 0
+        "Publication date": "2021/2/14",
+        "Journal": "Biosensors",
+        "Volume": "11",
+        "Issue": "2",
+        "Pages": "49",
+        "Publisher": "MDPI",
+        "Description": "This paper presents a lateral flow assay (LFA) for the quantitative, fluorescence-based detection of the cardiac biomarker troponin I (cTnI) that features an analytical strip made of cellulose filter paper. The results show that the wicking and test time are comparable to those obtained with conventional nitrocellulose (NC)-based LFAs. Further, the cellulose paper provides an excellent background with no auto-fluorescence that is very adequate in detecting fluorescent lines. While fluorescence that was generated with cellulose strips was lower when compared to that generated in NC strips, signals could be improved by layering carbon nanofibers (CNF) on the cellulose. A nonlinear behavior of the concentration–response relationship was observed for the LFA architectures with NC, cellulose, and cellulose-CNF in the 0 to 200 ng/mL cTnI concentration range. The measurements were consistent and characterized by coefficients of variation lower than 2.5%. Detection and quantitation limits that were in the range 1.28–1.40 ng/mL and 2.10–2.75 ng/mL were obtained for LFA with cellulose and cellulose CNF strips that are equivalent to the limits obtained with the standard NC LFA. Overall, we showed that commercially available filter paper can be used in the analytical strip of LFA.",
+        "Total citations": "42",
+        "Scholar articles": "A cellulose paper-based fluorescent lateral flow immunoassay for the quantitative detection of cardiac troponin IS Natarajan, J Jayaraj, DMF Prazeres - Biosensors, 2021Cited by 42 Related articles All 14 versions"
     },
     {
         "index": 23,
-        "title": "ARTSENS® Pen—portable easy-to-use device for carotid stiffness measurement: technology validation and clinical-utility assessment",
-        "paperLink": "https://iopscience.iop.org/article/10.1088/2057-1976/ab74ff/meta",
-        "authors": [
+        "Authors": [
             "Jayaraj Joseph",
             "Raj Kiran",
             "PM Nabeel",
@@ -408,18 +404,19 @@
             "Suresh Seshadri",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "24 February 2020",
-        "conference": "Biomedical Physics & Engineering Express",
-        "pages": "6",
-        "publisher": "2",
-        "description": "025013",
-        "citations": 0
+        "Publication date": "2020/2/24",
+        "Journal": "Biomedical Physics & Engineering Express",
+        "Volume": "6",
+        "Issue": "2",
+        "Pages": "025013",
+        "Publisher": "IOP Publishing",
+        "Description": "Objective The conventional medical imaging modalities used for arterial stiffness measurement are non-scalable and unviable for field-level vascular screening. The need for an affordable, easy-to-operate automated non-invasive technologies remains unmet. To address this need, we present a portable image-free ultrasound device—ARTSENS® Pen, that uses a single-element ultrasound transducer for carotid stiffness evaluation. Approach The performance of the device was clinically validated on a cohort of 523 subjects. A clinical-grade B-mode ultrasound imaging system (ALOKA eTracking) was used as the reference. Carotid stiffness measurements were taken using the ARTSENS® Pen in sitting posture emulating field scenarios. Main results A statistically significant correlation (r> 0.80, p< 0.0001) with a non-significant bias was observed between the measurements obtained from the two devices. The …",
+        "Total citations": "41",
+        "Scholar articles": "ARTSENS® Pen—portable easy-to-use device for carotid stiffness measurement: technology validation and clinical-utility assessmentJ Joseph, R Kiran, PM Nabeel, MI Shah, A Bhaskar… - Biomedical Physics & Engineering Express, 2020Cited by 41 Related articles All 2 versions"
     },
     {
         "index": 24,
-        "title": "Interpreting deep neural networks for single-lead ECG arrhythmia classification",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/9176396/",
-        "authors": [
+        "Authors": [
             "Sricharan Vijayarangan",
             "Balamurali Murugesan",
             "R Vignesh",
@@ -427,18 +424,17 @@
             "Jayaraj Joseph",
             "Mohansankar Sivaprakasam"
         ],
-        "publicationDate": "20 July 2020",
-        "conference": "2020 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)",
-        "pages": "300-303",
-        "publisher": "IEEE",
-        "description": "Cardiac arrhythmia is a prevalent and significant cause of morbidity and mortality among cardiac ailments. Early diagnosis is crucial in providing intervention for patients suffering from cardiac arrhythmia. Traditionally, diagnosis is performed by examination of the Electrocardiogram (ECG) by a cardiologist. This method of diagnosis is hampered by the lack of accessibility to expert cardiologists. For quite some time, signal processing methods had been used to automate arrhythmia diagnosis. However, these traditional methods require expert knowledge and are unable to model a wide range of arrhythmia. Recently, Deep Learning methods have provided solutions to performing arrhythmia diagnosis at scale. However, the black-box nature of these models prohibit clinical interpretation of cardiac arrhythmia. There is a dire need to correlate the obtained model outputs to the corresponding segments of the ECG. To this …",
-        "citations": 38
+        "Publication date": "2020/7/20",
+        "Conference": "2020 42nd annual international conference of the IEEE engineering in medicine & biology society (EMBC)",
+        "Pages": "300-303",
+        "Publisher": "IEEE",
+        "Description": "Cardiac arrhythmia is a prevalent and significant cause of morbidity and mortality among cardiac ailments. Early diagnosis is crucial in providing intervention for patients suffering from cardiac arrhythmia. Traditionally, diagnosis is performed by examination of the Electrocardiogram (ECG) by a cardiologist. This method of diagnosis is hampered by the lack of accessibility to expert cardiologists. For quite some time, signal processing methods had been used to automate arrhythmia diagnosis. However, these traditional methods require expert knowledge and are unable to model a wide range of arrhythmia. Recently, Deep Learning methods have provided solutions to performing arrhythmia diagnosis at scale. However, the black-box nature of these models prohibit clinical interpretation of cardiac arrhythmia. There is a dire need to correlate the obtained model outputs to the corresponding segments of the ECG. To this …",
+        "Total citations": "41",
+        "Scholar articles": "Interpreting deep neural networks for single-lead ECG arrhythmia classificationS Vijayarangan, B Murugesan, R Vignesh, SP Preejith… - 2020 42nd annual international conference of the IEEE …, 2020Cited by 41 Related articles All 7 versions"
     },
     {
         "index": 25,
-        "title": "Assessment of carotid arterial stiffness in community settings with ARTSENS®",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/9279288/",
-        "authors": [
+        "Authors": [
             "Jayaraj Joseph",
             "PM Nabeel",
             "Sudha Ramachandra Rao",
@@ -446,18 +442,18 @@
             "Malay Ilesh Shah",
             "Prabhdeep Kaur"
         ],
-        "publicationDate": "03 December 2020",
-        "conference": "IEEE Journal of Translational Engineering in Health and Medicine",
-        "pages": "9",
-        "publisher": "1-11",
-        "description": "IEEE",
-        "citations": 0
+        "Publication date": "2020/12/3",
+        "Journal": "IEEE Journal of Translational Engineering in Health and Medicine",
+        "Volume": "9",
+        "Pages": "1-11",
+        "Publisher": "IEEE",
+        "Description": "Objective: We investigate the field feasibility of carotid stiffness measurement using ARTSENS® Touch and report the first community-level data from India. Method: In an analytical cross-sectional survey among 1074 adults, we measured specific stiffness index ( ), pressure-strain elastic modulus ( ), arterial compliance (AC), and one-point pulse wave velocity (PWV ) from the left common carotid artery. Data for established risk factors (waist circumference, blood pressure, plasma glucose, triglycerides, and HDL-C) were also collected. The association of carotid stiffness with age, gender, hypertension/diabetes, smoking, and clustering of risk factors was studied. Results: Measurements were repeatable with a relative difference (RD) between consecutive readings of < 5% for blood pressure and < 15% for  % of arterial diameter values. The average RDs for  ,  , AC, and PWV , were 20.51%, 22.31%, 25.10%, and 14.13%, respectively. Typical range for stiffness indices …",
+        "Total citations": "35",
+        "Scholar articles": "Assessment of carotid arterial stiffness in community settings with ARTSENS®J Joseph, PM Nabeel, SR Rao, R Venkatachalam… - IEEE Journal of Translational Engineering in Health …, 2020Cited by 35 Related articles All 4 versions"
     },
     {
         "index": 26,
-        "title": "Machine Learning based SpO2 Computation Using Reflectance Pulse Oximetry",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/8856434/",
-        "authors": [
+        "Authors": [
             "Swaathi Venkat",
             "Mohamed Tanveejul PS Arsath PS",
             "Annamol Alex",
@@ -466,186 +462,188 @@
             "Jayaraj Joseph",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "23 July 2019",
-        "conference": "2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
-        "pages": "482-485",
-        "publisher": "IEEE",
-        "description": "Continuous monitoring of blood oxygen saturation level (SpO2) is crucial for patients with cardiac and pulmonary disorders and those undergoing surgeries. SpO2 monitoring is widely used in a clinical setting to evaluate the effectiveness of lung medication and ventilator support. Owing to its high levels of accuracy and stability, transmittance pulse oximeters are widely used in the clinical community to compute SpO2. Transmittance pulse oximeters are limited to measure SpO2 only from peripheral sites. Reflectance pulse oximeters, however, can be used at various measurement sites like finger, wrist, chest, forehead, and are immune to faulty measurements due to vasoconstriction and perfusion changes. Reflectance pulse oximeters are not widely adopted in clinical environments due to faulty measurements and inaccurate R-value based calibration methods. In this paper, we present the analysis and observations …",
-        "citations": 33
+        "Publication date": "2019/7/23",
+        "Conference": "2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+        "Pages": "482-485",
+        "Publisher": "IEEE",
+        "Description": "Continuous monitoring of blood oxygen saturation level (SpO2) is crucial for patients with cardiac and pulmonary disorders and those undergoing surgeries. SpO2 monitoring is widely used in a clinical setting to evaluate the effectiveness of lung medication and ventilator support. Owing to its high levels of accuracy and stability, transmittance pulse oximeters are widely used in the clinical community to compute SpO2. Transmittance pulse oximeters are limited to measure SpO2 only from peripheral sites. Reflectance pulse oximeters, however, can be used at various measurement sites like finger, wrist, chest, forehead, and are immune to faulty measurements due to vasoconstriction and perfusion changes. Reflectance pulse oximeters are not widely adopted in clinical environments due to faulty measurements and inaccurate R-value based calibration methods. In this paper, we present the analysis and observations …",
+        "Total citations": "33",
+        "Scholar articles": "Machine learning based spo 2 computation using reflectance pulse oximetryS Venkat, MTPSA PS, A Alex, P SP, C DJ, J Joseph… - 2019 41st Annual International Conference of the IEEE …, 2019Cited by 33 Related articles All 3 versions"
     },
     {
         "index": 27,
-        "title": "Arterial compliance probe for cuffless evaluation of carotid pulse pressure",
-        "paperLink": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0202480",
-        "authors": [
+        "Authors": [
             "Jayaraj Joseph",
             "Nabeel PM",
             "Malay Ilesh Shah",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "16 August 2018",
-        "conference": "PloS one",
-        "pages": "13",
-        "publisher": "8",
-        "description": "e0202480",
-        "citations": 0
+        "Publication date": "2018/8/16",
+        "Journal": "PLoS One",
+        "Volume": "13",
+        "Issue": "8",
+        "Pages": "e0202480",
+        "Publisher": "Public Library of Science",
+        "Description": "Objective Assessment of local arterial properties has become increasingly important in cardiovascular research as well as in clinical domains. Vascular wall stiffness indices are related to local pulse pressure (ΔP) level, mechanical and geometrical characteristics of the arterial vessel. Non-invasive evaluation of local ΔP from the central arteries (aorta and carotid) is not straightforward in a non-specialist clinical setting. In this work, we present a method and system for real-time and beat-by-beat evaluation of local ΔP from superficial arteries—a non-invasive, cuffless and calibration-free technique.   Methods The proposed technique uses a bi-modal arterial compliance probe which consisted of two identical magnetic plethysmograph (MPG) sensors located at 23 mm distance apart and a single-element ultrasound transducer. Simultaneously measured local pulse wave velocity (PWV) and arterial dimensions were used in a mathematical model for calibration-free evaluation of local ΔP. The proposed approach was initially verified using an arterial flow phantom, with invasive pressure catheter as the reference device. The developed porotype device was validated on 22 normotensive human subjects (age = 24.5 ± 4 years). Two independent measurements of local ΔP from the carotid artery were made during physically relaxed and post-exercise condition.   Results Phantom-based verification study yielded a correlation coefficient (r) of 0.93 (p < 0.001) for estimated ΔP versus reference brachial ΔP, with a non-significant bias and standard deviation of error equal to 1.11 mmHg and ±1.97 mmHg respectively. The ability of the developed system to …",
+        "Total citations": "32",
+        "Scholar articles": "Arterial compliance probe for cuffless evaluation of carotid pulse pressureJ Joseph, N PM, MI Shah, M Sivaprakasam - PLoS One, 2018Cited by 32 Related articles All 10 versions"
     },
     {
         "index": 28,
-        "title": "A paper microfluidics-based fluorescent lateral flow immunoassay for point-of-care diagnostics of non-communicable diseases",
-        "paperLink": "https://pubs.rsc.org/en/content/articlehtml/2019/an/c9an01382b",
-        "authors": [
+        "Authors": [
             "Satheesh Natarajan",
             "Fengmei Su",
             "Joseph Jayaraj",
             "Malay I Iesh Shah",
             "Youju Huang"
         ],
-        "publicationDate": "Invalid Date",
-        "conference": "Analyst",
-        "pages": "144",
-        "publisher": "21",
-        "description": "6291-6303",
-        "citations": 0
+        "Publication date": "2019",
+        "Journal": "Analyst",
+        "Volume": "144",
+        "Issue": "21",
+        "Pages": "6291-6303",
+        "Publisher": "Royal Society of Chemistry",
+        "Description": "In the emergency diagnosis of patients, acute myocardial infarction (AMI) is always time-consuming to diagnose, and the process requires multiple laboratory procedures, expensive equipment and skilled workers. Herein, we developed an easy-to-use, low-cost and portable fluorescent lateral flow immunoassay based on paper microfluidics for the point-of-care diagnostics of non-communicable diseases. The fluorescent lateral flow immunoassay can produce results in less than 10 minutes, and the limit of detection (LOD) is 0.019 ng ml−1. The slope was linear from 0 to 100 ng ml−1; the equation is y = 0.0342e2.1181x and R2 = 0.9618, which are distinctive features that ensure maximum amplification of the signal and recording of quantitative values by an analyser. The detection sensitivity showed an exceptional increase to 0.01 ng ml−1. Compared with conventional bioassay readers, our analyser shows some …",
+        "Total citations": "31",
+        "Scholar articles": "A paper microfluidics-based fluorescent lateral flow immunoassay for point-of-care diagnostics of non-communicable diseasesS Natarajan, F Su, J Jayaraj, MII Shah, Y Huang - Analyst, 2019Cited by 31 Related articles All 5 versions"
     },
     {
         "index": 29,
-        "title": "Evaluation of the algorithm for automatic identification of the common carotid artery in ARTSENS",
-        "paperLink": "https://iopscience.iop.org/article/10.1088/0967-3334/35/7/1299/meta",
-        "authors": [
+        "Authors": [
             "Ashish Kumar Sahani",
             "Jayaraj Joseph",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "22 May 2014",
-        "conference": "Physiological measurement",
-        "pages": "35",
-        "publisher": "7",
-        "description": "1299",
-        "citations": 0
+        "Publication date": "2014/5/22",
+        "Journal": "Physiological measurement",
+        "Volume": "35",
+        "Issue": "7",
+        "Pages": "1299",
+        "Publisher": "IOP Publishing",
+        "Description": "Arterial compliance (AC) is an indicator of the risk of cardiovascular diseases (CVDs) and it is generally estimated by B-mode ultrasound investigation. The number of sonologists in low-and middle-income countries is very disproportionate to the extent of CVD. To bridge this gap we are developing an image-free CVD risk screening tool–arterial stiffness evaluation for non-invasive screening (ARTSENS™) which can be operated with minimal training. ARTSENS uses a single element ultrasound transducer to investigate the wall dynamics of the common carotid artery (CCA) and subsequently measure the AC. Identification of the proximal and distal walls of the CCA, in the ultrasound frames, is an important step in the process of the measurement of AC. The image-free nature of ARTSENS creates some unique issues which necessitate the development of a new algorithm that can automatically identify the CCA from a …",
+        "Total citations": "30",
+        "Scholar articles": "Evaluation of the algorithm for automatic identification of the common carotid artery in ARTSENSAK Sahani, J Joseph, M Sivaprakasam - Physiological measurement, 2014Cited by 30 Related articles All 6 versions"
     },
     {
         "index": 30,
-        "title": "Development and evaluation of a quantitative fluorescent lateral flow immunoassay for cystatin-C, a renal dysfunction biomarker",
-        "paperLink": "https://www.mdpi.com/1424-8220/21/9/3178",
-        "authors": [
+        "Authors": [
             "Satheesh Natarajan",
             "Maria C DeRosa",
             "Malay Ilesh Shah",
             "Joseph Jayaraj"
         ],
-        "publicationDate": "03 May 2021",
-        "conference": "Sensors",
-        "pages": "21",
-        "publisher": "9",
-        "description": "3178",
-        "citations": 0
+        "Publication date": "2021/5/3",
+        "Journal": "Sensors",
+        "Volume": "21",
+        "Issue": "9",
+        "Pages": "3178",
+        "Publisher": "MDPI",
+        "Description": "The diagnosis, prognosis, and control of chronic kidney disease rely on an understanding of the glomerular filtration rate (GFR). The renal clearance of the cystatin-C is closely associated with the GFR. Cystatin-C is a more suitable GFR marker than the commonly used creatinine. General techniques for cystatin-C calculation, such as particle-enhanced turbidimetric and nephelometric assay, are time-consuming and tedious. Here, we propose a rapid, quantitative immunoassay for the detection of cystatin-C. A fluorescence-based lateral-flow kit was developed in a sandwich format by using a monoclonal antibody. A Linear calibration was obtained over the clinical diagnostic range of 0.023–32 µg/mL and the limit of detection (LOD) was 0.023 µg/mL and the limit of quantification (LOQ) was 0.029 µg/mL. Average recoveries from spiked urine samples ranged from 96–100% and the coefficient of variation was less than 4% for both intra and inter-day assays with excellent repeatability. With the comparison with an ELISA kit, the developed kit is highly sensitive, performs well over the detection range, provides repeatable results in a short time, and can easily be used at point-of-care (POC), making it an ideal candidate for rapid testing in early detection, community screening for renal function disorders.",
+        "Total citations": "31",
+        "Scholar articles": "Development and evaluation of a quantitative fluorescent lateral flow immunoassay for cystatin-C, a renal dysfunction biomarkerS Natarajan, MC DeRosa, MI Shah, J Jayaraj - Sensors, 2021Cited by 31 Related articles All 9 versions"
     },
     {
         "index": 31,
-        "title": "Image-free ultrasound for local and regional vascular stiffness assessment: The ARTSENS Plus",
-        "paperLink": "https://journals.lww.com/jhypertension/fulltext/2022/08000/image_free_ultrasound_for_local_and_regional.12.aspx",
-        "authors": [
+        "Authors": [
             "PM Nabeel",
             "Kiran V Raj",
             "Jayaraj Joseph"
         ],
-        "publicationDate": "01 August 2022",
-        "conference": "Journal of Hypertension",
-        "pages": "40",
-        "publisher": "8",
-        "description": "1537-1544",
-        "citations": 0
+        "Publication date": "2022/8/1",
+        "Journal": "Journal of Hypertension",
+        "Volume": "40",
+        "Issue": "8",
+        "Pages": "1537-1544",
+        "Publisher": "LWW",
+        "Description": "Objective:The combined assessment of vascular health markers is crucial for identifying the cumulative burden of vascular risk factors early on, as well as the extent of vascular aging for effective prediction of future cardiovascular events. This work addresses the need for a currently nonexistent device or system that facilitates such combined assessment in clinical practice and large-scale screening settings. We report an image-free ultrasound device–ARTSENS Plus–developed for the measurement of local and regional arterial stiffness, central and peripheral blood pressure (BP), and vessel dimensions, all in one examination.Methods:A preclinical study on 90 asymptomatic individuals verified the device's functionality under ARTERY Society guidelines. The device's accuracy of stiffness measures was validated against the reference measures.Results:The interoperator and intraoperator variability was less than 7 …",
+        "Total citations": "30",
+        "Scholar articles": "Image-free ultrasound for local and regional vascular stiffness assessment: the ARTSENS PlusPM Nabeel, KV Raj, J Joseph - Journal of Hypertension, 2022Cited by 30 Related articles All 4 versions"
     },
     {
         "index": 32,
-        "title": "Automated measurement of compression-decompression in arterial diameter and wall thickness by image-free ultrasound",
-        "paperLink": "https://www.sciencedirect.com/science/article/pii/S0169260720300419",
-        "authors": [
+        "Authors": [
             "Kiran V Raj",
             "Jayaraj Joseph",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "01 October 2020",
-        "conference": "Computer Methods and Programs in Biomedicine",
-        "pages": "194",
-        "publisher": "105557",
-        "description": "Elsevier",
-        "citations": 0
+        "Publication date": "2020/10/1",
+        "Journal": "Computer Methods and Programs in Biomedicine",
+        "Volume": "194",
+        "Pages": "105557",
+        "Publisher": "Elsevier",
+        "Description": "Background and objectiveThe manual measurement of arterial diameter and wall thickness using imaging modalities demand expertise, and the state-of-art automated or semi-automated measurement features are seldom available in the entry-level systems. The advanced ultrasound modalities are expensive, non-scalable, and less favorable for field and resource-constrained settings. In this work, we present a novel method to measure arterial diameter (D), surrogate intima-media thickness (sIMT), and with them their intra-cardiac cycle changes by employing an affordable image-free ultrasound technology.MethodsThe functionality of the method was systematically validated on a simulation testbed, phantoms and, 40 human subjects. The accuracy, agreement, inter-beat, and inter-operator variabilities were quantified. The in-vivo measurement performance of the method was compared against two reference B …",
+        "Total citations": "27",
+        "Scholar articles": "Automated measurement of compression-decompression in arterial diameter and wall thickness by image-free ultrasoundKV Raj, J Joseph, M Sivaprakasam - Computer Methods and Programs in Biomedicine, 2020Cited by 27 Related articles All 3 versions"
     },
     {
         "index": 33,
-        "title": "Dry electrode optimization for wrist-based electrodermal activity monitoring",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/8438595/",
-        "authors": [
+        "Authors": [
             "AS Anusha",
             "SP Preejith",
             "Tony J Akl",
             "Jayaraj Joseph",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "11 June 2018",
-        "conference": "2018 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
-        "pages": "1-6",
-        "publisher": "IEEE",
-        "description": "Recent years of healthcare research has shown an increasing demand and interest in wearable personal healthcare systems. This, when combined with the superior utility of Electrodermal activity (EDA) for diverse applications ranging from market research to human stress and sleep quality analysis to seizure detection have driven significant interest towards optimizing dry electrode designs for EDA monitoring. The conventional wet adhesive Ag/AgCl electrodes, which is the gold standard, is used almost universally and provide excellent signal quality. However, they are less comfortable and not suitable for wearable scenarios that involve continuous long-term monitoring. This study focuses on identifying an optimum dry electrode configuration for monitoring EDA from the wrist. It is hypothesized that parameters like electrode material, interelectrode distance and anatomical location of measurement influence the …",
-        "citations": 27
+        "Publication date": "2018/6/11",
+        "Conference": "2018 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "Recent years of healthcare research has shown an increasing demand and interest in wearable personal healthcare systems. This, when combined with the superior utility of Electrodermal activity (EDA) for diverse applications ranging from market research to human stress and sleep quality analysis to seizure detection have driven significant interest towards optimizing dry electrode designs for EDA monitoring. The conventional wet adhesive Ag/AgCl electrodes, which is the gold standard, is used almost universally and provide excellent signal quality. However, they are less comfortable and not suitable for wearable scenarios that involve continuous long-term monitoring. This study focuses on identifying an optimum dry electrode configuration for monitoring EDA from the wrist. It is hypothesized that parameters like electrode material, interelectrode distance and anatomical location of measurement influence the …",
+        "Total citations": "27",
+        "Scholar articles": "Dry electrode optimization for wrist-based electrodermal activity monitoringAS Anusha, SP Preejith, TJ Akl, J Joseph… - 2018 IEEE International Symposium on Medical …, 2018Cited by 27 Related articles All 2 versions"
     },
     {
         "index": 34,
-        "title": "Magnetic plethysmograph transducers for local blood pulse wave velocity measurement",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/6943995/",
-        "authors": [
+        "Authors": [
             "PM Nabeel",
             "Jayaraj Joseph",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "26 August 2014",
-        "conference": "2014 36th Annual International Conference of the IEEE Engineering in Medicine and Biology Society",
-        "pages": "1953-1956",
-        "publisher": "IEEE",
-        "description": "We present the design of magnetic plethysmograph (MPG) transducers for detection of blood pulse waveform and evaluation of local pulse wave velocity (PWV), for potential use in cuffless blood pressure (BP) monitoring. The sensors utilize a Hall effect magnetic field sensor to capture the blood pulse waveform. A strap based design is performed to enable reliable capture of large number of cardiac cycles with relative ease. The ability of the transducer to consistently detect the blood pulse is verified by in-vivo trials on few volunteers. A duality of such transducers is utilized to capture the local PWV at the carotid artery. The pulse transit time (PTT) between the two detected pulse waveforms, measured along a small section of the carotid artery, was evaluated using automated algorithms to ensure consistency of measurements. The correlation between the measured values of local PWV and BP was also investigated …",
-        "citations": 27
+        "Publication date": "2014/8/26",
+        "Conference": "2014 36th Annual International Conference of the IEEE Engineering in Medicine and Biology Society",
+        "Pages": "1953-1956",
+        "Publisher": "IEEE",
+        "Description": "We present the design of magnetic plethysmograph (MPG) transducers for detection of blood pulse waveform and evaluation of local pulse wave velocity (PWV), for potential use in cuffless blood pressure (BP) monitoring. The sensors utilize a Hall effect magnetic field sensor to capture the blood pulse waveform. A strap based design is performed to enable reliable capture of large number of cardiac cycles with relative ease. The ability of the transducer to consistently detect the blood pulse is verified by in-vivo trials on few volunteers. A duality of such transducers is utilized to capture the local PWV at the carotid artery. The pulse transit time (PTT) between the two detected pulse waveforms, measured along a small section of the carotid artery, was evaluated using automated algorithms to ensure consistency of measurements. The correlation between the measured values of local PWV and BP was also investigated …",
+        "Total citations": "27",
+        "Scholar articles": "Magnetic plethysmograph transducers for local blood pulse wave velocity measurementPM Nabeel, J Joseph, M Sivaprakasam - 2014 36th Annual International Conference of the IEEE …, 2014Cited by 27 Related articles All 5 versions"
     },
     {
         "index": 35,
-        "title": "An imageless ultrasound device to measure local and regional arterial stiffness",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/7058450/",
-        "authors": [
+        "Authors": [
             "Ashish Kumar Sahani",
             "Malay Ilesh Shah",
             "Ravikumar Radhakrishnan",
             "Jayaraj Joseph",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "11 March 2015",
-        "conference": "IEEE transactions on biomedical circuits and systems",
-        "pages": "10",
-        "publisher": "1",
-        "description": "200-208",
-        "citations": 0
+        "Publication date": "2015/3/11",
+        "Journal": "IEEE transactions on biomedical circuits and systems",
+        "Volume": "10",
+        "Issue": "1",
+        "Pages": "200-208",
+        "Publisher": "IEEE",
+        "Description": "Arterial stiffness (AS) has been shown to be an important marker for risk assessment of cardiovascular events. Local arterial stiffness (LAS) is conventionally measured by evaluating arterial distensibility at particular arterial sites through ultrasound imaging systems. Regional arterial stiffness (RAS) is generally obtained by evaluating carotid to femoral pulse wave velocity (cfPWV) through tonometric devices. RAS has a better prognostic value than LAS and cfPWV is considered as the gold standard of AS. Over the past few years our group has been developing ARTerial Stiffness Evaluation for Non-Invasive Screening (ARTSENS), an inexpensive and portable device to measure the LAS. It uses a single element ultrasound transducer to obtain A-Mode frames from the desired artery and is fully automated to enable a non-expert to perform measurements. In this work, we report an extension of ARTSENS to enable …",
+        "Total citations": "26",
+        "Scholar articles": "An imageless ultrasound device to measure local and regional arterial stiffnessAK Sahani, MI Shah, R Radhakrishnan, J Joseph… - IEEE transactions on biomedical circuits and systems, 2015Cited by 26 Related articles All 4 versions"
     },
     {
         "index": 36,
-        "title": "Variation in local pulse wave velocity over the cardiac cycle: in-vivo validation using dual-MPG arterial compliance probe",
-        "paperLink": "https://d-nb.info/1193656540/34#page=113",
-        "authors": [
+        "Authors": [
             "PM Nabeel",
             "Jayaraj Joseph",
             "Mohanasankar Sivaprakasam"
         ],
-        "publicationDate": "Invalid Date",
-        "conference": "13th Russ. Conf. Biomed. Eng.",
-        "pages": "June",
-        "publisher": "100-103",
-        "description": "The biomechanical characteristics of arterial vessels assessed from a short segment (local estimates) are key cardiovascular clinical markers [1]. Local measurement of artery condition has the potential to quantify the prognostic value for the prediction of cardiovascular morbidity and mortality. The elastic properties of large arteries affect locally during the pathophysiological process of various vascular disease such as atherosclerosis [2]. Pulse wave velocity assessed from a short vessel segment (local PWV) has been considered as an indicator of arterial stiffness. Local PWV is shown to correlate well with the mechanical characteristics of an artery over a wide physiological range [1, 3]. Researchers have demonstrated the potential of local PWV to evaluate blood pressure (BP) parameters locally from an artery without using the conventional bladder-type pressure cuff (cuffless technique)[4–6]. Simultaneously measured local PWV, arterial dimensions and local BP parameters are essential to accurately characterize and quantify the elastic behavior of central and peripheral arteries [1].A standard approach for local PWV measurement relies on simultaneous acquisition of the propagating blood pulse waves from two distinct locations at a known separation distance (ΔX) within a small arterial segment. Time taken for the blood pulse wave to travel ΔX distance (pulse transit time [ΔT]), is obtained as the time delay between an identifiable point (fiducial point) on the proximal and distal pulse cycle pair. Following the fundamental distance-time equation, local PWV is then calculated as; Local PWV= ΔX/ΔT. Typically, only one measure of local PWV per …",
-        "citations": 25
+        "Publication date": "2018/6",
+        "Conference": "13th Russ. Conf. Biomed. Eng.",
+        "Issue": "June",
+        "Pages": "100-103",
+        "Description": "The biomechanical characteristics of arterial vessels assessed from a short segment (local estimates) are key cardiovascular clinical markers [1]. Local measurement of artery condition has the potential to quantify the prognostic value for the prediction of cardiovascular morbidity and mortality. The elastic properties of large arteries affect locally during the pathophysiological process of various vascular disease such as atherosclerosis [2]. Pulse wave velocity assessed from a short vessel segment (local PWV) has been considered as an indicator of arterial stiffness. Local PWV is shown to correlate well with the mechanical characteristics of an artery over a wide physiological range [1, 3]. Researchers have demonstrated the potential of local PWV to evaluate blood pressure (BP) parameters locally from an artery without using the conventional bladder-type pressure cuff (cuffless technique)[4–6]. Simultaneously measured local PWV, arterial dimensions and local BP parameters are essential to accurately characterize and quantify the elastic behavior of central and peripheral arteries [1].A standard approach for local PWV measurement relies on simultaneous acquisition of the propagating blood pulse waves from two distinct locations at a known separation distance (ΔX) within a small arterial segment. Time taken for the blood pulse wave to travel ΔX distance (pulse transit time [ΔT]), is obtained as the time delay between an identifiable point (fiducial point) on the proximal and distal pulse cycle pair. Following the fundamental distance-time equation, local PWV is then calculated as; Local PWV= ΔX/ΔT. Typically, only one measure of local PWV per …",
+        "Total citations": "25",
+        "Scholar articles": "Variation in local pulse wave velocity over the cardiac cycle: in-vivo validation using dual-MPG arterial compliance probePM Nabeel, J Joseph, M Sivaprakasam - 13th Russ. Conf. Biomed. Eng., 2018Cited by 25 Related articles All 8 versions"
     },
     {
         "index": 37,
-        "title": "Camera fusion for real-time temperature monitoring of neonates using deep learning",
-        "paperLink": "https://link.springer.com/article/10.1007/s11517-022-02561-9",
-        "authors": [
+        "Authors": [
             "Simon Lyra",
             "Jöran Rixen",
             "Konrad Heimann",
@@ -657,279 +655,14 @@
             "Steffen Leonhardt",
             "Christoph Hoog Antink"
         ],
-        "publicationDate": "Invalid Date",
-        "conference": "Medical & Biological Engineering & Computing",
-        "pages": "60",
-        "publisher": "6",
-        "description": "1787-1800",
-        "citations": 0
-    },
-    {
-        "index": 38,
-        "title": "Accelerometric patch probe for cuffless blood pressure evaluation from carotid local pulse wave velocity: Design, development, and in vivo experimental study",
-        "paperLink": "https://iopscience.iop.org/article/10.1088/2057-1976/ab1a82/meta",
-        "authors": [
-            "R Arathy",
-            "PM Nabeel",
-            "Jayaraj Joseph",
-            "Mohanasankar Sivaprakasam"
-        ],
-        "publicationDate": "27 May 2019",
-        "conference": "Biomedical Physics & Engineering Express",
-        "pages": "5",
-        "publisher": "4",
-        "description": "045010",
-        "citations": 0
-    },
-    {
-        "index": 39,
-        "title": "Clinical validation of a wearable respiratory rate device for neonatal monitoring",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/8512548/",
-        "authors": [
-            "A Antony Raj",
-            "SP Preejith",
-            "Vijai Shankar Raja",
-            "Jayaraj Joseph",
-            "Mohanasankar Sivaprakasam"
-        ],
-        "publicationDate": "18 July 2018",
-        "conference": "2018 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
-        "pages": "1628-1631",
-        "publisher": "IEEE",
-        "description": "Respiratory rate monitoring is of paramount importance in neonatal care. Manual counting of expansions and contractions of the abdomen or diaphragm of the neonate is still the widely accepted measure of respiratory rate in most clinical settings. A practical, affordable, easy-to-use technology to continuously measure respiratory rate in neonates is essential to recognize the signs and symptoms of respiratory disorders. Clinical validation of a system for continuous and long term respiratory rate monitoring of neonates, in a wearable form factor with the capability of remote monitoring is presented in this paper. The respiratory rate monitor was validated in clinical settings on 10 premature babies with various disease conditions and respiratory rates varying from 25 to 90 breaths per minute. Results show a high degree of correlation between the respiratory rate measured by the device and reference measurements. An …",
-        "citations": 23
-    },
-    {
-        "index": 40,
-        "title": "Experimental validation of dual PPG local pulse wave velocity probe",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/7985911/",
-        "authors": [
-            "PM Nabeel",
-            "Srinivasa Karthik",
-            "Jayaraj Joseph",
-            "Mohanasankar Sivaprakasam"
-        ],
-        "publicationDate": "07 May 2017",
-        "conference": "2017 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
-        "pages": "408-413",
-        "publisher": "IEEE",
-        "description": "A novel dual photoplethysmograph (PPG) probe and measurement system for local pulse wave velocity (PWV) is proposed and demonstrated. The developed probe design employs reflectance PPG transducers for non-invasive detection of blood pulse propagation waveforms from two adjacent measurement points (28 mm apart). Transit time delay between the continuously acquired dual pulse waveform was used for beat-to-beat local PWV measurement. An in-vivo experimental validation study was conducted on 10 healthy volunteers (8 male and 2 female, 21 to 33 years of age) to validate the PPG probe design and developed local PWV measurement system. The proposed system was able to measure carotid local PWV from multiple subjects. Beat-to-beat variation of baseline carotid PWV was less than 7.5% for 7 out of 10 subjects, a maximum beat-to-beat variation of 16% was observed during the study …",
-        "citations": 23
-    },
-    {
-        "index": 41,
-        "title": "Cataract surgery in mobile eye surgical unit: Safe and viable alternative",
-        "paperLink": "https://journals.lww.com/ijo/fulltext/2016/64110/cataract_surgery_in_mobile_eye_surgical_unit__safe.9.aspx",
-        "authors": [
-            "Rajesh Pioneer Sangameswaran",
-            "Gajendra Kumar Verma",
-            "Narayanan Raghavan",
-            "Jayaraj Joseph",
-            "Mohanasankar Sivaprakasam"
-        ],
-        "publicationDate": "01 November 2016",
-        "conference": "Indian Journal of Ophthalmology",
-        "pages": "64",
-        "publisher": "11",
-        "description": "835-839",
-        "citations": 0
-    },
-    {
-        "index": 42,
-        "title": "Single source photoplethysmograph transducer for local pulse wave velocity measurement",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/7591667/",
-        "authors": [
-            "PM Nabeel",
-            "Jayaraj Joseph",
-            "Vartika Awasthi",
-            "Mohanasankar Sivaprakasam"
-        ],
-        "publicationDate": "16 August 2016",
-        "conference": "2016 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
-        "pages": "4256-4259",
-        "publisher": "IEEE",
-        "description": "Cuffless evaluation of arterial blood pressure (BP) using pulse wave velocity (PWV) has received attraction over the years. Local PWV based techniques for cuffless BP measurement has more potential in accurate estimation of BP parameters. In this work, we present the design and experimental validation of a novel single-source Photoplethysmograph (PPG) transducer for arterial blood pulse detection and cycle-to-cycle local PWV measurement. The ability of the transducer to continuously measure local PWV was verified using arterial flow phantom as well as by conducting an in-vivo study on 17 volunteers. The single-source PPG transducer could reliably acquire dual blood pulse waveforms, along small artery sections of length less than 28 mm. The transducer was able to perform repeatable measurements of carotid local PWV on multiple subjects with maximum beat-to-beat variation less than 12%. The …",
-        "citations": 22
-    },
-    {
-        "index": 43,
-        "title": "Electrodermal activity based classification of induced stress in a controlled setting",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/8438703/",
-        "authors": [
-            "S Amalan",
-            "A Shyam",
-            "AS Anusha",
-            "SP Preejith",
-            "Akl Tony",
-            "Joseph Jayaraj",
-            "Sivaprakasam Mohanasankar"
-        ],
-        "publicationDate": "11 June 2018",
-        "conference": "2018 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
-        "pages": "1-6",
-        "publisher": "IEEE",
-        "description": "It has become common for people to experience stress, mainly because of its eclectic nature - physical, psychological, emotional, social, etc. Unmonitored stress may prove harmful to one's health resulting in even chronic diseases. Since stress is very subjective, stress management is not straightforward. Many attempts have been made to detect and quantify stress. However, an accurate assessment can be made from physiological measurements only. In this study, we have demonstrated how electrodermal activity (EDA), which represents the sympathetic response to stress, could be used for accurate classification of stress by developing a machine learning based classification model. 30 participants were subjected to Trier Social Stress Test (TSST), and EDA and accelerometer data were recorded using a wrist-worn device. Datasets containing stress and non-stress periods were segmented and manually tagged …",
-        "citations": 21
-    },
-    {
-        "index": 44,
-        "title": "An accelerometer probe for local pulse wave velocity measurement",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/7985914/",
-        "authors": [
-            "R Arathy",
-            "PM Nabeel",
-            "Jayaraj Joseph",
-            "Mohanasankar Sivaprakasam",
-            "Vartika Awasthi"
-        ],
-        "publicationDate": "07 May 2017",
-        "conference": "2017 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
-        "pages": "426-431",
-        "publisher": "IEEE",
-        "description": "The velocity of propagation of arterial blood pulse signals obtained from a smaller arterial section referred as local pulse wave velocity (PWV) is an index of cardiovascular events of a particular artery. In this work, we introduce a novel design of accelerometer probe for local PWV measurement from the carotid artery. The proposed probe was developed using highly sensitive dual MEMS accelerometers. The probe design with tiny dual element sensors was capable of simultaneously acquiring acceleration signals generated due to arterial wall displacement towards the skin surface. Measurements were performed from carotid artery over a smaller arterial section of length 24 mm. The ability of the probe to acquire continuous arterial waveforms and cycle-to-cycle local PWV measurement was verified by conducting an in-vivo test in multiple subjects (11 volunteers aged between 20 – 60 years) under controlled …",
-        "citations": 21
-    },
-    {
-        "index": 45,
-        "title": "A novel time-resolved fluorescent lateral flow immunoassay for quantitative detection of the trauma brain injury biomarker-glial fibrillary acidic protein",
-        "paperLink": "https://pubs.rsc.org/en/content/articlehtml/2022/sd/d1sd00021g",
-        "authors": [
-            "Satheesh Natarajan",
-            "Jayaraj Joseph"
-        ],
-        "publicationDate": "Invalid Date",
-        "conference": "Sensors & Diagnostics",
-        "pages": "1",
-        "publisher": "1",
-        "description": "193-197",
-        "citations": 0
-    },
-    {
-        "index": 46,
-        "title": "Methodological and measurement concerns of local pulse wave velocity assessment",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/8802181/",
-        "authors": [
-            "PM Nabeel",
-            "Jayaraj Joseph",
-            "Mohanasankar Sivaprakasam"
-        ],
-        "publicationDate": "26 June 2019",
-        "conference": "2019 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
-        "pages": "1-6",
-        "publisher": "IEEE",
-        "description": "Local pulse wave velocity (local PWV) provides localized information on the stiffness of a particular segment of the heterogeneous arterial bed. As a screening tool for a host of cardiovascular events and hypertension, high accuracies may not be required for the local PWV measures. However, such high accuracies are required when the yielded local PWV measures are directly used for calculations of other biomechanical and physiological parameters. There are several techniques for measuring local PWV and each possesses its own methodological challenges and considerations for ensuring accuracy. This work focuses on the salient methodological and measurement concerns of the transit time-based local PWV evaluation techniques while pinpointing the ones that are equally applicable to the other approaches. To demonstrate these concerns, we have used our extensively validated image-free ultrasound …",
-        "citations": 20
-    },
-    {
-        "index": 47,
-        "title": "Evaluation of local pulse wave velocity using an image free ultrasound technique",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/8438649/",
-        "authors": [
-            "PM Nabeel",
-            "Jayaraj Joseph",
-            "Malay Ilesh Shah",
-            "Mohanasankar Sivaprakasam"
-        ],
-        "publicationDate": "11 June 2018",
-        "conference": "2018 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
-        "pages": "1-6",
-        "publisher": "IEEE",
-        "description": "Pulse wave velocity (PWV) measured over small arterial sections provide localized elastic characteristics, which helps assessment of the subtle progressions of various cardiovascular diseases. Several ultrasound-based techniques that are reported, require high frame rate imaging for performing accurate measurements of local PWV. In this work, an image free ultrasound method for evaluation of local PWV is proposed. The technique uses a novel dual element ultrasound probe for simultaneous capturing of A-scan frames (frame rate = 10 kHz) from two arterial sites located 35 mm apart. Our clinically validated ARTSENS technology was used to obtain high fidelity of distension waveforms by processing the acquired frames. The high frame rate acquisition enabled measurement of pulse transit time with a resolution of 0.1 ms for reliable evaluation of local PWV. The functionality of the developed prototype system …",
-        "citations": 20
-    },
-    {
-        "index": 48,
-        "title": "Continuous weight monitoring system for ICU beds using air-filled mattresses/pads: a proof of concept",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/8802148/",
-        "authors": [
-            "Rahul Manoj",
-            "Ramdayalan Kumarasami",
-            "Jayaraj Joseph",
-            "Boby George",
-            "Mohanasankar Sivaprakasam"
-        ],
-        "publicationDate": "26 June 2019",
-        "conference": "2019 IEEE international symposium on medical measurements and applications (MeMeA)",
-        "pages": "1-5",
-        "publisher": "IEEE",
-        "description": "Fluctuations in body fluids can have adverse effects such as dehydration, swelling and related pathologies due to low maintenance of homeostasis. The risk increases if the person is critically ill and bed-ridden. Changes in body weight in short intervals is the primary indicator for body fluid imbalances. Clinical practice involves the use of a dedicated weighing scale/lift scale, detachable/built-in units of weighing scale on the legs of hospital beds and integrated bed scales. These methods have limited mobility and usability in a clinical setting or higher cost. We propose a novel sensing module integrated with air-filled mattress for monitoring human body weight at periodic intervals. The method uses the air pressure of a mattress as a measure of changes in weight. The design was made modular so that it can be easily coupled into any hospital beds. A linear fit with R2=0.98 and R2 = 0.99 was obtained respectively for …",
-        "citations": 19
-    },
-    {
-        "index": 49,
-        "title": "Carotid and jugular classification in ARTSENS",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/7041165/",
-        "authors": [
-            "Ashish Kumar Sahani",
-            "Malay Ilesh Shah",
-            "Jayaraj Joseph",
-            "Mohanasankar Sivaprakasam"
-        ],
-        "publicationDate": "12 February 2015",
-        "conference": "IEEE Journal of Biomedical and Health Informatics",
-        "pages": "20",
-        "publisher": "2",
-        "description": "440-449",
-        "citations": 0
-    },
-    {
-        "index": 50,
-        "title": "ARTSENS-An image-free system for noninvasive evaluation of arterial compliance",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/6610435/",
-        "authors": [
-            "Jayaraj Joseph",
-            "Emy Anu Thomas",
-            "Mohanasankar Sivaprakasam",
-            "S Suresh"
-        ],
-        "publicationDate": "03 July 2013",
-        "conference": "2013 35th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
-        "pages": "4054-4057",
-        "publisher": "IEEE",
-        "description": "Evaluation of arterial compliance is significant in cardiovascular diagnosis for early detection of coronary heart disease. We present ARTSENS, an image-free system for non-invasive evaluation of arterial compliance in-vivo. The system utilizes a single element ultrasound probe with intelligent measurement algorithms to ensure accurate evaluation of local arterial compliance without an image. The ability of the system to detect artery anatomy and measure compliance was verified by in-vivo measurements conducted on 106 subjects. The accuracy of compliance estimates were evaluated by comparison with a state of art imaging system. The measurements made using ARTSENS showed strong correlation with those made using the imaging system. The ability of ARTSENS to detect age-related trends in arterial compliance was also investigated.",
-        "citations": 19
-    },
-    {
-        "index": 51,
-        "title": "Long-term cardiovascular health status and physical functioning of nonhospitalized patients with COVID-19 compared with non-COVID-19 controls",
-        "paperLink": "https://journals.physiology.org/doi/abs/10.1152/ajpheart.00335.2022",
-        "authors": [
-            "Koen M van der Sluijs",
-            "Esmée A Bakker",
-            "Tim J Schuijt",
-            "Jayaraj Joseph",
-            "Maryam Kavousi",
-            "Geert-Jan Geersing",
-            "Frans H Rutten",
-            "Yvonne AW Hartman",
-            "Dick HJ Thijssen",
-            "Thijs MH Eijsvogels"
-        ],
-        "publicationDate": "01 January 2023",
-        "conference": "American Journal of Physiology-Heart and Circulatory Physiology",
-        "pages": "324",
-        "publisher": "1",
-        "description": "H47-H56",
-        "citations": 0
-    },
-    {
-        "index": 52,
-        "title": "Deep network for capacitive ECG denoising",
-        "paperLink": "https://ieeexplore.ieee.org/abstract/document/8802155/",
-        "authors": [
-            "Vignesh Ravichandran",
-            "Balamurali Murugesan",
-            "Sharath M Shankaranarayana",
-            "Keerthi Ram",
-            "Preejith SP",
-            "Jayaraj Joseph",
-            "Mohanasankar Sivaprakasam"
-        ],
-        "publicationDate": "26 June 2019",
-        "conference": "2019 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
-        "pages": "1-6",
-        "publisher": "IEEE",
-        "description": "Continuous monitoring of cardiac health under free living condition is crucial to provide effective care for patients undergoing post operative recovery and individuals with high cardiac risk like the elderly. Capacitive Electrocardiogram (cECG) is one such technology which allows comfortable and long term monitoring through its ability to measure biopotential in conditions without having skin contact. cECG monitoring can be done using many household objects like chairs, beds and even car seats allowing for seamless monitoring of individuals. This method is unfortunately highly susceptible to motion artifacts which greatly limits its usage in clinical practice. The current use of cECG systems has been limited to performing rhythmic analysis. In this paper we propose a novel end-to-end deep learning architecture to perform the task of denoising capacitive ECG. The proposed network is trained using motion corrupted …",
-        "citations": 18
+        "Publication date": "2022/6",
+        "Journal": "Medical & Biological Engineering & Computing",
+        "Volume": "60",
+        "Issue": "6",
+        "Pages": "1787-1800",
+        "Publisher": "Springer Berlin Heidelberg",
+        "Description": "The continuous monitoring of vital signs is a crucial aspect of medical care in neonatal intensive care units. Since cable-based sensors pose a potential risk for the immature skin of preterm infants, unobtrusive monitoring techniques using camera systems are increasingly investigated. The combination of deep learning–based algorithms and camera modalities such as RGB and infrared thermography can improve the development of cable-free methods for the extraction of vital parameters. In this study, a real-time approach for local extraction of temperatures on the body surface of neonates using a multi-modal clinical dataset was implemented. Therefore, a trained deep learning–based keypoint detector was used for body landmark prediction in RGB. Image registration was conducted to transfer the RGB points to the corresponding thermographic recordings. These landmarks were used to extract the body surface …",
+        "Total citations": "23",
+        "Scholar articles": "Camera fusion for real-time temperature monitoring of neonates using deep learningS Lyra, J Rixen, K Heimann, S Karthik, J Joseph… - Medical & Biological Engineering & Computing, 2022Cited by 23 Related articles All 13 versions"
     }
 ]

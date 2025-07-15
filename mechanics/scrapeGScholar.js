@@ -97,26 +97,22 @@ async function fetchPaperDetails(link, retries = 3) {
 
     const title = $(".gsc_oci_title_link").text().trim();
     const paperLink = $(".gsc_oci_title_link").attr("href");
-    const details = $(".gsc_oci_value");
-    const authors = details.eq(0).text().trim().split(", ").map(a => a.trim());
-    const publicationDate = dayjs(details.eq(1).text().trim(), "YYYY/M/D").format("DD MMMM YYYY");
-    const conference = details.eq(2).text().trim();
-    const pages = details.eq(3).text().trim();
-    const publisher = details.eq(4).text().trim();
-    const description = details.eq(5).text().trim();
-    const citations = parseInt(details.eq(6).find("a:first-child").text().trim().replace("Cited by ", ""), 10) || 0;
-
-    return {
-      title,
-      paperLink,
-      authors,
-      publicationDate,
-      conference,
-      pages,
-      publisher,
-      description,
-      citations
-    };
+    const labels = $(".gsc_oci_field");
+    const values = $(".gsc_oci_value");
+    let dataTray = {};
+    for (let i = 0; i < labels.length; i++) {
+      let label = labels.eq(i).text().trim();
+      let value = values.eq(i).text().trim();
+      if (label === 'Total citations') {
+        value = values.eq(i).find("a").eq(0).text().trim().slice(9,).trim()
+      } else if (label === 'Authors') {
+        value = values.eq(i).text().trim().split(", ").map(author => author.trim());
+      }
+      dataTray[label] = value;
+    }
+    dataTray["Title"] = title;
+    dataTray["Paper Link"] = paperLink || link;
+    return dataTray;
   } catch (error) {
     const status = error?.response?.status;
 
@@ -144,6 +140,6 @@ module.exports = {
 //     .catch(error => console.error("Error during scraping:", error));
 
 // (async () => {
-//   const paper = await fetchPaperDetails("https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jkACmbEAAAAJ&pagesize=100&citation_for_view=jkACmbEAAAAJ:yxmsSjX2EkcC");
+//   const paper = await fetchPaperDetails("https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jkACmbEAAAAJ&pagesize=100&citation_for_view=jkACmbEAAAAJ:1taIhTC69MYC");
 //   console.log(paper);
 // })();

@@ -82,10 +82,10 @@ const Publications = () => {
         throw new Error('Network response was not ok');
       }
       const data = await response.json();
-      const uniqueYears = [...new Set(data.map(pub => new Date(pub.publicationDate).getFullYear().toString()))].sort((a, b) => b - a);
-      const uniqueAuthors = [...new Set(data.flatMap(pub => pub.authors))].sort();
+      const uniqueYears = [...new Set(data.map(pub => new Date(pub['Publication date']).getFullYear().toString()))].sort((a, b) => b - a);
+      const uniqueAuthors = [...new Set(data.flatMap(pub => pub["Authors"]))].sort();
       const uniqueTopics = [...new Set(data.flatMap(pub => pub.tags || []))].sort();
-      const uniquePublishers = [...new Set(data.map(pub => pub.publisher))].sort();
+      const uniquePublishers = [...new Set(data.map(pub => pub["Publisher"]))].sort();
       
       setAllPublications(data);
       setPublications(data);
@@ -233,49 +233,49 @@ const Publications = () => {
               {publications.map((publication, index) => (
                 <div className={styler.publicationCard} key={index}>
                   <div className={styler.publicationHeader}>
-                    <div className={styler.publicationYear}>{new Date(publication.publicationDate).getFullYear()}</div>
+                    <div className={styler.publicationYear}>{new Date(publication["Publication date"]).getFullYear()}</div>
                     <div className={styler.publicationCitations}>
-                      <span className={styler.citationCount}>{publication.citations}</span> citations
+                      <span className={styler.citationCount}>{publication["Total citations"]}</span> citations
                     </div>
                   </div>
                   
                   <div className={styler.publicationContent}>
                     <h3 className={styler.publicationTitle}>
-                      {publication.title}
+                      {publication["Journal"]}                    
                     </h3>
                     
                     <div className={styler.publicationAuthors}>
-                      {publication.authors.map((author, idx) => (
+                      {publication["Authors"].map((author, idx) => (
                         <span key={idx} className={styler.authorName}>
                           {author}
-                          {idx < publication.authors.length - 1 && ', '}
+                          {idx < publication["Authors"].length - 1 && ', '}
                         </span>
                       ))}
                     </div>
                     
                     <div className={styler.publicationVenue}>
-                      <span className={styler.publicationJournal}>{publication.conference}</span>
+                      <span className={styler.publicationJournal}>{publication["Conference"] || publication["Journal"] || publication["Source"]}</span>
                     </div>
                     
                     <div className={styler.publicationMeta}>
-                      {publication.pages && (
+                      {publication["Pages"] && (
                         <div className={styler.metaItem}>
                           <span className={styler.metaLabel}>Pages:</span>
-                          <span className={styler.metaValue}>{publication.pages}</span>
+                          <span className={styler.metaValue}>{publication["Pages"]}</span>
                         </div>
                       )}
                       
-                      {publication.publisher && (
+                      {publication["Publisher"] && (
                         <div className={styler.metaItem}>
                           <span className={styler.metaLabel}>Publisher:</span>
-                          <span className={styler.metaValue}>{publication.publisher}</span>
+                          <span className={styler.metaValue}>{publication["Publisher"]}</span>
                         </div>
                       )}
                       
-                      {publication.publicationDate && (
+                      {publication["Publication date"] && (
                         <div className={styler.metaItem}>
                           <span className={styler.metaLabel}>Published:</span>
-                          <span className={styler.metaValue}>{publication.publicationDate}</span>
+                          <span className={styler.metaValue}>{publication["Publication date"]}</span>
                         </div>
                       )}
                     </div>
@@ -283,13 +283,13 @@ const Publications = () => {
                     <div className={styler.abstractSection}>
                       <div className={styler.abstractHeader}>Abstract</div>
                       <p className={styler.publicationAbstract}>
-                        {publication.description}
+                        {publication["Description"] || "No abstract available."}
                       </p>
                     </div>
                     
-                    {publication.tags && publication.tags.length > 0 && (
+                    {publication["Tags"] && publication["Tags"].length > 0 && (
                       <div className={styler.publicationTopics}>
-                        {publication.tags.map((tag, index) => (
+                        {publication["Tags"].map((tag, index) => (
                           <span key={index} className={styler.publicationTopic}>{tag}</span>
                         ))}
                       </div>
@@ -297,7 +297,7 @@ const Publications = () => {
                     <div className={styler.publicationActions}>
                       <button 
                         className={styler.publicationButton} 
-                        onClick={() => publication.paperLink && window.open(publication.paperLink, '_blank')}
+                        onClick={() => (publication["paperLink"]||"link") && window.open(publication["paperLink"], '_blank')}
                       >
                         View Paper
                       </button>
