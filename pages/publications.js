@@ -241,14 +241,14 @@ const Publications = () => {
                   
                   <div className={styler.publicationContent}>
                     <h3 className={styler.publicationTitle}>
-                      {publication["Journal"]}                    
+                      {publication["Title"]}                    
                     </h3>
                     
                     <div className={styler.publicationAuthors}>
-                      {publication["Authors"].map((author, idx) => (
+                      {(publication["Authors"] || publication["Inventors"].split(", ")).map((author, idx) => (
                         <span key={idx} className={styler.authorName}>
                           {author}
-                          {idx < publication["Authors"].length - 1 && ', '}
+                          {idx < (publication["Authors"] || publication["Inventors"].split(", ")).length - 1 && ', '}
                         </span>
                       ))}
                     </div>
@@ -297,7 +297,7 @@ const Publications = () => {
                     <div className={styler.publicationActions}>
                       <button 
                         className={styler.publicationButton} 
-                        onClick={() => (publication["paperLink"]||"link") && window.open(publication["paperLink"], '_blank')}
+                        onClick={() => (publication["Paper Link"]||"link") && window.open(publication["Paper Link"], '_blank')}
                       >
                         View Paper
                       </button>
