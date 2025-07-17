@@ -10,12 +10,94 @@ const Publications = () => {
   const [authors, setAuthors] = useState([]);
   const [topics, setTopics] = useState([]);
   const [publishers, setPublishers] = useState([]);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [isSearching, setIsSearching] = useState(false);
+  const [searchResults, setSearchResults] = useState([]);
+  const [isSemanticMode, setIsSemanticMode] = useState(false);
   const [activeFilters, setActiveFilters] = useState({
     years: [],
     authors: [],
     topics: [],
     publishers: []
   });
+
+  // Fetch similar publications using semantic search API
+  const fetchSimilar = async (query) => {
+    if (!query || query.trim().length === 0) {
+      setPublications(allPublications);
+      setSearchResults([]);
+      setIsSemanticMode(false);
+      return;
+    }
+
+    setIsSearching(true);
+    
+    try {
+      const response = await fetch('/api/publications/paperDetails?action=similar', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ query: query.trim() })
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      
+      if (data.results && data.results.length > 0) {
+        setSearchResults(data.results);
+        setPublications(data.results);
+        setIsSemanticMode(true);
+        console.log(`🎯 Found ${data.results.length} similar publications for "${query}"`);
+      } else {
+        // No results found, show all publications
+        setPublications(allPublications);
+        setSearchResults([]);
+        setIsSemanticMode(false);
+        console.log(`❌ No similar publications found for "${query}"`);
+      }
+    } catch (error) {
+      console.error('❌ Error fetching similar publications:', error);
+      // Fallback to showing all publications
+      setPublications(allPublications);
+      setSearchResults([]);
+      setIsSemanticMode(false);
+    }
+
+    setIsSearching(false);
+  };
+
+  // Handle search input changes with debouncing
+  const handleSearchChange = (e) => {
+    const query = e.target.value;
+    setSearchQuery(query);
+    
+    // Clear existing timeout
+    if (window.searchTimeout) {
+      clearTimeout(window.searchTimeout);
+    }
+    
+    // Set new timeout for debounced search
+    window.searchTimeout = setTimeout(() => {
+      fetchSimilar(query);
+    }, 500); // 500ms delay
+  };
+
+  // Clear search and reset to all publications
+  const clearSearch = () => {
+    setSearchQuery('');
+    setSearchResults([]);
+    setIsSemanticMode(false);
+    setPublications(allPublications);
+    
+    // Clear any pending timeout
+    if (window.searchTimeout) {
+      clearTimeout(window.searchTimeout);
+    }
+  };
 
   const handleFilterClick = (filterType, value) => {
     let newActiveFilters = { ...activeFilters };
@@ -34,16 +116,24 @@ const Publications = () => {
     const hasActiveFilters = Object.values(newActiveFilters).some(filterArray => filterArray.length > 0);
     
     if (!hasActiveFilters) {
-      // If no filters are active, show all publications
-      setPublications(allPublications);
+      // If no filters are active, show search results or all publications
+      if (isSemanticMode && searchResults.length > 0) {
+        setPublications(searchResults);
+      } else {
+        setPublications(allPublications);
+      }
     } else {
       // Filter publications that match the selected filters
-      const filteredPublications = allPublications.filter(publication => {
-        const publicationYear = new Date(publication.publicationDate).getFullYear().toString();
+      const basePublications = isSemanticMode ? searchResults : allPublications;
+      const filteredPublications = basePublications.filter(publication => {
+        const publicationYear = new Date(publication["Publication date"]).getFullYear().toString();
         const yearMatch = newActiveFilters.years.length === 0 || newActiveFilters.years.includes(publicationYear);
-        const authorMatch = newActiveFilters.authors.length === 0 || newActiveFilters.authors.some(author => publication.authors.includes(author));
-        const topicMatch = newActiveFilters.topics.length === 0 || newActiveFilters.topics.some(topic => publication.tags && publication.tags.includes(topic));
-        const publisherMatch = newActiveFilters.publishers.length === 0 || newActiveFilters.publishers.includes(publication.publisher);
+        const authorMatch = newActiveFilters.authors.length === 0 || newActiveFilters.authors.some(author => 
+          (publication["Authors"] || []).includes(author));
+        const topicMatch = newActiveFilters.topics.length === 0 || newActiveFilters.topics.some(topic => 
+          publication["Tags"] && publication["Tags"].includes(topic));
+        const publisherMatch = newActiveFilters.publishers.length === 0 || newActiveFilters.publishers.includes(
+          publication["Publisher"]);
         
         return yearMatch && authorMatch && topicMatch && publisherMatch;
       });
@@ -67,7 +157,13 @@ const Publications = () => {
       topics: [],
       publishers: []
     });
-    setPublications(allPublications);
+    
+    // Restore search results or all publications
+    if (isSemanticMode && searchResults.length > 0) {
+      setPublications(searchResults);
+    } else {
+      setPublications(allPublications);
+    }
   };
 
   const getTotalActiveFilters = () => {
@@ -229,6 +325,51 @@ const Publications = () => {
 
           {/* Publications Display Section */}
           <div className={styler.publicationsDisplay}>
+            <div className={styler.publicationSearch}>
+              <div className={styler.searchInputWrapper}>
+                <input 
+                  type="text" 
+                  placeholder="Search publications using AI semantic search (e.g., 'cardiovascular monitoring', 'machine learning ECG')..." 
+                  className={styler.searchInput}
+                  value={searchQuery}
+                  onChange={handleSearchChange}
+                />
+                {searchQuery && (
+                  <button 
+                    className={styler.clearSearchButton}
+                    onClick={clearSearch}
+                    title="Clear search"
+                  >
+                    ✕
+                  </button>
+                )}
+                {isSearching && (
+                  <div className={styler.searchLoader}>
+                    <div className={styler.spinner}></div>
+                  </div>
+                )}
+              </div>
+              
+              <div className={styler.searchInfo}>
+                {isSearching ? (
+                  <span className={styler.searchStatus}>🔄 Searching for similar publications...</span>
+                ) : searchQuery ? (
+                  isSemanticMode && searchResults.length > 0 ? (
+                    <span className={styler.searchResults}>
+                      🎯 Found {publications.length} semantically similar papers for "{searchQuery}"
+                    </span>
+                  ) : searchQuery && !isSemanticMode ? (
+                    <span className={styler.searchNoResults}>
+                      ❌ No similar papers found for "{searchQuery}" - showing all publications
+                    </span>
+                  ) : null
+                ) : (
+                  <span className={styler.searchHint}>
+                    💡 Try searching for research topics like "pulse wave velocity", "ECG analysis", "medical imaging"
+                  </span>
+                )}
+              </div>
+            </div>
             <div className={styler.publicationsGrid}>
               {publications.map((publication, index) => (
                 <div className={styler.publicationCard} key={index}>
@@ -237,6 +378,11 @@ const Publications = () => {
                     <div className={styler.publicationCitations}>
                       <span className={styler.citationCount}>{publication["Total citations"]}</span> citations
                     </div>
+                    {isSemanticMode && publication.similarityScore && (
+                      <div className={styler.relevanceScore}>
+                        #{publication.relevanceRank} • {publication.similarityScore}% match
+                      </div>
+                    )}
                   </div>
                   
                   <div className={styler.publicationContent}>
