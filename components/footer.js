@@ -126,10 +126,10 @@ const Footer = () => {
                     </div>
                   </div>
                   <div className={styler.careerActions}>
-                    <a href="/careers/openings" className={styler.careerButton}>
+                    <a href="/careers" className={styler.careerButton}>
                       View Openings
                     </a>
-                    <a href="/careers/internships" className={styler.careerButton}>
+                    <a href="/careers" className={styler.careerButton}>
                       Internships
                     </a>
                   </div>

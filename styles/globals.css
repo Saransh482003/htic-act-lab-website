@@ -52,7 +52,6 @@ html {
     scrollbar-width: thin;
     scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
 }
-
 /* For dark backgrounds, use lighter scrollbar */
 @media (prefers-color-scheme: dark) {
     ::-webkit-scrollbar-thumb {

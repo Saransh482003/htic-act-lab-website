@@ -1,6 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
-import mechanics from "@/mechanics/scrapeGScholar.js"; // Ensure alias is configured
+import mechanics from "@/mechanics/scrapeGScholar.js";
 
 function sleep(ms = 3000) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -12,6 +12,7 @@ export default async function handler(req, res) {
   }
 
   const action = req.query?.action || "";
+  const body = req.body || {};
 
   try {
     const linksFile = path.join(process.cwd(), "JSONs", "publications", "scholarLinks.json");
@@ -50,6 +51,9 @@ export default async function handler(req, res) {
       }
 
       console.log("🎉 Refetch complete.");
+    }
+    else if (action === "similar") {
+      
     }
 
     // Always respond with final saved data
