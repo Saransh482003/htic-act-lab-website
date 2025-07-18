@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { use } from 'react'
 import styler from '@/styles/Publications.module.css'
 import { useEffect, useState } from 'react';
 import Head from 'next/head';
@@ -170,6 +170,18 @@ const Publications = () => {
     return Object.values(activeFilters).reduce((total, filterArray) => total + filterArray.length, 0);
   };
 
+  useEffect(async () => {
+    try {
+      const response = await fetch('/api/publications/authors?limit=15');
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      const data = await response.json();
+      setAuthors(data.topAuthors);
+    } catch (error) {
+      console.error('Error fetching publications:', error);
+    }
+  }, []);
   useEffect(async () => {
     
     try {

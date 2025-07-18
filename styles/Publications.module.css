@@ -253,6 +253,31 @@
     overflow-y: auto;
 }
 
+/* Custom minimal scrollbar for filter sidebar */
+.filterSidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.filterSidebar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.filterSidebar::-webkit-scrollbar-thumb {
+    background: rgba(59, 130, 246, 0.3);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.filterSidebar::-webkit-scrollbar-thumb:hover {
+    background: rgba(59, 130, 246, 0.5);
+}
+
+/* Firefox support */
+.filterSidebar {
+    scrollbar-width: 0;
+    scrollbar-color: hsla(0, 0%, 100%, 0) transparent;
+}
+
 .filterContainer {
     width: 100%;
 }
