@@ -170,14 +170,46 @@ const Publications = () => {
     return Object.values(activeFilters).reduce((total, filterArray) => total + filterArray.length, 0);
   };
 
+  // Add this function near the top of your component, after the state declarations
+
+  const formatDate = (dateString) => {
+    if (!dateString) return 'Date not available';
+    
+    try {
+      const date = new Date(dateString);
+      
+      // Check if date is valid
+      if (isNaN(date.getTime())) {
+        return dateString; // Return original if can't parse
+      }
+      
+      const months = [
+        'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+        'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
+      ];
+      
+      const day = date.getDate().toString().padStart(2, '0');
+      const month = months[date.getMonth()];
+      const year = date.getFullYear();
+      
+      return `${day} ${month} ${year}`;
+    } catch (error) {
+      console.error('Error formatting date:', error);
+      return dateString; // Return original if error occurs
+    }
+  };
+
+
   useEffect(async () => {
     try {
-      const response = await fetch('/api/publications/authors?limit=15');
+      const response = await fetch('/api/publications/filterLimiter?authors=15&publishers=5&years=5');
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
       const data = await response.json();
       setAuthors(data.topAuthors);
+      setPublishers(data.topPublishers);
+      setYears(data.topYears);
     } catch (error) {
       console.error('Error fetching publications:', error);
     }
@@ -197,10 +229,7 @@ const Publications = () => {
       
       setAllPublications(data);
       setPublications(data);
-      setYears(uniqueYears);
-      setAuthors(uniqueAuthors);
       setTopics(uniqueTopics);
-      setPublishers(uniquePublishers);
     } catch (error) {
       console.error('Error fetching projects:', error);
     }
@@ -433,7 +462,7 @@ const Publications = () => {
                       {publication["Publication date"] && (
                         <div className={styler.metaItem}>
                           <span className={styler.metaLabel}>Published:</span>
-                          <span className={styler.metaValue}>{publication["Publication date"]}</span>
+                          <span className={styler.metaValue}>{formatDate(publication["Publication date"])}</span>
                         </div>
                       )}
                     </div>
