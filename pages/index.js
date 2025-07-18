@@ -197,7 +197,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section className={styler.exploreNewsSection}>
+      <section className={styler.exploreNewsSection} id="work&news">
         <div className={styler.exploreUsSection} onMouseLeave={() => setActivePlugIndex(-1)}>
           <h2 className={styler.exploreSectionTitle}>EXPLORE OUR WORK</h2>
           <p className={styler.exploreSectionSubtitle}>Explore the latest advancements in cardiovascular technology</p>

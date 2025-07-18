@@ -1,0 +1,692 @@
+/* Clinical Studies Page Styles */
+
+.pageBanner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 60vh;
+    background: 
+        radial-gradient(circle at 25% 25%, rgba(16, 185, 129, 0.4) 0%, transparent 50%),
+        radial-gradient(circle at 75% 75%, rgba(34, 197, 94, 0.4) 0%, transparent 50%),
+        radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.3) 0%, transparent 50%),
+        linear-gradient(135deg, #10b981 0%, #22c55e 30%, #3b82f6 70%, #06b6d4 100%);
+    position: relative;
+    padding: 6rem 2.5rem;
+    text-align: left;
+    overflow: hidden;
+}
+
+.pageBanner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M60 20l30 50H30l30-50zm-30 50l30 50 30-50H30z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+        url("data:image/svg+xml,%3Csvg width='90' height='90' viewBox='0 0 90 90' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Cpath d='M45 0L90 45 45 90 0 45 45 0zm-15 45a15 15 0 1 1 30 0 15 15 0 0 1-30 0z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    opacity: 0.6;
+    animation: clinicalFloat 35s ease-in-out infinite;
+}
+
+@keyframes clinicalFloat {
+    0%, 100% { transform: translateX(0) translateY(0) rotate(0deg) scale(1); }
+    25% { transform: translateX(-8px) translateY(-12px) rotate(1.5deg) scale(1.02); }
+    50% { transform: translateX(12px) translateY(-8px) rotate(-1.5deg) scale(0.98); }
+    75% { transform: translateX(-10px) translateY(10px) rotate(1deg) scale(1.01); }
+}
+
+.bannerContent {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.bannerTitle {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    animation: titleSlideUp 1s ease-out;
+}
+
+@keyframes titleSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.bannerDescription {
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    animation: descriptionSlideUp 1s ease-out 0.2s both;
+}
+
+@keyframes descriptionSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.bannerStats {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3rem;
+    margin-bottom: 2.5rem;
+    animation: statsSlideUp 1s ease-out 0.4s both;
+}
+
+@keyframes statsSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.statItem {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 1.5rem 2rem;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.statItem:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.statNumber {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.statLabel {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.bannerActions {
+    display: flex;
+    gap: 1.5rem;
+    animation: actionsSlideUp 1s ease-out 0.6s both;
+}
+
+@keyframes actionsSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.actionButton {
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    backdrop-filter: blur(10px);
+    position: relative;
+    overflow: hidden;
+}
+
+.actionButton::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.actionButton:hover::before {
+    left: 100%;
+}
+
+.actionButton.primary {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.actionButton.primary:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.actionButton.secondary {
+    background: transparent;
+    color: white;
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.actionButton.secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Studies Section */
+.studiesSection {
+    padding: 4rem 2.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.studiesContainer {
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+}
+
+/* Filter Sidebar */
+.filterSidebar {
+    width: 30rem;
+    flex-shrink: 0;
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(16, 185, 129, 0.15);
+    border: 1px solid rgba(16, 185, 129, 0.1);
+    position: sticky;
+    top: 2rem;
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
+}
+
+/* Custom minimal scrollbar for filter sidebar */
+.filterSidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.filterSidebar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.filterSidebar::-webkit-scrollbar-thumb {
+    background: rgba(16, 185, 129, 0.3);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.filterSidebar::-webkit-scrollbar-thumb:hover {
+    background: rgba(16, 185, 129, 0.5);
+}
+
+.filterSidebar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(16, 185, 129, 0.3) transparent;
+}
+
+.filterContainer {
+    width: 100%;
+}
+
+.filterTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(135deg, #10b981, #22c55e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.filterSubtitle {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-bottom: 2rem;
+    line-height: 1.4;
+}
+
+.filterGroup {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.filterGroup:last-of-type {
+    border-bottom: none;
+    margin-bottom: 1rem;
+}
+
+.filterGroupTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.filterTags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.filterTag {
+    padding: 0.5rem 1rem;
+    border: 2px solid #e5e7eb;
+    border-radius: 20px;
+    background: white;
+    color: #6b7280;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.filterTag::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #10b981, #22c55e);
+    transition: left 0.3s ease;
+    z-index: -1;
+}
+
+.filterTag:hover {
+    color: #374151;
+    border-color: #10b981;
+    transform: translateY(-1px);
+}
+
+.filterTag.active {
+    background: linear-gradient(135deg, #10b981, #22c55e);
+    color: white;
+    border-color: #10b981;
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+}
+
+.filterTag.active::before {
+    left: 0;
+}
+
+.filterActions {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.clearFiltersButton {
+    width: 100%;
+    padding: 0.875rem 1.5rem;
+    background: linear-gradient(135deg, #ef4444, #dc2626);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(239, 68, 68, 0.3);
+}
+
+.clearFiltersButton:hover {
+    background: linear-gradient(135deg, #dc2626, #b91c1c);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(239, 68, 68, 0.4);
+}
+
+/* Studies Display */
+.studiesDisplay {
+    flex: 1;
+    min-width: 0;
+}
+
+.studiesGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.studyCard {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(16, 185, 129, 0.12);
+    border: 1px solid rgba(16, 185, 129, 0.08);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.studyCard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(135deg, #10b981, #22c55e, #3b82f6);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.studyCard:hover::before {
+    transform: scaleX(1);
+}
+
+.studyCard:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(16, 185, 129, 0.2);
+}
+
+.studyImage {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
+
+.studyImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.studyCard:hover .studyImage img {
+    transform: scale(1.05);
+}
+
+.studyOverlay {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: rgba(16, 185, 129, 0.9);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+}
+
+.statusBadge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: white;
+    padding: 0.375rem 0.875rem;
+    border-radius: 16px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.studyContent {
+    padding: 2rem;
+}
+
+.studyTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 1.5rem;
+    line-height: 1.3;
+    background: linear-gradient(135deg, #10b981, #22c55e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.studyDetails {
+    margin-bottom: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+}
+
+.detailRow {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.detailLabel {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #6b7280;
+    min-width: 80px;
+}
+
+.detailValue {
+    color: #374151;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.studyDescription {
+    margin-bottom: 1.5rem;
+}
+
+.studyDescription p {
+    color: #4b5563;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.studyObjectives {
+    margin-bottom: 1.5rem;
+}
+
+.objectivesLabel {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+}
+
+.objectivesList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.objectivesList li {
+    color: #4b5563;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    margin-bottom: 0.25rem;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.objectivesList li::before {
+    content: '•';
+    color: #10b981;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.studyTags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.studyTag {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(34, 197, 94, 0.1));
+    color: #10b981;
+    padding: 0.375rem 0.875rem;
+    border-radius: 16px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.studyActions {
+    display: flex;
+    gap: 1rem;
+}
+
+.studyButton {
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, #10b981, #22c55e);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+}
+
+.studyButton:hover {
+    background: linear-gradient(135deg, #059669, #16a34a);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
+}
+
+.studyButtonSecondary {
+    padding: 0.75rem 1.5rem;
+    background: transparent;
+    color: #10b981;
+    border: 2px solid #10b981;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.studyButtonSecondary:hover {
+    background: #10b981;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .studiesContainer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .filterSidebar {
+        width: 100%;
+        position: static;
+        max-height: none;
+    }
+    
+    .bannerStats {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .pageBanner {
+        padding: 4rem 1.5rem;
+        min-height: 50vh;
+    }
+    
+    .bannerTitle {
+        font-size: 2.5rem;
+    }
+    
+    .bannerDescription {
+        font-size: 1.1rem;
+    }
+    
+    .bannerStats {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+    
+    .bannerActions {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .studiesSection {
+        padding: 2rem 1.5rem;
+    }
+    
+    .filterSidebar {
+        padding: 1.5rem;
+    }
+    
+    .studyContent {
+        padding: 1.5rem;
+    }
+    
+    .studyDetails {
+        grid-template-columns: 1fr;
+    }
+    
+    .studyActions {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .bannerTitle {
+        font-size: 2rem;
+    }
+    
+    .bannerDescription {
+        font-size: 1rem;
+    }
+    
+    .statNumber {
+        font-size: 2rem;
+    }
+    
+    .studyImage {
+        height: 200px;
+    }
+}

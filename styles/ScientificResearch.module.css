@@ -1,0 +1,638 @@
+/* Scientific Research Page Styles */
+
+.pageBanner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 60vh;
+    background: 
+        radial-gradient(circle at 25% 25%, rgba(168, 85, 247, 0.4) 0%, transparent 50%),
+        radial-gradient(circle at 75% 75%, rgba(236, 72, 153, 0.4) 0%, transparent 50%),
+        radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.3) 0%, transparent 50%),
+        linear-gradient(135deg, #a855f7 0%, #ec4899 30%, #3b82f6 70%, #06b6d4 100%);
+    position: relative;
+    padding: 6rem 2.5rem;
+    text-align: left;
+    overflow: hidden;
+}
+
+.pageBanner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M0 0h100v100H0V0zm25 25v50h50V25H25zm25 40a15 15 0 1 1 0-30 15 15 0 0 1 0 30z' fill-rule='nonzero'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+        url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Cpath d='M0 40h80L40 0 0 40zm20 40h40v-40H20v40z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    opacity: 0.6;
+    animation: scienceFloat 30s ease-in-out infinite;
+}
+
+@keyframes scienceFloat {
+    0%, 100% { transform: translateX(0) translateY(0) rotate(0deg) scale(1); }
+    25% { transform: translateX(-5px) translateY(-10px) rotate(1deg) scale(1.02); }
+    50% { transform: translateX(10px) translateY(-5px) rotate(-1deg) scale(0.98); }
+    75% { transform: translateX(-8px) translateY(8px) rotate(0.5deg) scale(1.01); }
+}
+
+.bannerContent {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.bannerTitle {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    animation: titleSlideUp 1s ease-out;
+}
+
+@keyframes titleSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.bannerDescription {
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    animation: descriptionSlideUp 1s ease-out 0.2s both;
+}
+
+@keyframes descriptionSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.bannerStats {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3rem;
+    margin-bottom: 2.5rem;
+    animation: statsSlideUp 1s ease-out 0.4s both;
+}
+
+@keyframes statsSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.statItem {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 1.5rem 2rem;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.statItem:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.statNumber {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.statLabel {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.bannerActions {
+    display: flex;
+    gap: 1.5rem;
+    animation: actionsSlideUp 1s ease-out 0.6s both;
+}
+
+@keyframes actionsSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.actionButton {
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    backdrop-filter: blur(10px);
+    position: relative;
+    overflow: hidden;
+}
+
+.actionButton::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.actionButton:hover::before {
+    left: 100%;
+}
+
+.actionButton.primary {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.actionButton.primary:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.actionButton.secondary {
+    background: transparent;
+    color: white;
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.actionButton.secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Research Section */
+.researchSection {
+    padding: 4rem 2.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.researchContainer {
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+}
+
+/* Filter Sidebar */
+.filterSidebar {
+    width: 30rem;
+    flex-shrink: 0;
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(168, 85, 247, 0.15);
+    border: 1px solid rgba(168, 85, 247, 0.1);
+    position: sticky;
+    top: 2rem;
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
+}
+
+/* Custom minimal scrollbar for filter sidebar */
+.filterSidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.filterSidebar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.filterSidebar::-webkit-scrollbar-thumb {
+    background: rgba(168, 85, 247, 0.3);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.filterSidebar::-webkit-scrollbar-thumb:hover {
+    background: rgba(168, 85, 247, 0.5);
+}
+
+.filterSidebar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(168, 85, 247, 0.3) transparent;
+}
+
+.filterContainer {
+    width: 100%;
+}
+
+.filterTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(135deg, #a855f7, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.filterSubtitle {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-bottom: 2rem;
+    line-height: 1.4;
+}
+
+.filterGroup {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.filterGroup:last-of-type {
+    border-bottom: none;
+    margin-bottom: 1rem;
+}
+
+.filterGroupTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.filterTags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.filterTag {
+    padding: 0.5rem 1rem;
+    border: 2px solid #e5e7eb;
+    border-radius: 20px;
+    background: white;
+    color: #6b7280;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.filterTag::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #a855f7, #ec4899);
+    transition: left 0.3s ease;
+    z-index: -1;
+}
+
+.filterTag:hover {
+    color: #374151;
+    border-color: #a855f7;
+    transform: translateY(-1px);
+}
+
+.filterTag.active {
+    background: linear-gradient(135deg, #a855f7, #ec4899);
+    color: white;
+    border-color: #a855f7;
+    box-shadow: 0 4px 15px rgba(168, 85, 247, 0.3);
+}
+
+.filterTag.active::before {
+    left: 0;
+}
+
+.filterActions {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.clearFiltersButton {
+    width: 100%;
+    padding: 0.875rem 1.5rem;
+    background: linear-gradient(135deg, #ef4444, #dc2626);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(239, 68, 68, 0.3);
+}
+
+.clearFiltersButton:hover {
+    background: linear-gradient(135deg, #dc2626, #b91c1c);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(239, 68, 68, 0.4);
+}
+
+/* Research Display */
+.researchDisplay {
+    flex: 1;
+    min-width: 0;
+}
+
+.researchGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.researchCard {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(168, 85, 247, 0.12);
+    border: 1px solid rgba(168, 85, 247, 0.08);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.researchCard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(135deg, #a855f7, #ec4899, #3b82f6);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.researchCard:hover::before {
+    transform: scaleX(1);
+}
+
+.researchCard:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(168, 85, 247, 0.2);
+}
+
+.researchImage {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
+
+.researchImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.researchCard:hover .researchImage img {
+    transform: scale(1.05);
+}
+
+.researchOverlay {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: rgba(168, 85, 247, 0.9);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(168, 85, 247, 0.3);
+}
+
+.researchContent {
+    padding: 2rem;
+}
+
+.researchTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 1.5rem;
+    line-height: 1.3;
+    background: linear-gradient(135deg, #a855f7, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.researchResearchers {
+    margin-bottom: 1.5rem;
+}
+
+.researchersLabel {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+}
+
+.researchersList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}
+
+.researcherName {
+    color: #374151;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.researchDescription {
+    margin-bottom: 1.5rem;
+}
+
+.researchDescription p {
+    color: #4b5563;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.researchTags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.researchTag {
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(236, 72, 153, 0.1));
+    color: #a855f7;
+    padding: 0.375rem 0.875rem;
+    border-radius: 16px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: 1px solid rgba(168, 85, 247, 0.2);
+}
+
+.researchActions {
+    display: flex;
+    gap: 1rem;
+}
+
+.researchButton {
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, #a855f7, #ec4899);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(168, 85, 247, 0.3);
+}
+
+.researchButton:hover {
+    background: linear-gradient(135deg, #9333ea, #db2777);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(168, 85, 247, 0.4);
+}
+
+.researchButtonSecondary {
+    padding: 0.75rem 1.5rem;
+    background: transparent;
+    color: #a855f7;
+    border: 2px solid #a855f7;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.researchButtonSecondary:hover {
+    background: #a855f7;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(168, 85, 247, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .researchContainer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .filterSidebar {
+        width: 100%;
+        position: static;
+        max-height: none;
+    }
+    
+    .bannerStats {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .pageBanner {
+        padding: 4rem 1.5rem;
+        min-height: 50vh;
+    }
+    
+    .bannerTitle {
+        font-size: 2.5rem;
+    }
+    
+    .bannerDescription {
+        font-size: 1.1rem;
+    }
+    
+    .bannerStats {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+    
+    .bannerActions {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .researchSection {
+        padding: 2rem 1.5rem;
+    }
+    
+    .filterSidebar {
+        padding: 1.5rem;
+    }
+    
+    .researchContent {
+        padding: 1.5rem;
+    }
+    
+    .researchActions {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .bannerTitle {
+        font-size: 2rem;
+    }
+    
+    .bannerDescription {
+        font-size: 1rem;
+    }
+    
+    .statNumber {
+        font-size: 2rem;
+    }
+    
+    .researchImage {
+        height: 200px;
+    }
+}
