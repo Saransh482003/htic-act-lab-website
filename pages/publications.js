@@ -6,6 +6,9 @@ import Head from 'next/head';
 const Publications = () => {
   const [allPublications, setAllPublications] = useState([]);
   const [publications, setPublications] = useState([]);
+  const [displayedPublications, setDisplayedPublications] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
   const [years, setYears] = useState([]);
   const [authors, setAuthors] = useState([]);
   const [topics, setTopics] = useState([]);
@@ -20,6 +23,40 @@ const Publications = () => {
     topics: [],
     publishers: []
   });
+
+  const ITEMS_PER_PAGE = 20;
+
+  // Update displayed publications based on current filtered publications
+  const updateDisplayedPublications = (filteredPubs, pageNum = 1) => {
+    const startIndex = 0;
+    const endIndex = pageNum * ITEMS_PER_PAGE;
+    const newDisplayed = filteredPubs.slice(startIndex, endIndex);
+    setDisplayedPublications(newDisplayed);
+    setCurrentPage(pageNum);
+  };
+
+  // Load more publications
+  const loadMorePublications = () => {
+    setIsLoadingMore(true);
+    const nextPage = currentPage + 1;
+    
+    // Simulate loading delay for better UX
+    setTimeout(() => {
+      updateDisplayedPublications(publications, nextPage);
+      setIsLoadingMore(false);
+    }, 500);
+  };
+
+  // Check if there are more publications to load
+  const hasMorePublications = () => {
+    return displayedPublications.length < publications.length;
+  };
+
+  // Reset pagination when publications change
+  const resetPagination = (newPublications) => {
+    setCurrentPage(1);
+    updateDisplayedPublications(newPublications, 1);
+  };
 
   // Fetch similar publications using semantic search API
   const fetchSimilar = async (query) => {
@@ -50,11 +87,13 @@ const Publications = () => {
       if (data.results && data.results.length > 0) {
         setSearchResults(data.results);
         setPublications(data.results);
+        resetPagination(data.results);
         setIsSemanticMode(true);
         console.log(`🎯 Found ${data.results.length} similar publications for "${query}"`);
       } else {
         // No results found, show all publications
         setPublications(allPublications);
+        resetPagination(allPublications);
         setSearchResults([]);
         setIsSemanticMode(false);
         console.log(`❌ No similar publications found for "${query}"`);
@@ -63,6 +102,7 @@ const Publications = () => {
       console.error('❌ Error fetching similar publications:', error);
       // Fallback to showing all publications
       setPublications(allPublications);
+      resetPagination(allPublications);
       setSearchResults([]);
       setIsSemanticMode(false);
     }
@@ -92,6 +132,7 @@ const Publications = () => {
     setSearchResults([]);
     setIsSemanticMode(false);
     setPublications(allPublications);
+    resetPagination(allPublications);
     
     // Clear any pending timeout
     if (window.searchTimeout) {
@@ -119,8 +160,10 @@ const Publications = () => {
       // If no filters are active, show search results or all publications
       if (isSemanticMode && searchResults.length > 0) {
         setPublications(searchResults);
+        resetPagination(searchResults);
       } else {
         setPublications(allPublications);
+        resetPagination(allPublications);
       }
     } else {
       // Filter publications that match the selected filters
@@ -138,6 +181,7 @@ const Publications = () => {
         return yearMatch && authorMatch && topicMatch && publisherMatch;
       });
       setPublications(filteredPublications);
+      resetPagination(filteredPublications);
     }
     
     // Scroll to the featured-publications section
@@ -161,8 +205,10 @@ const Publications = () => {
     // Restore search results or all publications
     if (isSemanticMode && searchResults.length > 0) {
       setPublications(searchResults);
+      resetPagination(searchResults);
     } else {
       setPublications(allPublications);
+      resetPagination(allPublications);
     }
   };
 
@@ -229,6 +275,7 @@ const Publications = () => {
       
       setAllPublications(data);
       setPublications(data);
+      resetPagination(data);
       setTopics(uniqueTopics);
     } catch (error) {
       console.error('Error fetching projects:', error);
@@ -411,8 +458,18 @@ const Publications = () => {
                 )}
               </div>
             </div>
+            
+            <div className={styler.publicationsHeader}>
+              <div className={styler.publicationsCount}>
+                Showing {displayedPublications.length} of {publications.length} publications
+                {isSemanticMode && searchQuery && (
+                  <span className={styler.searchContext}> (filtered from {allPublications.length} total)</span>
+                )}
+              </div>
+            </div>
+            
             <div className={styler.publicationsGrid}>
-              {publications.map((publication, index) => (
+              {displayedPublications.map((publication, index) => (
                 <div className={styler.publicationCard} key={index}>
                   <div className={styler.publicationHeader}>
                     <div className={styler.publicationYear}>{new Date(publication["Publication date"]).getFullYear()}</div>
@@ -499,6 +556,51 @@ const Publications = () => {
                 </div>
               ))}
             </div>
+            
+            {/* Load More Button */}
+            {hasMorePublications() && (
+              <div className={styler.loadMoreContainer}>
+                <button 
+                  className={styler.loadMoreButton}
+                  onClick={loadMorePublications}
+                  disabled={isLoadingMore}
+                >
+                  {isLoadingMore ? (
+                    <>
+                      <div className={styler.loadingSpinner}></div>
+                      Loading more publications...
+                    </>
+                  ) : (
+                    `Load More Publications (${publications.length - displayedPublications.length} remaining)`
+                  )}
+                </button>
+                
+                <div className={styler.paginationInfo}>
+                  Page {currentPage} of {Math.ceil(publications.length / ITEMS_PER_PAGE)} • 
+                  Showing {displayedPublications.length} of {publications.length} publications
+                </div>
+              </div>
+            )}
+            
+            {/* No More Publications Message */}
+            {!hasMorePublications() && publications.length > ITEMS_PER_PAGE && (
+              <div className={styler.endOfResults}>
+                <div className={styler.endMessage}>
+                  🎉 You've reached the end! All {publications.length} publications are now displayed.
+                </div>
+                <button 
+                  className={styler.backToTopButton}
+                  onClick={() => {
+                    const publicationsSection = document.getElementById('featured-publications');
+                    if (publicationsSection) {
+                      publicationsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                  }}
+                >
+                  ↑ Back to Top
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </section>
