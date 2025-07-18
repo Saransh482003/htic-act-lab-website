@@ -245,6 +245,255 @@ const Publications = () => {
     }
   };
 
+  // Function to generate a BibTeX key from title and year
+  const generateBibtexKey = (title, year, authors) => {
+    // Take first author's last name
+    const firstAuthor = authors && authors.length > 0 ? authors[0] : "Unknown";
+    const lastName = firstAuthor.split(' ').pop().replace(/[^a-zA-Z]/g, '');
+    
+    // Take first significant word from title
+    const titleWords = title.split(' ').filter(word => 
+      word.length > 3 && !['the', 'and', 'for', 'with', 'from', 'using', 'based'].includes(word.toLowerCase())
+    );
+    const titleWord = titleWords[0] ? titleWords[0].replace(/[^a-zA-Z]/g, '') : 'Paper';
+    
+    return `${lastName}${year}${titleWord}`;
+  };
+
+  // Function to clean and format text for BibTeX
+  const cleanBibtexText = (text) => {
+    if (!text) return '';
+    return text
+      .replace(/[{}]/g, '') // Remove existing braces
+      .replace(/&/g, '\\&') // Escape ampersands
+      .replace(/%/g, '\\%') // Escape percent signs
+      .replace(/_/g, '\\_') // Escape underscores
+      .replace(/\$/g, '\\$') // Escape dollar signs
+      .replace(/"/g, '') // Remove quotes
+      .trim();
+  };
+
+  // Function to generate BibTeX for a single publication
+  const generateBibtexForPublication = (publication) => {
+    const year = publication["Publication date"] ? 
+      new Date(publication["Publication date"]).getFullYear().toString() : "Unknown";
+    
+    const title = cleanBibtexText(publication["Title"] || "Untitled");
+    const authors = publication["Authors"] || [];
+    const key = generateBibtexKey(title, year, authors);
+    
+    // Determine publication type and format accordingly
+    let bibtexType = "article"; // default
+    let bibtexEntry = "";
+    
+    if (publication["Conference"]) {
+      bibtexType = "inproceedings";
+      bibtexEntry = `@${bibtexType}{${key},
+  title = {${title}},
+  author = {${authors.join(' and ')}},
+  booktitle = {${cleanBibtexText(publication["Conference"])}},
+  year = {${year}},`;
+      
+      if (publication["Pages"]) {
+        bibtexEntry += `
+  pages = {${publication["Pages"]}},`;
+      }
+      
+      if (publication["Publisher"]) {
+        bibtexEntry += `
+  publisher = {${cleanBibtexText(publication["Publisher"])}},`;
+      }
+      
+    } else if (publication["Journal"] || publication["Source"]) {
+      bibtexType = "article";
+      bibtexEntry = `@${bibtexType}{${key},
+  title = {${title}},
+  author = {${authors.join(' and ')}},
+  journal = {${cleanBibtexText(publication["Journal"] || publication["Source"])}},
+  year = {${year}},`;
+      
+      if (publication["Volume"]) {
+        bibtexEntry += `
+  volume = {${publication["Volume"]}},`;
+      }
+      
+      if (publication["Issue"]) {
+        bibtexEntry += `
+  number = {${publication["Issue"]}},`;
+      }
+      
+      if (publication["Pages"]) {
+        bibtexEntry += `
+  pages = {${publication["Pages"]}},`;
+      }
+      
+      if (publication["Publisher"]) {
+        bibtexEntry += `
+  publisher = {${cleanBibtexText(publication["Publisher"])}},`;
+      }
+      
+    } else {
+      // Generic entry
+      bibtexEntry = `@misc{${key},
+  title = {${title}},
+  author = {${authors.join(' and ')}},
+  year = {${year}},`;
+      
+      if (publication["Publisher"]) {
+        bibtexEntry += `
+  publisher = {${cleanBibtexText(publication["Publisher"])}},`;
+      }
+    }
+    
+    // Add URL if available
+    if (publication["Paper Link"]) {
+      bibtexEntry += `
+  url = {${publication["Paper Link"]}},`;
+    }
+    
+    // Add note with citation count if available
+    if (publication["Total citations"]) {
+      bibtexEntry += `
+  note = {Cited by ${publication["Total citations"]}},`;
+    }
+    
+    // Close the entry
+    bibtexEntry += `
+}`;
+    
+    return bibtexEntry;
+  };
+
+  // Function to handle BibTeX generation and display
+  const handleGetBibtex = (publication) => {
+    try {
+      const bibtexContent = generateBibtexForPublication(publication);
+      
+      // Create a modal or copy to clipboard
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        // Copy to clipboard
+        navigator.clipboard.writeText(bibtexContent).then(() => {
+          // Show success message
+          alert('BibTeX copied to clipboard!');
+        }).catch(() => {
+          // Fallback: show in a modal or new window
+          showBibtexModal(publication, bibtexContent);
+        });
+      } else {
+        // Fallback: show in a modal
+        showBibtexModal(publication, bibtexContent);
+      }
+      
+      console.log('✅ BibTeX generated for:', publication["Title"]);
+    } catch (error) {
+      console.error('❌ Error generating BibTeX:', error);
+      alert('Failed to generate BibTeX. Please try again.');
+    }
+  };
+
+  // Function to show BibTeX in a modal or alert
+  const showBibtexModal = (publication, bibtexContent) => {
+    // Create a simple modal display
+    const modal = document.createElement('div');
+    modal.style.cssText = `
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10000;
+      padding: 2rem;
+    `;
+    
+    const content = document.createElement('div');
+    content.style.cssText = `
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      max-width: 800px;
+      max-height: 80vh;
+      overflow: auto;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    `;
+    
+    content.innerHTML = `
+      <h3 style="margin: 0 0 1rem 0; color: #1e293b; font-size: 1.2rem;">
+        BibTeX Citation
+      </h3>
+      <p style="margin: 0 0 1rem 0; color: #64748b; font-size: 0.9rem;">
+        ${publication["Title"]}
+      </p>
+      <textarea 
+        readonly 
+        style="
+          width: 100%; 
+          height: 300px; 
+          font-family: 'Courier New', monospace; 
+          font-size: 0.9rem; 
+          border: 1px solid #e2e8f0; 
+          border-radius: 8px; 
+          padding: 1rem;
+          resize: vertical;
+          background: #f8fafc;
+        "
+      >${bibtexContent}</textarea>
+      <div style="margin-top: 1rem; display: flex; gap: 1rem; justify-content: flex-end;">
+        <button 
+          onclick="navigator.clipboard.writeText(this.parentElement.previousElementSibling.value).then(() => alert('Copied to clipboard!')).catch(() => {})"
+          style="
+            background: #10b981; 
+            color: white; 
+            border: none; 
+            padding: 0.5rem 1rem; 
+            border-radius: 8px; 
+            cursor: pointer;
+            font-weight: 600;
+          "
+        >
+          Copy to Clipboard
+        </button>
+        <button 
+          onclick="this.closest('[style*=\"position: fixed\"]').remove()"
+          style="
+            background: #6b7280; 
+            color: white; 
+            border: none; 
+            padding: 0.5rem 1rem; 
+            border-radius: 8px; 
+            cursor: pointer;
+            font-weight: 600;
+          "
+        >
+          Close
+        </button>
+      </div>
+    `;
+    
+    modal.appendChild(content);
+    
+    // Close modal when clicking outside
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.remove();
+      }
+    });
+    
+    // Close modal with Escape key
+    const handleEscape = (e) => {
+      if (e.key === 'Escape') {
+        modal.remove();
+        document.removeEventListener('keydown', handleEscape);
+      }
+    };
+    document.addEventListener('keydown', handleEscape);
+    
+    document.body.appendChild(modal);
+  };
+
 
   useEffect(async () => {
     try {
@@ -548,7 +797,11 @@ const Publications = () => {
                       <button className={styler.publicationButtonSecondary}>
                         Cite
                       </button>
-                      <button className={styler.publicationButtonSecondary}>
+                      <button 
+                        className={styler.publicationButtonSecondary}
+                        onClick={() => handleGetBibtex(publication)}
+                        title="Generate and copy BibTeX citation"
+                      >
                         Get BibTeX
                       </button>
                     </div>
