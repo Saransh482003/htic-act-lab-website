@@ -204,7 +204,6 @@ export default async function handler(req, res) {
         // Sort by similarity (highest first) and get top 10
         const topSimilarities = similarities
           .sort((a, b) => b.similarity - a.similarity)
-          .slice(0, 10);
 
         // Get the actual paper details for the top results
         const data = await fs.readFile(savePath, "utf-8");
@@ -217,7 +216,8 @@ export default async function handler(req, res) {
             similarityScore: Math.round(sim.similarity * 10000) / 100, // Convert to percentage
             relevanceRank: topSimilarities.indexOf(sim) + 1
           };
-        }).filter(paper => paper !== undefined);
+        }).filter(paper => paper !== undefined)
+
 
         return res.status(200).json({
           query: query.trim(),

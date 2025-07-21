@@ -3854,5 +3854,1435 @@
         "Scholar articles": "Arterial Stiffness in Elastic and Muscular Arteries: Measurement using ARTSENS PenVR Kiran, VV Abhidev, PM Nabeel, J Joseph… - 2019 IEEE International Symposium on Medical …, 2019Cited by 1 Related articles All 2 versions",
         "Title": "Arterial Stiffness in Elastic and Muscular Arteries: Measurement using ARTSENS Pen",
         "Paper Link": "https://ieeexplore.ieee.org/abstract/document/8802225/"
+    },
+    {
+        "index": 196,
+        "Authors": [
+            "V Raj Kiran",
+            "PM Nabeel",
+            "Jayaraj Joseph",
+            "Surya Venkatramanan",
+            "Malay Ilesh Shah",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "Publication date": "2018/7/18",
+        "Conference": "2018 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+        "Pages": "4575-4578",
+        "Publisher": "IEEE",
+        "Description": "This work presents investigations on intraday variations in arterial stiffness. For this purpose, an in-vivo study was conducted on five subjects over a duration of five consecutive days. Five stiffness index (β) measurements were obtained per day for each individual. Our clinically validated ARTSENS device was used to perform fully automated reliable stiffness measurements on the carotid artery. For each measurement, two trials were performed and averaged. These trials were observed to be repeatable with the coefficient of variation <; 0.72%. For each day, one measurement that was performed immediately after the lunch was subject to intervention due to the consumed food, which significantly (p <; 0.001) deviated from the mean baseline β of the day. Such significant deviations were not observed for the rest measurements that were performed in the absence of an intervention. Two subjects who consumed …",
+        "Total citations": "1",
+        "Scholar articles": "An in-vivo study on intra-day variations in vascular stiffness using ARTSENS PenVR Kiran, PM Nabeel, J Joseph, S Venkatramanan… - 2018 40th Annual International Conference of the IEEE …, 2018Cited by 1 Related articles All 3 versions",
+        "Title": "An in-vivo study on intra-day variations in vascular stiffness using ARTSENS Pen",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/8513198/"
+    },
+    {
+        "index": 197,
+        "Authors": [
+            "R Arathy",
+            "PM Nabeel",
+            "Jayaraj Joseph",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "Publication date": "2018/6/11",
+        "Conference": "2018 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "The measure of arterial stiffness is significant for the diagnosis of the cardiovascular health. A prototype accelerometer-based system for vascular stiffness indices detection is proposed and experimentally validated. The developed accelerometer-based system could continuously capture the accelerations related to the displacement of the carotid arterial walls. The measured accelerometric waveforms are recorded by a data acquisition card for signal processing and analysis in real-time. The recorded accelerometric signals from the carotid skin surface are double-integrated and calibrated linearly using our clinically validated ARTSENS® (ARTerial Stiffness Evaluation for Noninvasive Screening) device to estimate the subject-specific one-time calibration coefficients. The acquired accelerometric signal with these calibration coefficients was used to estimate the diameter parameters such as arterial distension (ΔD …",
+        "Total citations": "1",
+        "Scholar articles": "Vascular Wall Stiffness Indices Detection Using an Accelerometer-Based SystemR Arathy, PM Nabeel, J Joseph, M Sivaprakasam - 2018 IEEE International Symposium on Medical …, 2018Cited by 1 Related articles All 2 versions",
+        "Title": "Vascular Wall Stiffness Indices Detection Using an Accelerometer-Based System",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/8438625/"
+    },
+    {
+        "index": 198,
+        "Authors": [
+            "Srinivasa Karthik",
+            "Mohanasankar Sivaprakasam",
+            "Jayaraj Joseph",
+            "SP Preejith"
+        ],
+        "Publication date": "2016/5/15",
+        "Conference": "2016 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "We study the potential of reflectance photoplethysmography (PPG) in monitoring free flaps for arterial and venous thrombosis in post-surgical scenarios. Circulatory disruptions due to thrombosis were simulated using limb ischemia method on 30 volunteers. Arterial and venous occlusions were conducted in this study. The variation in blood flow in the region of interest was captured by a custom built sensor and data acquisition system using dual wavelength reflectance photoplethysmography. The main chromophores in blood, oxygenated and reduced hemoglobin, showed good variation to visible - near infrared wavelengths with concentration and volume changes. Sensitivity of the prototype device in detecting arterial and venous circulation disruptions was evaluated at various different threshold levels of signal parameters. The device showed strong capability to accurately detect circulatory disruptions and has …",
+        "Total citations": "1",
+        "Scholar articles": "A reflectance photoplethysmography based device to detect circulatory disruptionsS Karthik, M Sivaprakasam, J Joseph, SP Preejith - 2016 IEEE International Symposium on Medical …, 2016Cited by 1 Related articles All 2 versions",
+        "Title": "A reflectance photoplethysmography based device to detect circulatory disruptions",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/7533789/"
+    },
+    {
+        "index": 199,
+        "Authors": [
+            "Kaushik Basak Chowdhury",
+            "Jayaraj Joseph",
+            "Nethra Reddy",
+            "Jayaraman Kiruthi Vasan",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "Publication date": "2016/5/15",
+        "Conference": "2016 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "Image based readers for quantitative fluorescence immunoassays offer advantages of reliability and robustness over traditional scanning readers and has potential applications in point-of-care diagnostics. We had previously demonstrated an image based quantitative method to scan fluorescence labeled lateral flow test strips. Here we present an improved design, and report the calibration method and repeatability of the instrument. A new wideband emission filter was used instead of the previous narrowband filter and enhanced signal levels were obtained. Standard HbA1c calibrator set was used to evaluate the area ratios for various concentration levels of the analyte and generate the calibration curve. A straight line fit to the calibration data showed R-squared value to be 0.99. Repeatability of the instrument in successive test runs was evaluated to be fairly good with CV less than 4%. Inter-day repeatability of the …",
+        "Total citations": "1",
+        "Scholar articles": "An image based quantitative fluorescence immunoassay reader for HbA1c testing: Calibration & repeatability studyKB Chowdhury, J Joseph, N Reddy, JK Vasan… - 2016 IEEE International Symposium on Medical …, 2016Cited by 1 Related articles All 2 versions",
+        "Title": "An image based quantitative fluorescence immunoassay reader for HbA1c testing: Calibration & repeatability study",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/7533702/"
+    },
+    {
+        "index": 200,
+        "Authors": [
+            "Malaykumar Shah",
+            "Jayaraj Joseph",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "Publication date": "2014/6/1",
+        "Conference": "2014 IEEE International Symposium on Circuits and Systems (ISCAS)",
+        "Pages": "1384-1387",
+        "Publisher": "IEEE",
+        "Description": "Evaluation of vascular compliance is significant in cardiovascular diagnosis and screening. We present a novel ultrasound vascular compliance probe with integrated electrocardiogram (ECG) sensor, designed for quick and reliable evaluation of arterial compliance. The probe measures the compliance of the carotid artery using image-free ultrasound technique, and also measures the pulse arrival time (PAT) with the ECG signal. Automated measurement algorithms enable even general medical practitioners with little or no knowledge of vascular ultrasonography to measure vascular compliance parameters using this probe. The results of measurements performed on human volunteers by untrained personnel are reported to illustrate the practical utility of the system. The proposed vascular compliance evaluation system can pave the way for an effective and inexpensive cardiovascular screening tool.",
+        "Total citations": "1",
+        "Scholar articles": "Vascular compliance probe with integrated ECG for image-free evaluation of arterial stiffnessM Shah, J Joseph, M Sivaprakasam - 2014 IEEE International Symposium on Circuits and …, 2014Cited by 1 Related articles All 2 versions",
+        "Title": "Vascular compliance probe with integrated ECG for image-free evaluation of arterial stiffness",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/6865402/"
+    },
+    {
+        "index": 201,
+        "Authors": [
+            "Jayaraj Joseph",
+            "V Jayashankar",
+            "Pratulya Sivashankar",
+            "U Vinatha"
+        ],
+        "Publication date": "2009/5/5",
+        "Conference": "2009 IEEE Instrumentation and Measurement Technology Conference",
+        "Pages": "1744-1747",
+        "Publisher": "IEEE",
+        "Description": "It is difficult to make scaled down models that can produce electric power from waves based on the oscillating water column (OWC) principle in standard laboratory flumes. In this work, we show that precision measurements can be used to capture power signals from such a scaled down plant in a 600 mm wave flume. The measurement is difficult because the no load losses of the turbine motor exceed that generated from waves in a proposed twin unidirectional turbine topology. Twin 100 mm turbine models driven by brushless DC motors serve as the power module. Signals captured with 16-bit resolution are used to demonstrate the twin turbine concept.",
+        "Total citations": "1",
+        "Scholar articles": "Measurements for proof of concept validation of a twin unidirectional turbine wave energy plantJ Joseph, V Jayashankar, P Sivashankar, U Vinatha - 2009 IEEE Instrumentation and Measurement …, 2009Cited by 1 Related articles All 2 versions",
+        "Title": "Measurements for proof of concept validation of a twin unidirectional turbine wave energy plant",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/5168739/"
+    },
+    {
+        "index": 202,
+        "Authors": [
+            "Nicky Nirlipta Sahoo",
+            "Vs Sachidanand",
+            "Matcha Naga Gayathri",
+            "Balamurali Murugesan",
+            "Keerthi Ram",
+            "Jayaraj Joseph",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "Publication date": "2025/9/1",
+        "Journal": "Biomedical Signal Processing and Control",
+        "Volume": "107",
+        "Pages": "107797",
+        "Publisher": "Elsevier",
+        "Description": "Camera-based physiological monitoring, such as remote photoplethysmography (rPPG), captures subtle changes in the optical properties of the skin due to pulsating variations in blood volume using digital camera sensors. The demand for real-time non-contact physiological measurement has surged, particularly during the SARS-CoV-2 pandemic, to facilitate telehealth and remote health monitoring. Here, we propose an attention-based knowledge distillation (KD) method called KDPhys to extract the rPPG signal from the facial video frames. It effectively distills global temporal information from a 3D convolutional neural network (CNN) based teacher network to a 2D CNN-based student network, utilizing 3D to 2D feature distillation. To the best of our knowledge, this is the first implementation of KD in the field of rPPG. Additionally, we introduce a DIstortion Loss including shApe and TimE (DILATE) loss function …",
+        "Scholar articles": "KDPhys: An attention guided 3D to 2D knowledge distillation for real-time video-based physiological measurementNN Sahoo, V Sachidanand, MN Gayathri, B Murugesan… - Biomedical Signal Processing and Control, 2025Related articles",
+        "Title": "KDPhys: An attention guided 3D to 2D knowledge distillation for real-time video-based physiological measurement",
+        "Paper Link": "https://www.sciencedirect.com/science/article/pii/S1746809425003088"
+    },
+    {
+        "index": 203,
+        "Authors": [
+            "Navya Rose George",
+            "PM Nabeel",
+            "Kiran V Raj",
+            "Rahul Manoj",
+            "Mohanasankar Sivaprakasam",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2025/6/11",
+        "Journal": "Scientific Reports",
+        "Volume": "15",
+        "Pages": "20050",
+        "Description": "Author Correction: Single-element ultrasound system for high-resolution jugular venous pulse \ncontour detection - PMC Skip to main content Here's how you know Official websites use .gov \nA .gov website belongs to an official government organization in the United States. Secure .gov \nwebsites use HTTPS A lock ( Locked padlock icon ) or https:// means you've safely connected \nto the .gov website. Share sensitive information only on official, secure websites. NCBI home \npage Search Log in Dashboard Publications Account settings Log out Search… Search \nNCBI Primary site navigation Close Search Search Logged in as: Dashboard Publications \nAccount settings Log in Search PMC Full-Text Archive Search in PMC Search Advanced \nSearch Journal List User Guide NewTry this search in PMC Beta Search PERMALINK Copy \nAs a library, NLM provides access to scientific literature. Inclusion in an NLM database does …",
+        "Scholar articles": "Author Correction: Single-element ultrasound system for high-resolution jugular venous pulse contour detectionNR George, PM Nabeel, KV Raj, R Manoj… - Scientific Reports, 2025Related articles All 4 versions",
+        "Title": "Author Correction: Single-element ultrasound system for high-resolution jugular venous pulse contour detection",
+        "Paper Link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12159158/"
+    },
+    {
+        "index": 204,
+        "Inventors": "Jayaraj Joseph, Raj Kiran Vangapandu, Nabeel Pilaparambil Mashood, Mohanasankar Sivaprakasam",
+        "Publication date": "2025/6/3",
+        "Patent office": "US",
+        "Patent number": "12318250",
+        "Application number": "17996506",
+        "Description": "Embodiments of the present disclosure are directed to an vascular-dynamics-monitoring device (100) and methods for tracing a motion of boundaries of a vessel in a human body. The method features an automated gating of vessel walls' echoes in an ultrasound frame input to the vessel, accurate shift estimation for the gated vessel wall region, despite the presence of echoes from moving structures adjacent to the vessel and real-time trace of vessel walls\" boundaries.",
+        "Scholar articles": "Method and device for tracing the motion of blood vessel boundariesJ Joseph, RK Vangapandu, NP Mashood… - US Patent 12,318,250, 2025Related articles All 2 versions",
+        "Title": "Method and device for tracing the motion of blood vessel boundaries",
+        "Paper Link": "https://patents.google.com/patent/US12318250B2/en"
+    },
+    {
+        "index": 205,
+        "Authors": [
+            "PM Nabeel",
+            "Priyanka N Prem",
+            "Mohanasankar Sivaprakasam",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2025/6/2",
+        "Publisher": "IntechOpen",
+        "Description": "Heart transplantation remains the definitive treatment for advanced heart failure. Despite over five decades of advancements in transplantation, the fundamental approach to organ preservation outside the body has remained largely unchanged. Traditionally, the field has relied on static cold storage (SCS) as the clinical standard for preserving hearts from donors after brainstem death. While effective, SCS presents practical limitations, particularly in mitigating ischemic damage, assessing the organ quality in storage and transport, and expanding the donor pool to include extended-criteria donors or donations after circulatory death (DCD). The emergence of ex-vivo machine perfusion, a transformative innovation, offers enhanced preservation by reducing the risk of ischemic damage alongside the ability to assess and optimize grafts from extended-criteria donors and those obtained through DCD. This chapter explores the pivotal role of cardiac biomarkers in graft evaluation within this emerging technology, categorized into functional markers, cell injury and cell death markers, inflammatory markers, omics-based markers, and hormone/pro-hormone markers. By enhancing precision in identifying transplantable hearts, these biomarkers play a crucial role in improving the safety and efficacy of marginal graft utilization, providing reassurance about the advancements in the field. The chapter also includes practical recommendations for integrating these biomarkers into clinical protocols and outlines future research directions to drive innovation in cardiac transplantation.",
+        "Scholar articles": "Biomarkers for Cardiac Graft Assessment in Ex-Vivo Machine PerfusionPM Nabeel, PN Prem, M Sivaprakasam, J Joseph - 2025Related articles",
+        "Title": "Biomarkers for Cardiac Graft Assessment in Ex-Vivo Machine Perfusion",
+        "Paper Link": "https://www.intechopen.com/online-first/1218095"
+    },
+    {
+        "index": 206,
+        "Authors": [
+            "Navya Rose George",
+            "PM Nabeel",
+            "Kiran V Raj",
+            "Rahul Manoj",
+            "Mohanasankar Sivapraksam",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2025/4/22",
+        "Journal": "Scientific Reports",
+        "Volume": "15",
+        "Issue": "1",
+        "Pages": "13902",
+        "Publisher": "Nature Publishing Group UK",
+        "Description": "Jugular venous pulse (JVP) waveform contour is directly linked to right atrial hemodynamics and is a potential tool for diagnosing various cardiovascular diseases. The reference standard, central venous line catheterization, while precise, is restricted to critical care units owing to the necessity for surgical procedures and specialized operator skills. Conventional ultrasound imaging systems can reliably measure jugular venous vessel dynamics but are hindered by low operational frame rates, large form factors, and the requirement for trained operators. In this study, we propose a portable system using single-element ultrasound technology for reliable JVP waveform acquisition and methods for quantifying the JVP contour features. The performance of the system and method was validated against a reference ultrasound imaging system in a preclinical study on 65 asymptomatic volunteers (27 female). Operating at an …",
+        "Scholar articles": "Single-element ultrasound system for high-resolution jugular venous pulse contour detectionNR George, PM Nabeel, KV Raj, R Manoj… - Scientific Reports, 2025Related articles All 4 versions",
+        "Title": "Single-element ultrasound system for high-resolution jugular venous pulse contour detection",
+        "Paper Link": "https://www.nature.com/articles/s41598-025-98943-8"
+    },
+    {
+        "index": 207,
+        "Authors": [
+            "Aravind A Anil",
+            "Srinivasa Karthik",
+            "Mohanasankar Sivaprakasam",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2025/4/6",
+        "Conference": "ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "Pages": "1-5",
+        "Publisher": "IEEE",
+        "Description": "Heart rate monitoring using cameras is gaining attention for unobtrusive health tracking. This paper proposes an improved method for HR calculation using ROI adaptation tailored to individual facial features. A VGG-13 based encoder-decoder model was used for skin segmentation, classifying image pixels into left cheek, right cheek, and forehead regions, achieving a Dice coefficient of 0.90. ROIs were defined by the exterior coordinates of these skin pixels, adapting naturally to features like forehead size, cheek size, hairstyles, and spectacles. To address the challenge of ROIs with insufficient skin pixel coverage, we integrated Google MediaPipe landmarks to refine ROI selection, ensuring that at least 30 percent of the pixels in each region were skin pixels. The adaptive multi-ROI method was compared with traditional single-forehead and non-adaptive multi-ROI methods using the POS and CHROM rPPG …",
+        "Scholar articles": "Dynamic ROI Adaptation for Accurate Non-Contact Heart Rate Estimation Using VGG-13 based Encoder-Decoder Model and Facial LandmarksAA Anil, S Karthik, M Sivaprakasam, J Joseph - ICASSP 2025-2025 IEEE International Conference on …, 2025Related articles",
+        "Title": "Dynamic ROI Adaptation for Accurate Non-Contact Heart Rate Estimation Using VGG-13 based Encoder-Decoder Model and Facial Landmarks",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10890856/"
+    },
+    {
+        "index": 208,
+        "Authors": [
+            "Nimmi Sudarsan",
+            "Smit Shah",
+            "PM Nabeel",
+            "Dinu S Chandran",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2025/4/6",
+        "Conference": "ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "Pages": "1-5",
+        "Publisher": "IEEE",
+        "Description": "Conventional occlusion-based flow-mediated dilation (FMD) for assessing endothelial reactivity (ER) faces challenges such as operator and/or subject-dependant variability and time constraints. This study proposes a novel method using acute hand grip (HG) exercise to induce shear stimulus for improved ER assessment. We analysed the signaling of endothelial and muscle reactivity through vessel diameter, flow velocity, and electromyography (EMG) responses. In a controlled study with 15 participants, a 30-second HG intervention induced significant changes: vessel diameter increased by 13.94%, flow velocity by 22.31%, and for EMG, the average rectified value (ARVEMG) by 87.44%. Baseline measurements included vessel diameter of 4.23 ± 0.38 mm, flow velocity of 10.91 ± 0.92 cm/s, and ARVEMG of 0.0011 ± 0.0003 mV. The acute HG method showed a moderate to high correlation with the traditional …",
+        "Scholar articles": "Signaling Endothelial Reactivity Induced by Acute Hand Grip: Analyzing Vessel Diameter, Flow Velocity, and EMG ResponsesN Sudarsan, S Shah, PM Nabeel, DS Chandran… - ICASSP 2025-2025 IEEE International Conference on …, 2025Related articles",
+        "Title": "Signaling Endothelial Reactivity Induced by Acute Hand Grip: Analyzing Vessel Diameter, Flow Velocity, and EMG Responses",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10890241/"
+    },
+    {
+        "index": 209,
+        "Authors": [
+            "Partha Mitra",
+            "Jaikishan Jayakumar",
+            "Mohanasankar Sivaprakasam",
+            "Richa Verma",
+            "Mihail Bota",
+            "Jayaraj Joseph",
+            "Supriti Mulay",
+            "Jayaraman Kumutha",
+            "Chitra Srinivasan",
+            "Harish Kumar",
+            "Aparna Bhaduri",
+            "Tomasz Nowakowski",
+            "Prasun Roy",
+            "Stephen Savoia",
+            "Samik Bannerjee",
+            "Daniel Tward"
+        ],
+        "Publication date": "2025/1/10",
+        "Description": "The human brain is believed to contain a full complement of neurons by the time of birth together with a substantial amount of the connectivity architecture, even though a significant amount of growth occurs postnatally. The developmental process leading to this outcome is not well understood in humans in comparison with model organisms. Previous magnetic resonance imaging (MRI) studies give three-dimensional coverage but not cellular resolution. In contrast, sparsely sampled histological or spatial omics analyses have provided cellular resolution but not dense whole brain coverage. To address the unmet need to provide a quantitative spatiotemporal map of developing human brain at cellular resolution, we leveraged tape-transfer assisted serial section histology to obtain contiguous histological series and unbiased imaging with dense coverage. Interleaved 20μ thick Nissl and H&E series and MRI volumes are co-registered into multimodal reference volumes with 60μ isotropic resolution, together with atlas annotations and a stereotactic coordinate system based on skull landmarks. The histological atlas volumes have significantly more contrast and texture than the MRI volumes. We computationally detect cells brain-wide to obtain quantitative characterization of the cytoarchitecture of the developing brain at 13-14 and 20-21 gestational weeks, providing the first comprehensive regional cell counts and characterizing the differential growth of the different brain compartments. Morphological characteristics permit segmentation of cell types from histology. We detected and quantified brain-wide distribution of mitotic figures representing …",
+        "Scholar articles": "A three-dimensional histological cell atlas of the developing human brainP Mitra, J Jayakumar, M Sivaprakasam, R Verma… - 2025Related articles All 3 versions",
+        "Title": "A three-dimensional histological cell atlas of the developing human brain",
+        "Paper Link": "https://www.researchsquare.com/article/rs-5658034/latest"
+    },
+    {
+        "index": 210,
+        "Authors": [
+            "Satheesh Natarajan",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2025",
+        "Journal": "Sensors & Diagnostics",
+        "Publisher": "Royal Society of Chemistry",
+        "Description": "Correction for ‘A novel time-resolved fluorescent lateral flow immunoassay for quantitative detection of the trauma brain injury biomarker-glial fibrillary acidic protein’ by Satheesh Natarajan et al., Sens. Diagn., 2022, 1, 193–197, https://doi.org/10.1039/D1SD00021G.",
+        "Scholar articles": "Correction: A novel time-resolved fluorescent lateral flow immunoassay for quantitative detection of the trauma brain injury biomarker-glial fibrillary acidic proteinS Natarajan, J Joseph - Sensors & Diagnostics, 2025Related articles",
+        "Title": "Correction: A novel time-resolved fluorescent lateral flow immunoassay for quantitative detection of the trauma brain injury biomarker-glial fibrillary acidic protein",
+        "Paper Link": "https://pubs.rsc.org/en/content/articlehtml/2025/sd/d5sd90022k"
+    },
+    {
+        "index": 211,
+        "Inventors": "Jayaraj Joseph, Mohanasankar Sivaprakasam, Jayaraman Kiruthi Vasan, Rahul Manoj, Sudhan Chandrasekaran, Hari P NARAYANAN",
+        "Publication date": "2024/10/3",
+        "Patent office": "US",
+        "Application number": "18575482",
+        "Description": "A system for performing coverslipping includes multiple zones, where a coverslipper device is designated to move from one or more zones. An input zone comprises a slide tray, which comprises a stack of stained slides and a slide that is designated to be picked up by a slide pick-up platform. The picked-up slide reaches a dispensation zone and a mountant medium is dispensed via a nozzle and the slide pickup platform moves to a coverslipping zone. The coverslipper device picks the cover slips from a slip pick-up zone and moves to a coverslipping zone. The slide pick-up platform positions itself in the coverslipping zone while the picked coverslip is mounted over the slide. The processed cover slipped slide is transported by a slide conveyor and inserted into a slide tray, which is moved up and down and is positioned to accommodate the next processed slide.",
+        "Scholar articles": "Automated coverslipper for large format slides with switchable compatibility to handle multi format slidesJ Joseph, M Sivaprakasam, JK Vasan, R Manoj… - US Patent App. 18/575,482, 2024Related articles",
+        "Title": "Automated coverslipper for large format slides with switchable compatibility to handle multi format slides",
+        "Paper Link": "https://patents.google.com/patent/US20240329066A1/en"
+    },
+    {
+        "index": 212,
+        "Authors": [
+            "Nimmi Sudarsan",
+            "Rahul Manoj",
+            "PM Nabeel",
+            "Dinu S Chandran",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2024/7/15",
+        "Conference": "2024 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+        "Pages": "1-4",
+        "Publisher": "IEEE",
+        "Description": "Endothelium-dependent vascular reactivity has been recommended as a reliable indicator of vessel health. Ultrasound-based assessment of diameter response to shear stress measured as the proportion of brachial dilatation caused by reactive hyperemia (RH), is the gold standard for evaluating endothelial reactivity. However, the conventional approach does not account for the transient increase in blood flow and subsequent change in the transmural pressure that stimulates the endothelial cells to dilate the artery. In this work, simultaneous measures of blood flow and blood pressure during RH are used to evaluate the response of the brachial artery impedance. Endothelial reactivity is assessed using a three-element impedance blood flow model of the brachial artery. A significant change (> 30%) was observed in the impedance parameters in response to RH. The results were repeatable (ICC > 0.64) over 2 …",
+        "Scholar articles": "A Feasibility Study on the Response of Vascular Impedance to Reactive HyperemiaN Sudarsan, R Manoj, PM Nabeel, DS Chandran… - 2024 46th Annual International Conference of the IEEE …, 2024Related articles All 2 versions",
+        "Title": "A Feasibility Study on the Response of Vascular Impedance to Reactive Hyperemia",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10782945/"
+    },
+    {
+        "index": 213,
+        "Authors": [
+            "Smit Shah",
+            "G Jaganathan",
+            "Rahul Manoj",
+            "PM Nabeel",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2024/7/15",
+        "Conference": "2024 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+        "Pages": "1-4",
+        "Publisher": "IEEE",
+        "Description": "Vascular aging occurs due to pathologies and old age. Early detection of stiffness markers and arterial geometry parameters in the carotid artery serves as an essential indicator for the progression of vascular aging. The assessment of stiffness markers is typically conducted using ultrasound and tonometer-based devices. However, both types of devices present challenges, requiring skilled operators and exhibiting variability in results due to different hold-down pressures when different operators are involved. In this study, we aim to quantify the impact of hold-down pressure on diameter-based measurements and evaluate its effects on local and regional stiffness markers. To carry out this investigation, we utilized ARTSENS Plus device along with a multi-modal probe comprising an ultrasound transducer and a tonometer. A-mode ultrasound scanning was performed on the left common carotid artery of each …",
+        "Scholar articles": "Characterizing the Effect of Hold-Down Pressure for Local and Regional Stiffness MarkersS Shah, G Jaganathan, R Manoj, PM Nabeel, J Joseph - 2024 46th Annual International Conference of the IEEE …, 2024Related articles All 2 versions",
+        "Title": "Characterizing the Effect of Hold-Down Pressure for Local and Regional Stiffness Markers",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10781601/"
+    },
+    {
+        "index": 214,
+        "Authors": [
+            "Arjun R Krishna",
+            "PM Nabeel",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2024/7/15",
+        "Conference": "2024 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+        "Pages": "1-4",
+        "Publisher": "IEEE",
+        "Description": "Accurate blood pressure measurement is crucial for effective health monitoring, with oscillometric and auscultation methods being commonly employed. However, oscillometric measurements are population-dependent, and manual auscultation relies heavily on operator skill. This study introduces the modulated Short-Time Energy and finding the peaks (mSTEP) algorithm, designed to automate the tracking of systolic blood pressure (SBP) and diastolic blood pressure (DBP) from auscultatory signals, aiming to provide accurate BP measurements. The mSTEP algorithm was rigorously evaluated on a dataset comprising 350 recordings with manually annotated SBP and DBP for ground truth value. Implementation of the algorithm yielded successful identification of both SBP and DBP, with errors of -1.5 ± 6.6 mmHg and 3.8 ± 7.6 mmHg, respectively, with insignificant bias (p<0.0001). The agreement between mSTEP …",
+        "Scholar articles": "mSTEP: An Automated Algorithm for Blood Pressure Measurement from Korotkoff SoundsAR Krishna, PM Nabeel, J Joseph - 2024 46th Annual International Conference of the IEEE …, 2024Related articles All 2 versions",
+        "Title": "mSTEP: An Automated Algorithm for Blood Pressure Measurement from Korotkoff Sounds",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10781900/"
+    },
+    {
+        "index": 215,
+        "Authors": [
+            "Mathew Cigi",
+            "PM Nabeel",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2024/7/15",
+        "Conference": "2024 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+        "Pages": "1-4",
+        "Publisher": "IEEE",
+        "Description": "The cuffless estimation of blood pressure (BP) has become a prominent area of research in recent years fueled by its potential clinical implications and the growing interest from the wearable device industry. It has been accelerated by the emergence of learning-based models. Most use multiple pulse signals such as ECG, PPG, etc. rely on pulse transit time estimates and related features for estimating BP. However, the accuracy and reliability of such methods are questionable and hence there has been limited clinical uptake. This study focuses on evaluating the accuracy obtained from different machine learning models in classifying blood pressure using PPG signals. Specifically, Logistic Regression, Support Vector Classifier, Bagging Classifier, and Random Forest Classifier were studied. These models were trained and tested using data from the PulseDB dataset. Three blood pressure classes Hypotension …",
+        "Total citations": "1",
+        "Scholar articles": "Machine Learning Approaches for Blood Pressure Classification from Photoplethysmogram: A Comparative AnalysisM Cigi, PM Nabeel, J Joseph - 2024 46th Annual International Conference of the IEEE …, 2024Cited by 1 Related articles All 3 versions",
+        "Title": "Machine Learning Approaches for Blood Pressure Classification from Photoplethysmogram: A Comparative Analysis",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10782610/"
+    },
+    {
+        "index": 216,
+        "Authors": [
+            "VV Girish",
+            "Rahul Manoj",
+            "PM Nabeel",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2024/7/15",
+        "Conference": "2024 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+        "Pages": "1-4",
+        "Publisher": "IEEE",
+        "Description": "Central blood pressure (CBP), which is the pressure at the aorta and other central arterial sites such as the carotid, is more predictive of target organ damage and future adverse events, as opposed to conventional blood pressure assessed at more peripheral sites. However, methods to estimate CBP are complex, require frequent calibration and are not suitable for continuous tracking purposes. Here, we introduce a wearable accelerometer based pressure sensing system to track carotid pulse pressure (PP). The wearable system detects the transcutaneous pressure (PT) on the skin surface over the carotid artery and identifies the key fiducial points (g1, g2). In-vivo study on 11 subjects showed that the peak-to-peak value, ΔPT and maximum value, g2 of PT have a statistically significant and strong correlation with carotid PP (r = 0.75, p < 0.05) and SBP (r = 0.78, p < 0.05) respectively. The magnitude response …",
+        "Scholar articles": "Wearable Acceleration Plethysmography for Carotid Pulse Pressure Monitoring: A Feasibility StudyVV Girish, R Manoj, PM Nabeel, J Joseph - 2024 46th Annual International Conference of the IEEE …, 2024Related articles All 2 versions",
+        "Title": "Wearable Acceleration Plethysmography for Carotid Pulse Pressure Monitoring: A Feasibility Study",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10781672/"
+    },
+    {
+        "index": 217,
+        "Authors": [
+            "S Ishwarya",
+            "PM Nabeel",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2024/7/15",
+        "Conference": "2024 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+        "Pages": "1-4",
+        "Publisher": "IEEE",
+        "Description": "Carotid-femoral pulse wave velocity (cfPWV) is one of the established markers of aortic arterial stiffness with proven predictive capability for adverse cardiovascular events. Despite a large body of clinical evidence, cfPWV is not routinely assessed in clinical practice nor used for ambulatory or self-monitoring, as it requires access to the femoral site, which leads to poor subject compliance for the assessment. Heart-carotid PWV (hcPWV) is a potential alternative for measuring aortic arterial stiffness in settings where cf-PWV is challenging to measure. We introduce a novel device for easy and reliable measurement of hcPWV, using simultaneously acquired phonocardiogram (PCG) signals at the heart and photoplethysmography (PPG) signals at the carotid. This study aimed to evaluate the feasibility of in-vivo measurements of hcPWV in 30 subjects and examine its association with cfPWV. The agreement between …",
+        "Scholar articles": "Heart-Carotid Pulse Wave Velocity for Non-invasive Vascular Stiffness Assessment: A Feasibility StudyS Ishwarya, PM Nabeel, J Joseph - 2024 46th Annual International Conference of the IEEE …, 2024Related articles All 2 versions",
+        "Title": "Heart-Carotid Pulse Wave Velocity for Non-invasive Vascular Stiffness Assessment: A Feasibility Study",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10782643/"
+    },
+    {
+        "index": 218,
+        "Authors": [
+            "Gunjan Singh",
+            "Srinivasa Karthik",
+            "Nimal Jagadeesh Kumar",
+            "Mohanasankar Sivaprakasam",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2024/6/26",
+        "Conference": "2024 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "Ballistocardiography (BCG), a technique detecting subtle vibrations from cardiac activity, offers insights into heart functionality. The BCG waveform features distinct points of systolic phase (H, I, J, K), signifying ventricular contraction initiation (H), blood acceleration (I), peak blood flow (J), and aortic valve closure (K). This study explores the effect of various on the systolic phase of the cardiac cycle using a BCG system with a strain gauge sensor integrated into a chair. Ten healthy subjects, aged 27±3, were analysed across five postures: upright, hunched, backward lean, left lean, and right lean. Variations in systolic interval (H-K) were significant; compared to upright posture, upper body hunched and leaning backward showed prolonged H-K intervals (p < 0.05), with a more rapid ejection phase (H-I) compared to upright and hunched postures (p < 0.05). Despite posture-induced variations, the average heart rate …",
+        "Total citations": "1",
+        "Scholar articles": "Effect of Sitting Posture on Systolic Phase of Cardiac Cycle Derived from Strain Gauge based BallistocardiogramG Singh, S Karthik, NJ Kumar, M Sivaprakasam… - 2024 IEEE International Symposium on Medical …, 2024Cited by 1 Related articles All 2 versions",
+        "Title": "Effect of Sitting Posture on Systolic Phase of Cardiac Cycle Derived from Strain Gauge based Ballistocardiogram",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10596812/"
+    },
+    {
+        "index": 219,
+        "Authors": [
+            "Rahul Manoj",
+            "Ramdayalan Kumarasami",
+            "Gunjan Singh",
+            "Boby George",
+            "Mohanasankar Sivaprakasam",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2024/6/26",
+        "Conference": "2024 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "Variations in body fluids in a short time can lead to significant health issues. The risk due to body fluid variations increases for critically ill and bedridden patients. Changes in body weight in short intervals are the primary indicator of body fluid imbalances. The clinical practice for periodic monitoring of body weights of critically ill or bedridden patients includes a dedicated weighing scale or lift scale, detachable or built-in units of weighing scale on to the legs of hospital cots or as integrated bed scales attached permanently to the cot. However, these methods have limited mobility and usability in a practical setting and often require the involvement of multiple personnel to measure the body weight of a bedridden patient. Owing to such constraints, periodic monitoring of body weights is seldom recorded. In this work, we propose a novel measurement scheme for periodic monitoring of body weight. The prototype consists …",
+        "Scholar articles": "Periodic Weight Measurement for Bedridden Patients Using a Pressurized Liquid-Filled Channel System Integrated with Hospital BedsR Manoj, R Kumarasami, G Singh, B George… - 2024 IEEE International Symposium on Medical …, 2024Related articles",
+        "Title": "Periodic Weight Measurement for Bedridden Patients Using a Pressurized Liquid-Filled Channel System Integrated with Hospital Beds",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10596806/"
+    },
+    {
+        "index": 220,
+        "Authors": [
+            "Ganapathy Jaganathan",
+            "Rahul Manoj",
+            "PM Nabeel",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2024/6/26",
+        "Conference": "2024 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "Non-invasive assessment of left ventricular (LV) function is crucial for early diagnosis and management of cardiovascular diseases. The Acceleration Time (AT) to Ejection Time (ET) ratio, is a measurement used to assess the contractility of the left ventricle (LV) of the heart. This study explores the feasibility of a novel device for a surrogate estimation of the AT/ET ratio using carotid artery distension dynamics. In this in-vivo study, 17 healthy young male participants were recruited. A custom-designed device combining A-mode ultrasound and a pocket Doppler was used to acquire simultaneous measurements of carotid artery distension and blood flow velocity. The pocket Doppler aided in identifying critical events in the carotid artery flow waveform, serving as reference points for analyzing the second derivative of the carotid distension waveform obtained by the A-mode component. This facilitated the estimation of …",
+        "Scholar articles": "Estimating Left Ventricular Contractility Through Carotid Artery Distension: A Portable Device Utilizing A-Mode Ultrasound and Surrogate Marker AnalysisG Jaganathan, R Manoj, PM Nabeel, J Joseph - 2024 IEEE International Symposium on Medical …, 2024Related articles",
+        "Title": "Estimating Left Ventricular Contractility Through Carotid Artery Distension: A Portable Device Utilizing A-Mode Ultrasound and Surrogate Marker Analysis",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10596863/"
+    },
+    {
+        "index": 221,
+        "Authors": [
+            "S Ishwarya",
+            "Rahul Manoj",
+            "PM Nabeel",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2024/6/26",
+        "Conference": "2024 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-5",
+        "Publisher": "IEEE",
+        "Description": "Large arterial stiffness is an indicator of vascular aging and is a prognostic marker of cardiovascular disease. Carotid-femoral pulse wave velocity (cf-PWV) is a gold standard technique for non-invasively assessing large artery stiffness. The state-of-the-art cf-PWV measuring devices necessitate expertise and are not pertinent for routine care in non-clinical settings. To address this gap, we have developed an acoustic plethysmography device for cf-PWV measurement. An in-vitro test on an arterial phantom was performed to ensure the device's reliability. Subsequently, an in-vivo study of 10 participants was conducted to assess the feasibility of the acquisition of the developed device. The in-vitro measurement accuracy was satisfactory, with a root mean square error of. 4%. The in-vivo PWV results are consistent, with the normal ranges for the measured age group falling between 4 and 5.8 m/s. The beat-to-beat COV …",
+        "Scholar articles": "Acoustic Plethysmography for Aortic Pulse Wave Velocity Measurement: In-Vitro and In-Vivo Feasibility StudyS Ishwarya, R Manoj, PM Nabeel, J Joseph - 2024 IEEE International Symposium on Medical …, 2024Related articles",
+        "Title": "Acoustic Plethysmography for Aortic Pulse Wave Velocity Measurement: In-Vitro and In-Vivo Feasibility Study",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10596728/"
+    },
+    {
+        "index": 222,
+        "Authors": [
+            "Navya Rose George",
+            "Rahul Manoj",
+            "PM Nabeel",
+            "Mohanasankar Sivaprakasam",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2024/6/26",
+        "Conference": "2024 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "There has been a growing interest in assessing pulse wave velocity (PWV) in the veins with studies highlighting their potential in elucidating the vascular indices such as the venous pressure changes, venous return dynamics, venous insufficiency, and volaemic status. Despite their clinical significance, the measurements are limited due to the challenges associated with reliable venous pressure assessments. The local venous pulse wave velocity (vPWV) refers to the speed of pulse propagation within a targeted vein. Conventionally, PWV is calculated using a pulse-transit time-based approach where the venous pulses are measured from two known locations, necessitating the acquisition of high-fidelity venous pulses and demanding operator expertise. This study explores the feasibility of measuring local venous pulse wave velocity using established single-site measurement approaches employed in the arterial …",
+        "Scholar articles": "Assessment of Local Venous Pulse Wave Velocity Using Single-Site Methods-A Pilot StudyNR George, R Manoj, PM Nabeel, M Sivaprakasam… - 2024 IEEE International Symposium on Medical …, 2024Related articles",
+        "Title": "Assessment of Local Venous Pulse Wave Velocity Using Single-Site Methods-A Pilot Study",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10596851/"
+    },
+    {
+        "index": 223,
+        "Authors": [
+            "Arjun R Krishna",
+            "V Raj Kiran",
+            "PM Nabeel",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2024/6/26",
+        "Conference": "2024 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "Accurate blood pressure measurement is crucial for effective health monitoring, with oscillometric and auscultation methods being commonly employed. However, oscillometric measurements are population-dependent, and manual auscultation relies heavily on operator skill. This study introduces the a-STEP (Augmented Short Time Energy Peaks) algorithm, designed to combine both methods while automating the process, making it user-friendly, and aiming to provide accurate blood pressure measurements. The proposed algorithm was rigorously evaluated on a dataset comprising 350 recordings with manually annotated systolic blood pressure (SBP) and diastolic blood pressure (DBP) for ground truth value. Implementation of the algorithm yielded successful identification of both SBP and DBP, with errors of -1.5 ± 6.6 mmHg and 3.8 ± 7.6 mmHg, respectively, with in-significant bias (p <0.0001). The agreement …",
+        "Total citations": "1",
+        "Scholar articles": "a-STEP: Oscillometry-Augmented Auscultation Method for Improved Blood Pressure MeasurementAR Krishna, VR Kiran, PM Nabeel, J Joseph - 2024 IEEE International Symposium on Medical …, 2024Cited by 1 Related articles",
+        "Title": "a-STEP: Oscillometry-Augmented Auscultation Method for Improved Blood Pressure Measurement",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10596731/"
+    },
+    {
+        "index": 224,
+        "Authors": [
+            "Shruti Jeyaraman",
+            "PM Nabeel",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2024/6/26",
+        "Conference": "2024 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "Ultrasound measurement of arterial geometric properties is a fundamental need concerning cardiovascular disease management, as it is required for the assessment of endothelial function, stiffness and other functional properties. In this regard automated recognition of artery is an inevitable requirement. A key concern in this regard, however, is the presence of motion artefacts, which pose even larger challenges when dealing with radio-frequency (RF) signal processing for high-speed applications. We have earlier reported one such RF signal processing approach for arterial wall recognition. In this work we are proposing an improved method that is robust to motion artefacts. This work presents a proof-of-concept of the same supported by an in-silico based verification study. A-mode RF frames were simulated, particularly incorporating the influence of larger motion artefacts over smaller shifts owing to arterial wall …",
+        "Scholar articles": "Time Warping Approach to Overcome Motion Artifact's Influence on Automated Arterial Wall Identification: Proof-of-ConceptS Jeyaraman, PM Nabeel, J Joseph - 2024 IEEE International Symposium on Medical …, 2024Related articles",
+        "Title": "Time Warping Approach to Overcome Motion Artifact's Influence on Automated Arterial Wall Identification: Proof-of-Concept",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10596872/"
+    },
+    {
+        "index": 225,
+        "Authors": [
+            "S Ishwarya",
+            "Rahul Manoj",
+            "PM Nabeel",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2024/6/26",
+        "Conference": "2024 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "Stroke, a devastating cerebrovascular event caused by blood clot formation, poses a significant global health challenge. Timely detection of vulnerable plaque accumulation in the carotid arteries, which supply blood to the brain, is crucial for stroke prevention, yet diagnosing this plaque with conventional tests is difficult. The rupture of such plaque can lead to clot formation, obstructing blood flow and resulting in lasting brain damage. However, current technologies that utilize imaging are costly and require expertise, limiting their use in routine healthcare assessments. Moreover, techniques like global pulse wave velocity (PWV) measurements lack the precision to capture specific variations related to plaque presence and stiffness differences, particularly in detecting asymmetries and localized stiffness variations. To address these limitations, a novel bilateral carotid PWV measurement system is introduced, designed …",
+        "Scholar articles": "Bilateral Carotid Pulse Wave Velocity: A Proof of ConceptS Ishwarya, R Manoj, PM Nabeel, J Joseph - 2024 IEEE International Symposium on Medical …, 2024Related articles",
+        "Title": "Bilateral Carotid Pulse Wave Velocity: A Proof of Concept",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10596721/"
+    },
+    {
+        "index": 226,
+        "Authors": [
+            "Ramdayalan Kumarasami",
+            "Sathish Pandidurai",
+            "Srinivasa Karthik",
+            "Mohanasankar Sivaprakasam",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2024/6/26",
+        "Conference": "2024 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "Cellular-level studies are essential for a comprehensive understanding of the brain tissue's intricate structure and function. While high-throughput, high-resolution histology pipelines are available for the detailed analysis of small animal brains like mice and marmosets, establishing a comparable pipeline for large brains like those of goats or humans remains challenging. Cryosectioning, known for its minimal shrinkage and preservation of histochemical activities in the brain tissue, has been standardized for small brains or 5–10 mm thick sections of large brain tissues. We have developed a standardized protocol for freezing large brain sections up to 40–50 mm thick with minimal artifacts. The protocol integrates brain master patterns, custom-designed molds, an isopentane and dry ice bath, and a continuous temperature monitoring system to ensure high-quality histology. The freezing rate, a critical factor in artifact …",
+        "Scholar articles": "Optimization of Freezing Method to Facilitate Cryosectioning of Large Brain TissuesR Kumarasami, S Pandidurai, S Karthik… - 2024 IEEE International Symposium on Medical …, 2024Related articles",
+        "Title": "Optimization of Freezing Method to Facilitate Cryosectioning of Large Brain Tissues",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10596795/"
+    },
+    {
+        "index": 227,
+        "Authors": [
+            "Ganapathy Jaganathan",
+            "Rahul Manoj",
+            "PM Nabeel",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2024/6/26",
+        "Conference": "2024 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "Carotid-femoral pulse wave velocity (cfPWV) and central blood pressure (BP) are prognostic stiffness markers for assessing vascular health. In this study, a group of young ( age  40) to middle-aged ( age  60) participants with minimal cardiovascular risk were examined to determine the impact of physical (in)activity on central BP and cfPWV. This in-vivo study was conducted on 97 healthy participants (Mean age: 34). All participants completed a detailed lifestyle and medical history questionnaire, which included information on their lifestyle and physical activity. An in-house developed A-mode ultrasound device, ARTSENS Plus was used to measure, central BP (from the carotid artery) and cfPWV. There was no significant difference in central BP and cfPWV between physically active and inactive young adults  0.05). Although cfPWV in middle-aged adults increased by 26% in females and 10% in males between …",
+        "Scholar articles": "Impact of Physical (In) Activity on Carotid-Femoral PWV and Central Blood Pressure in Young and Middle-Aged Adults: A Pilot Study using ARTSENS PlusG Jaganathan, R Manoj, PM Nabeel, J Joseph - 2024 IEEE International Symposium on Medical …, 2024Related articles",
+        "Title": "Impact of Physical (In) Activity on Carotid-Femoral PWV and Central Blood Pressure in Young and Middle-Aged Adults: A Pilot Study using ARTSENS Plus",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10596707/"
+    },
+    {
+        "index": 228,
+        "Authors": [
+            "Rahul Manoj",
+            "PM Nabeel",
+            "Mohanasankar Sivaprakasam",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2024/6/26",
+        "Conference": "2024 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "The local PWV and its pressure-dependent changes within a cardiac cycle are potential biomarkers for cardiovascular risk stratification. However, the influence of pulse wave reflections hampers the accuracy of local PWV measurements. We propose a method to measure the pressure-dependent variations in local PWV after minimizing the effect of wave reflections. The technique measures the pulse transit time between two simultaneously acquired and processed forward-running pulse waveforms obtained after wave separation analysis (WSA). A cross-sectional in-vivo study was conducted on 57 human participants (22 female) to compare the inter and intra-cycle variations in PWV based on pulse transit-time obtained from two measured pulse waves and two forward-travelling pulse waves. The reference PWV for comparison was obtained using Bramwell-Hill equations. The required signals proximal and distal diameter waveforms from …",
+        "Scholar articles": "Measurement of Inter and Intra-cycle Variations in Local Pulse Wave Velocity from Forward Travelling Pulse WavesR Manoj, PM Nabeel, M Sivaprakasam, J Joseph - 2024 IEEE International Symposium on Medical …, 2024Related articles",
+        "Title": "Measurement of Inter and Intra-cycle Variations in Local Pulse Wave Velocity from Forward Travelling Pulse Waves",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10596914/"
+    },
+    {
+        "index": 229,
+        "Authors": [
+            "Vishnu S Nair",
+            "Sneha Sree",
+            "Gunjan Singh",
+            "Jayaraj Joseph",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "Publication date": "2024/6/26",
+        "Conference": "2024 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "This paper addresses the critical need for online action representation, which is essential for various applications like rehabilitation, surveillance, etc. The task can be defined as representation of actions as soon as they happen in a streaming video without access to video frames in the future. Most of the existing methods use predefined window sizes for video segments, which is a restrictive assumption on the dynamics. The proposed method employs a change detection algorithm to automatically segment action sequences, which form meaningful sub-actions and subsequently fit symbolic generative motion programs to the clipped segments. We determine the start time and end time of segments using change detection followed by a piece-wise linear fit algorithm on joint angle and bone length sequences. Domain-specific symbolic primitives are fit to pose keypoint trajectories of those extracted segments in order …",
+        "Scholar articles": "Online Action Representation using Change Detection and Symbolic ProgrammingVS Nair, S Sree, G Singh, J Joseph, M Sivaprakasam - 2024 IEEE International Symposium on Medical …, 2024Related articles All 3 versions",
+        "Title": "Online Action Representation using Change Detection and Symbolic Programming",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10596877/"
+    },
+    {
+        "index": 230,
+        "Authors": [
+            "KM Van Der Sluijs",
+            "EA Bakker",
+            "TP Kerstens",
+            "NA Stens",
+            "IA De Koning",
+            "J Thannhauser",
+            "AEF Malik",
+            "KD Reesink",
+            "KV Raj",
+            "PM Nabeel",
+            "J Joseph",
+            "TMH Eijsvogels",
+            "DHJ Thijssen"
+        ],
+        "Publication date": "2024/6",
+        "Journal": "European Journal of Preventive Cardiology",
+        "Volume": "31",
+        "Issue": "Supplement_1",
+        "Pages": "zwae175. 401",
+        "Publisher": "Oxford University Press",
+        "Description": "Background/Introduction           High volumes of sedentary time (ST) may affect arterial stiffness (AS), which precedes the development of cerebrovascular and cardiovascular disease. However, the association between ST and AS remains inconclusive as most previous studies assessed ST with subjective measures and/or focused on relatively small sample sizes.                             Purpose           We investigated the associations of objectively measured ST with central and local AS measures in a Dutch cohort, and we determined which factors affected these associations.                             Methods           We recruited adult volunteers from a prospective Dutch cohort study. We collected demographics via annual questionnaires and performed physical examinations at our research centre. ST was measured 24 hrs/day for 8 consecutive days using thigh-worn accelerometery and expressed as daily sitting time …",
+        "Scholar articles": "Association of objectively measured sedentary time with central and local arterial stiffnessKM Van Der Sluijs, EA Bakker, TP Kerstens, NA Stens… - European Journal of Preventive Cardiology, 2024Related articles All 2 versions",
+        "Title": "Association of objectively measured sedentary time with central and local arterial stiffness",
+        "Paper Link": "https://academic.oup.com/eurjpc/article-abstract/31/Supplement_1/zwae175.401/7692767"
+    },
+    {
+        "index": 231,
+        "Authors": [
+            "R Verma",
+            "J Jayakumar",
+            "J Ramesh",
+            "S Karthik",
+            "R Kumarasami",
+            "J Joseph",
+            "M Sivaprakasam",
+            "R Folkerth"
+        ],
+        "Publication date": "2024/5/10",
+        "Conference": "JOURNAL OF NEUROPATHOLOGY AND EXPERIMENTAL NEUROLOGY",
+        "Volume": "83",
+        "Issue": "6",
+        "Pages": "451-452",
+        "Publisher": "OXFORD UNIV PRESS INC",
+        "Scholar articles": "Multimodal high-resolution whole-brain characterization of holoprosencephaly (HPE) from 13-22 gestational weeksR Verma, J Jayakumar, J Ramesh, S Karthik… - JOURNAL OF NEUROPATHOLOGY AND …, 2024Related articles",
+        "Title": "Multimodal high-resolution whole-brain characterization of holoprosencephaly (HPE) from 13-22 gestational weeks",
+        "Paper Link": "https://scholar.google.com/scholar?cluster=8010040184417166392&hl=en&oi=scholarr"
+    },
+    {
+        "index": 232,
+        "Inventors": "Jayaraj Joseph, Nabeel Pilaparambil Mashood, Malay Ilesh Shah, Raj Kiran Vangapandu, Mohanasankar Sivaprakasam",
+        "Publication date": "2024/2/29",
+        "Patent office": "US",
+        "Application number": "18504653",
+        "Description": "A61B8/5207—Devices using data or image processing specially adapted for diagnosis using ultrasonic, sonic or infrasonic waves involving processing of raw data to produce diagnostic data, eg for generating an image",
+        "Scholar articles": "Image-free ultrasound for non-invasive assessment of early vascular health markersJ Joseph, NP Mashood, MI Shah, RK Vangapandu… - US Patent App. 18/504,653, 2024Related articles",
+        "Title": "Image-free ultrasound for non-invasive assessment of early vascular health markers",
+        "Paper Link": "https://patents.google.com/patent/US20240065670A1/en"
+    },
+    {
+        "index": 233,
+        "Inventors": "Nabeel Pilaparambil Mashood, Jayaraj Joseph, Rahul Manoj, Raj Kiran Vangapandu, Mohanasankar Sivaprakasam",
+        "Publication date": "2023/10/19",
+        "Patent office": "US",
+        "Application number": "18019158",
+        "Description": "A system for measurement of non-invasive and calibrationfree blood pressure (BP) is disclosed. The system comprises a measurement probe (302) which is in contact with a person's skin. The measurement probe (302) comprises a first array of sensors (302-1) and a second array of sensors (302-2). The first array of sensors (302-1) determines a force exerted on skin (304) and the second array of sensors (302-2) determines a compression-decompression characteristics of the arteries through skin. The force exerted on skin and the compression-decompression characteristics of the arteries are used to determine indices indicative of the material properties of the vessel. Based on the indices indicative of the material properties of the vessel, blood pressure and continuous transmural pressure waveform may be deter-mined.",
+        "Scholar articles": "A system for non-invasive calibration-free blood pressure (bp) measurementNP Mashood, J Joseph, R Manoj, RK Vangapandu… - US Patent App. 18/019,158, 2023Related articles",
+        "Title": "A system for non-invasive calibration-free blood pressure (bp) measurement",
+        "Paper Link": "https://patents.google.com/patent/US20230329667A1/en"
+    },
+    {
+        "index": 234,
+        "Authors": [
+            "Koen M van der Sluijs",
+            "Esmée A Bakker",
+            "Jayaraj Joseph",
+            "PM Nabeel",
+            "Kiran V Raj",
+            "Thijs MH Eijsvogels",
+            "Dick HJ Thijssen"
+        ],
+        "Publication date": "2023/9/1",
+        "Journal": "Medicine & Science in Sports & Exercise",
+        "Volume": "55",
+        "Issue": "9S",
+        "Pages": "398",
+        "Publisher": "LWW",
+        "Description": "PURPOSE: Sedentary behavior (SB) is known to increase cardiovascular disease (CVD) risk. Arterial stiffness (AS) is a predictor of CVD morbidity and mortality and could be used to assess CVD risk. However, the relation between SB and AS remains unclear. Thus, we examined the association between objectively measured SB and AS in individuals with a different cardiovascular (CV) health status.METHODS: We recruited subjects from the Nijmegen Exercise Study, a prospective cohort of physically active individuals participating in walking and running events. Subjects were divided into three groups based on their CV health: 1) subjects with CVD (ie prior myocardial infarction, heart failure, stroke, or thrombosis), 2) subjects with CV risk factors (CVRF: presence of hypertension, hypercholesterolemia, or diabetes), and 3) controls. SB was measured with accelerometry (total sitting time, hrs/day). AS was assessed …",
+        "Scholar articles": "The Association Between Sedentary Behavior And Arterial Stiffness In Relation To Cardiovascular Health Status: 1226KM van der Sluijs, EA Bakker, J Joseph, PM Nabeel… - Medicine & Science in Sports & Exercise, 2023Related articles",
+        "Title": "The Association Between Sedentary Behavior And Arterial Stiffness In Relation To Cardiovascular Health Status: 1226",
+        "Paper Link": "https://scholar.google.com/scholar?cluster=3690862662576538434&hl=en&oi=scholarr"
+    },
+    {
+        "index": 235,
+        "Inventors": "Nabeel Pilaparambil Mashood, Jayaraj Joseph, Mohanasankar Sivaprakasam, Vangapandu Raj Kiran",
+        "Publication date": "2023/8/29",
+        "Patent office": "US",
+        "Patent number": "11737723",
+        "Application number": "16765836",
+        "Description": "A61B5/02—Detecting, measuring or recording pulse, heart rate, blood pressure or blood flow; Combined pulse/heart-rate/blood pressure determination; Evaluating a cardiovascular condition not otherwise provided for, eg using combinations of techniques provided for in this group with electrocardiography or electroauscultation; Heart catheters for measuring blood pressure",
+        "Scholar articles": "Multi-modal ultrasound probe for calibration-free cuff-less evaluation of blood pressureNP Mashood, J Joseph, M Sivaprakasam, VR Kiran - US Patent 11,737,723, 2023Related articles All 2 versions",
+        "Title": "Multi-modal ultrasound probe for calibration-free cuff-less evaluation of blood pressure",
+        "Paper Link": "https://patents.google.com/patent/US11737723B2/en"
+    },
+    {
+        "index": 236,
+        "Authors": [
+            "S Ishwarya",
+            "PM Nabeel"
+        ],
+        "Publication date": "2023/7/24",
+        "Conference": "2023 45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)",
+        "Pages": "1-4",
+        "Publisher": "IEEE",
+        "Description": "Arterial stiffness, a proxy of vascular aging is an important marker of cardiovascular events and mortality, independent of traditional risk factors. The aortic or carotid-femoral pulse wave velocity (cf-PWV) is the gold standard for determining arterial stiffness. Measuring arterial stiffness can help identify people who are at risk early on. State-of-the-art devices, majorly employing applanation tonometry at the carotid site, demand extensive skill, are costly, and are not intended for out-of-clinic use. However, a device that is suitable for homecare and primary health settings would facilitate primordial care. To address this gap, we have developed a novel easy-to-use, fully automated, and affordable photoplethysmography-based device for measuring cf-PWV. An in-vivo study on 25 subjects was conducted to investigate the device's usability by comparing self and expert-performed measurements, and by quantifying the user …",
+        "Scholar articles": "Plethysmograph-Based Self-Assessment Device for Carotid-Femoral Pulse Wave Velocity Measurement: A Pilot Usability StudyS Ishwarya, PM Nabeel - 2023 45th Annual International Conference of the IEEE …, 2023Related articles All 3 versions",
+        "Title": "Plethysmograph-Based Self-Assessment Device for Carotid-Femoral Pulse Wave Velocity Measurement: A Pilot Usability Study",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10340457/"
+    },
+    {
+        "index": 237,
+        "Authors": [
+            "Rahul Manoj",
+            "S Aneesh",
+            "PM Nabeel",
+            "Mohanasankar Sivaprakasam",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2023/7/24",
+        "Conference": "2023 45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)",
+        "Pages": "1-4",
+        "Publisher": "IEEE",
+        "Description": "Arterial pulse wave separation analysis (WSA) requires simultaneously measured pressure and flow rate waveform from the same arterial site. Modelling approaches to flow rate waveforms offers a methodological and instrumentational advantage. However, current techniques are limited to the aortic site. For non-aortic sites such as carotid artery, modelling methods that were developed for aortic sites are not likely to capture the intrinsic differences in the carotid flow rate. In this work, a double-Rayleigh flow rate model for the carotid artery is developed to separate the forward and backward pressure waves using WSA (DRMWSA). The model parameters are optimally found based on characteristic features - obtained from the pressure waveform. The DRMWSA was validated using a database of 4374 virtual (healthy) subjects, and its performance was compared with actual flow rate based WSA (REFWSA) at the …",
+        "Scholar articles": "Arterial Wave Separation Analysis and Reflection Wave Transit Time Estimation using a Double Rayleigh Flow Rate ModelR Manoj, S Aneesh, PM Nabeel, M Sivaprakasam… - 2023 45th Annual International Conference of the IEEE …, 2023Related articles All 3 versions",
+        "Title": "Arterial Wave Separation Analysis and Reflection Wave Transit Time Estimation using a Double Rayleigh Flow Rate Model",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10340514/"
+    },
+    {
+        "index": 238,
+        "Authors": [
+            "Nimmi Sudarsan",
+            "Rahul Manoj",
+            "Dinu S Chandran",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2023/7/24",
+        "Conference": "2023 45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)",
+        "Pages": "1-4",
+        "Publisher": "IEEE",
+        "Description": "Endothelial reactivity (ER) is widely measured using flow-mediated dilation (FMD) of brachial artery. Conventional measurement of FMD is influenced by factors such as input shear stress, arterial transmural pressure, diameter and thereby arterial material properties (ε). Thus, for a reliable interpretation of FMD, it has to be normalized with respect to the above confounding factors. Normalization of FMD with shear stress at the time of measurement has been reported to reduce measurement variability. However, its widespread usage among the research community is limited. In this work, we examine the feasibility of normalizing the brachial FMD index (FMD%) to ε : extrema (εp), baseline (εb) and extrema change (∆ε) post-ischemia using its inter-day variability against FMD. In-vivo measurements were performed on 10 participants for 2 consecutive days and simultaneous pressure-diameter cycles were collected to …",
+        "Scholar articles": "Normalization of Flow-mediated Dilation to Brachial Artery Material Property: A Feasibility StudyN Sudarsan, R Manoj, DS Chandran, J Joseph - 2023 45th Annual International Conference of the IEEE …, 2023Related articles All 4 versions",
+        "Title": "Normalization of Flow-mediated Dilation to Brachial Artery Material Property: A Feasibility Study*",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10341153/"
+    },
+    {
+        "index": 239,
+        "Authors": [
+            "Nimmi Sudarsan",
+            "Rahul Manoj",
+            "Dinu S Chandran",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2023/7/24",
+        "Conference": "2023 45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)",
+        "Pages": "1-4",
+        "Publisher": "IEEE",
+        "Description": "Flow-mediated dilation (FMD) evaluates the relative change in arterial diameter during hyperemia to assess the endothelial response due to a shear stimulus. However, conventional FMD measures diameter response alone and the alterations in the arterial wall's material properties during reactive hyperemia, which also influence dilation, go unaddressed. In this work, we examine the material response (MR) of the artery during reactive hyperemia using clinically relevant stiffness markers for the assessment of endothelial reactivity (ER). For this, we have developed an in-house brachial cuff control (BCC) system to continuously acquire brachial pressure which can be integrated with simultaneous measurement of brachial diameter and used to quantify the relative changes in wall property during hyperemia non-invasively. The assessment of endothelial reactivity using material response (ERAMR) was conducted on …",
+        "Total citations": "1",
+        "Scholar articles": "Assessment of Endothelial Reactivity by Measurement of Vascular Material Response to Shear Stress: A Feasibility StudyN Sudarsan, R Manoj, DS Chandran, J Joseph - 2023 45th Annual International Conference of the IEEE …, 2023Cited by 1 Related articles All 4 versions",
+        "Title": "Assessment of Endothelial Reactivity by Measurement of Vascular Material Response to Shear Stress: A Feasibility Study",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10340551/"
+    },
+    {
+        "index": 240,
+        "Authors": [
+            "V Raj Kiran",
+            "Nimmi Sudarsan",
+            "Pm Nabeel",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2023/6/14",
+        "Conference": "2023 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "Non-invasive assessment of endothelial function (EF) is clinically important to monitor early vascular aging and cardiovascular risks. Current devices are imaging ultrasound-based, using dedicated software packages for EF assessment via brachial flow-mediated dilation (FMD). Such devices often come as a workstation that are not field amenable. Additionally, the required special software packages are not featured in affordable entry-level devices. We have developed an image-free ultrasound technology for measuring arterial stiffness and demonstrated its field usability earlier. In this work, we have employed an evolved form of technology for fully automated measurement of FMD. An in-vivo study was conducted on 30 healthy subjects to investigate the repeatability and reproducibility of the measurements furnished by the device. The device was able to measure the continuous end-diastolic diameter values and …",
+        "Scholar articles": "Repeatability and Reproducibility of Flow Mediated Dilation Measured using ARTSENSVR Kiran, N Sudarsan, P Nabeel, J Joseph - 2023 IEEE International Symposium on Medical …, 2023Related articles All 2 versions",
+        "Title": "Repeatability and Reproducibility of Flow Mediated Dilation Measured using ARTSENS",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10171953/"
+    },
+    {
+        "index": 241,
+        "Authors": [
+            "Nimmi Sudarsan",
+            "Rahul Manoj",
+            "V Raj Kiran",
+            "PM Nabeel",
+            "Dinu S Chandran",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2023/6/14",
+        "Conference": "2023 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "Non-invasive assessment of endothelial reactivity (ER) is done by analyzing the relative change in brachial artery diameter in response to transient forearm ischemia. However, confounding factors such as flow velocity that mediates to dilation of the artery are not considered while calculating the ER index (FMD%). Therefore, we propose a technique for the assessment of ER using the measurement of local pulse wave velocity (PWV) during reactive hyperemia (RH). Continuous diameter and flow velocity were recorded on 10 healthy subjects during baseline, RH and recovery phases and corresponding PWV was calculated using the flow-area (QA) and ln(diameter)-velocity (DU) method. After  of cuff release, PWV increased to 35.53% and 18.45% compared to baseline, and recovered to 45.6% and 55.62% from RH in  for both QA and DU methods. The study was repeated for 2 consecutive days. Repeatable …",
+        "Scholar articles": "Assessment of Endothelial Reactivity using Brachial Pulse Wave Velocity Response to ShearN Sudarsan, R Manoj, VR Kiran, PM Nabeel… - 2023 IEEE International Symposium on Medical …, 2023Related articles All 2 versions",
+        "Title": "Assessment of Endothelial Reactivity using Brachial Pulse Wave Velocity Response to Shear",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/10171899/"
+    },
+    {
+        "index": 242,
+        "Authors": [
+            "Dinu Santha Chandran",
+            "Prachi Srivastava",
+            "PM Nabeel",
+            "Kiran Raj",
+            "Jayaraj Joseph",
+            "Kishore Kumar Deepak"
+        ],
+        "Publication date": "2023/2/2",
+        "Journal": "Artery Research",
+        "Volume": "29",
+        "Issue": "1",
+        "Description": "Background: Stiffening of the barosensitive regions of large arteries have been previously linked to baroreflex dysfunction in various patient populations (1). We evaluated the local stiffness of carotid artery in COVID-19 survivors and investigated its relationship with non-invasively assessed baroreflex sensitivity. Methods: Sixty COVID-19 survivors (age range-22 to 66 years; 27 females) participated in the study at 3-6 months of clinical recovery from RT-PCR positive mild COVID-19. Control group consisted of 53 healthy volunteers matched for age, gender, BMI, and blood pressure whose arterial stiffness data was acquired prior to the onset of COVID-19 pandemic. Stiffness of the common carotid artery was assessed using ARTSENS®--a clinically validated, image-free, ultrasound-based arterial wall tracking technology (2). Heart rate and beat-to-beat blood pressure was non-invasively acquired for 5 min to compute …",
+        "Scholar articles": "Carotid artery stiffness in COVID-19 survivors and its relationship with baroreflex sensitivity.DS Chandran, P Srivastava, PM Nabeel, K Raj… - Artery Research, 2023Related articles",
+        "Title": "Carotid artery stiffness in COVID-19 survivors and its relationship with baroreflex sensitivity.",
+        "Paper Link": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=18729312&AN=162037423&h=7a5LvSqQ2W0Fpiv9QQBuCpZMDq6lJygXJEsMC2U8vkUHukeRJTNrGqGLNdZrjmGfzIlcbt3JosonmF9pVj6MjQ%3D%3D&crl=c"
+    },
+    {
+        "index": 243,
+        "Inventors": "Nabeel Pilaparambil Mashood, Jayaraj Joseph, Mohanasankar Sivaprakasam, Vangapandu Raj Kiran",
+        "Publication date": "2022/9/6",
+        "Patent office": "US",
+        "Patent number": "11432792",
+        "Application number": "16765837",
+        "Description": "(57) ABSTRACT A system for calibration-free cuff-less evaluation of blood pressure is proposed. The system includes an ultrasound based arterial compliance probes and a controller unit con nected to the said probe. The ultrasound transducers measure the change in arterial dimensions, pulse wave velocity, and other character traits of an arterial segment over continuous cardiac cycle, which is then used to evaluate blood pressure parameters without any calibration procedure using dedi cated mathematical models. The pressure sensor/force sen sor/biopotential transducers/accelerometric sensors measure",
+        "Scholar articles": "Multi-modal ultrasound probe for calibration-free cuff-less evaluation of blood pressureNP Mashood, J Joseph, M Sivaprakasam, VR Kiran - US Patent 11,432,792, 2022Related articles All 2 versions",
+        "Title": "Multi-modal ultrasound probe for calibration-free cuff-less evaluation of blood pressure",
+        "Paper Link": "https://patents.google.com/patent/US11432792B2/en"
+    },
+    {
+        "index": 244,
+        "Authors": [
+            "Rahul Manoj",
+            "S Ishwarya",
+            "P Nabeel",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2022/7/11",
+        "Conference": "2022 44th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)",
+        "Pages": "4018-4021",
+        "Publisher": "IEEE",
+        "Description": "Local pulse wave velocity (PWV) has gained much attention in the last decade due to its ability to provide localized stiffness information from a target vessel and cater to several applications beyond regional PWV. Transit time-based methods are the most straightforward, but their reliability is highly dependent on the blood pulse sensing modality. Conventional ultrasound systems directly measure the blood pulse (as diameter or flow velocity); however, they offer limited frame rates resulting in poor resolution signals. Advanced systems supporting high frame rates are expensive, complex, and not amenable to field and resource-constraint settings. We have developed a high frame image-free ultrasound system to address this gap for automated and online measurement of local PWV. In an earlier in-vitro study, we have demonstrated its accuracy. In this work, we aim to investigate its in-vivo reliability. A study on 15 …",
+        "Scholar articles": "Operator Variabilities in Carotid Pulse Wave Velocity Measured by an Image-free Ultrasound DeviceR Manoj, S Ishwarya, P Nabeel, J Joseph - 2022 44th Annual International Conference of the IEEE …, 2022Related articles All 3 versions",
+        "Title": "Operator Variabilities in Carotid Pulse Wave Velocity Measured by an Image-free Ultrasound Device",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/9871607/"
+    },
+    {
+        "index": 245,
+        "Authors": [
+            "Rahul Manoj",
+            "V Raj Kiran",
+            "PM Nabeel",
+            "Mohanasankar Sivaprakasam",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2022/6/22",
+        "Conference": "2022 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "Pulse contour analysis (PCA) provides detailed evaluations of the accelerative and decelerative phases of the arterial pulse waveform, potentially associated with large artery stiffness and vascular ageing. Previous studies have reported age-related associations (both structural and functional) with PCA markers and stiffness. However, changes in functional stiffness under a drug produced due to the interplay of blood pressure and heart rate were not explored. In this work, we investigate the variation of PCA markers derived from the second derivative of invasive pressure waveform recorded from the carotid artery of an anaesthetized porcine model under drug intervention. The variations in PCA markers are compared with the functional stiffness surrogates (pulse wave velocity (PWV) _ regional and local), which are clinically relevant markers that vary with blood pressure and heart rate. Local and regional PWV was …",
+        "Scholar articles": "Variation in Pulse Contour Markers on an Anesthetized Porcine During Pressure Perturbation: Association with Local and Regional StiffnessR Manoj, VR Kiran, PM Nabeel, M Sivaprakasam… - 2022 IEEE International Symposium on Medical …, 2022Related articles All 2 versions",
+        "Title": "Variation in Pulse Contour Markers on an Anesthetized Porcine During Pressure Perturbation: Association with Local and Regional Stiffness",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/9856488/"
+    },
+    {
+        "index": 246,
+        "Authors": [
+            "S Ishwarya",
+            "Rahul Manoj",
+            "PM Nabeel",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2022/6/22",
+        "Conference": "2022 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "Arterial stiffness measured from central arteries is widely recognized as a prognostic marker for cardiovascular risk stratification. Measurements in sitting posture make stiffness assessment potentially more rapid and feasible for large-scale population-level field screening. However, the blood pressure (BP) required for stiffness evaluation must be compensated for any hydrostatic pressure offset while performing measurements in a sitting posture. In this work, we developed and validated a hydrostatic pressure compensation unit integrated with our A-mode ultrasound device for carotid artery stiffness. The system was characterized, and its design parameters were carefully considered for concurrence with a physiologically interesting range. The smallest change it could reliably measure was 2 mm, which corresponded to 0.3 mmHg of blood pressure. The device was validated on 20 human subjects (11 males and 9 females). The …",
+        "Scholar articles": "Hydrostatic Pressure Compensator for Evaluation of Carotid Stiffness using A-Mode Ultrasound: Design, Characterization, and In-Vivo ValidationS Ishwarya, R Manoj, PM Nabeel, J Joseph - 2022 IEEE International Symposium on Medical …, 2022Related articles",
+        "Title": "Hydrostatic Pressure Compensator for Evaluation of Carotid Stiffness using A-Mode Ultrasound: Design, Characterization, and In-Vivo Validation",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/9856537/"
+    },
+    {
+        "index": 247,
+        "Authors": [
+            "KM Van Der Sluijs",
+            "EA Bakker",
+            "TJ Schuijt",
+            "J Joseph",
+            "DHJ Thijssen",
+            "TMH Eijsvogels"
+        ],
+        "Publication date": "2022/5/1",
+        "Journal": "European Journal of Preventive Cardiology",
+        "Volume": "29",
+        "Issue": "Supplement_1",
+        "Pages": "zwac056. 167",
+        "Publisher": "Oxford University Press",
+        "Description": "Funding Acknowledgements           Type of funding sources: Foundation. Main funding source(s): Dutch Heart Foundation (Nederlandse Hartstichting)                             Background/Introduction           SARS-CoV-2 and the associated coronavirus disease 2019 (COVID-19) has substantial acute effects on cardiovascular health and physical functioning, but the long-term effects are less clear, especially in individuals that recover from COVID-19 at home, representing ~95% of all cases.                             Purpose           We compared cardiovascular health and physical functioning of non-hospitalised ex-COVID-19 patients versus age- and sex-matched healthy peers.                             Methods           We recruited non-hospitalised adults with PCR-proven COVID-19 and age- and sex-matched controls for this case-control study. Duration of COVID-19 illness and presence of residual complaints were inquired …",
+        "Scholar articles": "Long-term cardiovascular health and physical functioning of non-hospitalised ex-COVID-19 patients: a case-control studyKM Van Der Sluijs, EA Bakker, TJ Schuijt, J Joseph… - European Journal of Preventive Cardiology, 2022Related articles All 4 versions",
+        "Title": "Long-term cardiovascular health and physical functioning of non-hospitalised ex-COVID-19 patients: a case-control study",
+        "Paper Link": "https://academic.oup.com/eurjpc/article-abstract/29/Supplement_1/zwac056.167/6583712"
+    },
+    {
+        "index": 248,
+        "Authors": [
+            "PM Nabeel",
+            "Rahul Manoj",
+            "VV Abhidev",
+            "Mohanasankar Sivaprakasam",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2021/11/1",
+        "Conference": "2021 43rd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)",
+        "Pages": "5602-5605",
+        "Publisher": "IEEE",
+        "Description": "Capturing vascular dynamics using ultrasound at a high framerate provided a unique way to track time-dependent and transient physiologic events non-invasively. In this work, we present an A-model high-framerate (500 frames per second) image-free ultrasound system for monitoring vascular structural and material properties. It was developed based on our clinically validated ARTSENS® technology. Following in-vitro verification on arterial flow phantoms, its measurement accuracy and high-framerate data acquisition and processing were verified in-vivo on 2 anesthetized Sus scrofa swine. Measurements of the carotid artery (the luminal diameter, distension, and wall thickness) obtained using the high-framerate system were comparable to those provided by a clinical-grade reference ultrasound imaging device (absolute error < 4%, < 6.3%, and < 6.6%, respectively). Notably, the morphology of the arterial …",
+        "Scholar articles": "High-Framerate A-Mode Ultrasound for Vascular Structural Assessments: In-Vivo Validation in a Porcine ModelPM Nabeel, R Manoj, VV Abhidev, M Sivaprakasam… - 2021 43rd Annual International Conference of the IEEE …, 2021Related articles All 4 versions",
+        "Title": "High-Framerate A-Mode Ultrasound for Vascular Structural Assessments: In-Vivo Validation in a Porcine Model",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/9629738/"
+    },
+    {
+        "index": 249,
+        "Inventors": "Jayaraj Joseph, Nabeel Pilaparambil Mashood, Malay Ilesh Shah, Raj Kiran Vangapandu, Mohanasankar Sivaprakasam",
+        "Publication date": "2021/9/30",
+        "Patent office": "US",
+        "Application number": "17175707",
+        "Description": "An image-free ultrasound system comprises ultrasound transducers, an ultrasound module, flow restrictors, a pulse detection module, and a measurement module. The ultra sound transducers are positioned at arteries to generate signals based on blood flow and pulse propagation in the arteries. The ultrasound module is in communication with each ultrasound transducer to generate characteristic waves based on the generated signals at the ultrasound transducers. The flow restrictors are positioned at the arteries to restrict blood flow and to generate signals based on the blood flow in the arteries. The pulse detection module is in communi cation with each flow restrictor to generate pulse waves. The measurement module is in communication with the ultra sound module and the pulse detection module to receive the generated characteristic waves and the pulse waves respec tively, where the early vascular health …",
+        "Scholar articles": "Image-free ultrasound for non-invasive assessment of early vascular health markersJ Joseph, NP Mashood, MI Shah, RK Vangapandu… - US Patent App. 17/175,707, 2021Related articles",
+        "Title": "Image-free ultrasound for non-invasive assessment of early vascular health markers",
+        "Paper Link": "https://patents.google.com/patent/US20210298712A1/en"
+    },
+    {
+        "index": 250,
+        "Authors": [
+            "Rahul Manoj",
+            "PM Nabeel",
+            "Mohanasankar Sivaprakasam",
+            "Jayaraj Joseph"
+        ],
+        "Publication date": "2021/6/23",
+        "Conference": "2021 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "Central Arteries' elastic nature plays a fundamental role in maintaining cardiovascular health. Timely assessment of arterial stiffness helps in cardiovascular risk stratification. Various technological and methodological approaches exist to estimate arterial stiffness, through direct measurement of stiffness markers or surrogates. This work highlights a potential surrogate for arterial stiffness, based on the early onset of reflection waves. The significance comes with using low frame rate A-mode ultrasound scans for processing arterial diameter, modelled as a sum of three Gaussians. The novelty lies in the Gaussian modelled reflection onset time ( τRGM ), derived using the model parameters, a potential surrogate for early reflections and arterial stiffness. An observational cross-sectional study group of 34 subjects were recruited to validate this hypothesis. A statistically significant (p 0.85 was obtained against Elastic …",
+        "Scholar articles": "Multi-Gaussian Model for Estimating Stiffness Surrogate using Arterial Diameter WaveformR Manoj, PM Nabeel, M Sivaprakasam, J Joseph - 2021 IEEE International Symposium on Medical …, 2021Related articles All 2 versions",
+        "Title": "Multi-Gaussian Model for Estimating Stiffness Surrogate using Arterial Diameter Waveform",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/9478600/"
+    },
+    {
+        "index": 251,
+        "Authors": [
+            "Jayaraj JOSEPH",
+            "Mohanasankar SIVAPRAKASAM"
+        ],
+        "Publication date": "2021",
+        "Journal": "電気学会研究会資料",
+        "Issue": "CMN-21-016-027",
+        "Pages": "45-50",
+        "Description": "Evaluation of Central Arterial Blood Pressure on Urban, Rural, and Semi-Urban Population \nin India Using ARTSENS | Article Information | J-GLOBAL Art J-GLOBAL ID:202102267550584456 \nReference number:21A1186067 Evaluation of Central Arterial Blood Pressure on Urban, \nRural, and Semi-Urban Population in India Using ARTSENS ARTSENSを用いたインドの都市,農村\nおよび準都市人口における中枢動脈血圧の評価 Publisher site {{ this.onShowPLink() }} Copy \nservice {{ this.onShowCLink(\"http://jdream3.com/copy/?sid=JGLOBAL&noSystem=1&documentNoArray=21A1186067&COPY=1\") \n}} Access JDreamⅢ for advanced search and analysis. {{ this.onShowJLink(\"http://jdream3.com/lp/jglobal/index.html?docNo=21A1186067&from=J-GLOBAL&jstjournalNo=Z0924B\") \n}} Author (4): M Nabeel P About M Nabeel P Search \"201850000455486208\" Search \"M \nNabeel P\" (IIT Madras, Chennai, IND) About IIT Madras, …",
+        "Scholar articles": "Evaluation of Central Arterial Blood Pressure on Urban, Rural, and Semi-Urban Population in India Using ARTSENSJ JOSEPH, M SIVAPRAKASAM - 電気学会研究会資料, 2021Related articles",
+        "Title": "Evaluation of Central Arterial Blood Pressure on Urban, Rural, and Semi-Urban Population in India Using ARTSENS",
+        "Paper Link": "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202102267550584456"
+    },
+    {
+        "index": 252,
+        "Authors": [
+            "Rahul Manoj",
+            "PM Nabeel",
+            "Kiran V Raj",
+            "Jayaraj Joseph",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "Publication date": "2020/12",
+        "Journal": "Artery Research",
+        "Volume": "26",
+        "Issue": "Suppl 1",
+        "Pages": "S18-S18",
+        "Publisher": "Springer Netherlands",
+        "Description": "BackgroundArterial stiffness index (β) is a clinically accepted vascular metric, calculated from arterial pressure and diameter obtained simultaneously from a single arterial site . Hence, accurate measurement of β can only be performed on arteries where pressure can be recorded along with the diameter. We present a method to evaluate β from superficial arteries using arterial force (F) and diameter (D) waveforms, employing mathematical models (shown below) exploiting the non-linear pressure-diameter relationship , without requiring absolute pressure.MethodsPilot functionality assessment was performed on eight participants (24 ± 5 years). A custom-developed frequencymatched system, combining single-element ultrasound and force-sensing transducers, was used to measure D and F waveforms from the common carotid artery. A hemodynamic-loop was formed from these measures and optimised to …",
+        "Scholar articles": "YI 2.5 Direct Measurement of Stiffness Index β of Superficial Arteries Without Blood Pressure EstimationR Manoj, PM Nabeel, KV Raj, J Joseph… - Artery Research, 2020Related articles All 9 versions",
+        "Title": "YI 2.5 Direct Measurement of Stiffness Index β of Superficial Arteries Without Blood Pressure Estimation",
+        "Paper Link": "https://link.springer.com/article/10.2991/artres.k.201209.013"
+    },
+    {
+        "index": 253,
+        "Authors": [
+            "R Arathy",
+            "PM Nabeel",
+            "Joseph Jayaraj",
+            "VV Abhidev",
+            "Sivaprakasam Mohanasankar"
+        ],
+        "Publication date": "2020/12",
+        "Journal": "Artery Research",
+        "Volume": "26",
+        "Issue": "Suppl 1",
+        "Pages": "S62-S62",
+        "Publisher": "Springer Netherlands",
+        "Description": "PurposeArterial stiffness is a well-established marker for cardiovascular health assessment. Current methods rely on expensive imaging systems and specialised operators to perform local stiffness evaluation from the common carotid artery (CCA) and cannot be used for ambulatory monitoring in chronic disease management. In this study, we compare the performance of a novel accelerometric system, which performs ambulatory non-invasive CCA stiffness measurement, against an ultrasound-based stiffness monitor.MethodsThe accelerometric system with a wearable patch probe derives CCA’s diameter parameters from the skin surface vibrations arising out of the arterial wall displacement wave propagated to the skin surface. A subject-specific one-time calibration procedure is used to ensure accuracy, reliability and repeatability. Inbuilt pressure measurement unit of the system estimates blood pressure at CCA …",
+        "Scholar articles": "P. 40 Ambulatory Measurement of Carotid Stiffness with a Novel Accelerometric SystemR Arathy, PM Nabeel, J Jayaraj, VV Abhidev… - Artery Research, 2020Related articles All 6 versions",
+        "Title": "P. 40 Ambulatory Measurement of Carotid Stiffness with a Novel Accelerometric System",
+        "Paper Link": "https://link.springer.com/article/10.2991/artres.k.201209.052"
+    },
+    {
+        "index": 254,
+        "Authors": [
+            "Dinu Chandran",
+            "Jayaraj Joseph",
+            "Sakshi Sen",
+            "Kiran Raj",
+            "PM Nabeel",
+            "Kishore Kumar Deepak"
+        ],
+        "Publication date": "2020/12",
+        "Journal": "Artery Research",
+        "Volume": "26",
+        "Issue": "Suppl 1",
+        "Pages": "S70-S70",
+        "Publisher": "Springer Netherlands",
+        "Description": "BackgroundUltrasonographic imaging to record changes in peripheral arterial diameter associated with Flow mediated dilatation or Low flow mediated constriction is routinely used to assess various facets of vascular endothelial function. Imaging poses many challenges including requirement of costly ultrasound machines, trained manpower to perform imaging and effort-intensive steps to analyse the images subsequently using manual or automated methods. We tested the feasibility and validity of using an imaging-free technology to record resting arterial diameters of brachial and radial arteries.MethodsEight healthy volunteers initially underwent ultrasonographic imaging (M7, Mindray; Shenzhen, P.R. China) of brachial artery and proximal radial artery. The brachial and radial artery ‘zones’ thereby identified through imaging were surface marked on subject’s arm. Imaging-free ARTSENS® Pen device …",
+        "Scholar articles": "P. 47 Feasibility Evaluation of Imaging-Free Ultrasound Technology to Measure Diameters of Brachial and Radial Arteries for Assessment of Endothelial FunctionD Chandran, J Joseph, S Sen, K Raj, PM Nabeel… - Artery Research, 2020Related articles All 8 versions",
+        "Title": "P. 47 Feasibility Evaluation of Imaging-Free Ultrasound Technology to Measure Diameters of Brachial and Radial Arteries for Assessment of Endothelial Function",
+        "Paper Link": "https://link.springer.com/article/10.2991/artres.k.201209.059"
+    },
+    {
+        "index": 255,
+        "Authors": [
+            "Kiran V Raj",
+            "PM Nabeel",
+            "Jayaraj Joseph",
+            "Dinu Chandran",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "Publication date": "2020/12",
+        "Journal": "Artery Research",
+        "Volume": "26",
+        "Issue": "Suppl 1",
+        "Pages": "S63-S63",
+        "Publisher": "Springer Netherlands",
+        "Description": "BackgroundThe clinical significance of pressure-dependent intra-beat changes in local pulse-wave velocity (C) has recently come to light . While reported methods require arterial pressure and diameter measurements from a single site to assess intra-beat changes in C, we present an image-free fast ultrasound device that performs this by capturing diameter waveforms from two proximal locations on an artery.MethodsThe functionality was assessed on eight normotensive participants (26 ± 4 years). By perturbing blood pressure through a short duration moderate lower body negative pressure intervention , CD and CF pulse wave velocities corresponding to diastolic and 80% of peak pressure were measured from the carotid artery. Human NIBP system (ADInstruments, India) was used for monitoring continuous pressure.ResultsThe device captured dual-diameter waveforms and evaluated CD and CF, with a beat-to …",
+        "Scholar articles": "P. 41 Measurement of Pressure-dependent Intra-Beat Changes in Carotid Pulse Wave Velocity using Image-Free Fast UltrasoundKV Raj, PM Nabeel, J Joseph, D Chandran… - Artery Research, 2020Related articles All 6 versions",
+        "Title": "P. 41 Measurement of Pressure-dependent Intra-Beat Changes in Carotid Pulse Wave Velocity using Image-Free Fast Ultrasound",
+        "Paper Link": "https://link.springer.com/article/10.2991/artres.k.201209.053"
+    },
+    {
+        "index": 256,
+        "Authors": [
+            "R Arathy",
+            "PM Nabeel",
+            "Jayaraj Joseph",
+            "VV Abhidev",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "Publication date": "2020/7/20",
+        "Conference": "2020 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)",
+        "Pages": "2699-2702",
+        "Publisher": "IEEE",
+        "Description": "We have developed an accelerometric system with a custom-designed patch probe and signal acquisition hardware to acquire the carotid wall displacement from the soft tissue surface for arterial stiffness evaluation. A subject-specific calibration model was developed to estimate the morphology of accurate carotid diameter waveform, using a standard ultrasound B-mode imaging system as the reference. Following the one-time calibration, the accelerometric system continuously acquired a non-invasive carotid lumen diameter waveform. The capability of the accelerometric system to measure the carotid stiffness index (β) in-vivo was experimentally validated by performing measurements on 8 normotensive subjects in the supine position. The repeatability and reproducibility of the results were investigated and were found to be comparable to those provided by ultrasound imaging systems. Further, the variation of …",
+        "Scholar articles": "Repeatability Study of Local Vascular Stiffness Measurement Using Carotid Surface Acceleration PlethysmogramR Arathy, PM Nabeel, J Joseph, VV Abhidev… - 2020 42nd Annual International Conference of the …, 2020Related articles All 3 versions",
+        "Title": "Repeatability Study of Local Vascular Stiffness Measurement Using Carotid Surface Acceleration Plethysmogram",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/9175431/"
+    },
+    {
+        "index": 257,
+        "Authors": [
+            "Jayaraj Joseph",
+            "PM Nabeel",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "Publication date": "2020/6/1",
+        "Conference": "2020 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "Existing ultrasound systems for the measurement of arterial wall dynamics make use of techniques such as doppler processing, phase locking, threshold detection, or cross-correlation based echo tracking. Applications that require only the maximum distension measure may not impose stringent demand on accuracy. However, the wall-tracking accuracy is a primary methodological consideration for the applications that depend on the true morphology of the entire distension waveform. In this work, we propose a novel image-free ultrasound approach to auto-track the arterial walls in a reliable manner, even in the presence of other dynamic echoes very adjacent to the wall echoes. The method uses the concept of dynamic time warping for estimating the varying shifts across various echoes in the scanned A-mode frames. We have demonstrated the method’s functionality in this article via. systematic simulation …",
+        "Scholar articles": "A Dynamic Time Warping Method for Improved Arterial Wall-Tracking using A-mode Ultrasound Frames: A Proof-of-ConceptJ Joseph, PM Nabeel, M Sivaprakasam - 2020 IEEE International Symposium on Medical …, 2020Related articles All 2 versions",
+        "Title": "A Dynamic Time Warping Method for Improved Arterial Wall-Tracking using A-mode Ultrasound Frames: A Proof-of-Concept",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/9137338/"
+    },
+    {
+        "index": 258,
+        "Authors": [
+            "Malay Ilesh Shah",
+            "Jayaraj Joseph",
+            "Richa Kedia",
+            "Shalini Gupta",
+            "Venkataraman Sritharan"
+        ],
+        "Publication date": "2019/11/20",
+        "Conference": "2019 IEEE Healthcare Innovations and Point of Care Technologies,(HI-POCT)",
+        "Pages": "83-86",
+        "Publisher": "IEEE",
+        "Description": "Septicemia or in short sepsis affects nearly 30 million people worldwide. Current clinical identification of sepsis includes culture-based methods that have a long turnaround time or monitoring of patient response that adds delay to therapy. There is currently no point-of-care care (PoC) device that allows both rapid and early sepsis diagnosis by the bedside. We have developed a portable colorimetric kit called Septiflo that gives concentration-dependent qualitative estimate of the sepsis-associated bacterial infection load in blood under 10 min. However, the results of this naked eye assessment remain somewhat subjective. In this paper, we present a handheld optical reader that can quantify the signal output of the Septiflo device making it a substantially more robust and accurate way to diagnose sepsis. The repeatability coefficient of variation (CoV) of this device when tested on five reference cartridges was found to …",
+        "Scholar articles": "A Portable Colorimetric Reader for Early and Rapid Diagnosis of SepsisMI Shah, J Joseph, R Kedia, S Gupta, V Sritharan - 2019 IEEE Healthcare Innovations and Point of Care …, 2019Related articles",
+        "Title": "A Portable Colorimetric Reader for Early and Rapid Diagnosis of Sepsis",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/8962853/"
+    },
+    {
+        "index": 259,
+        "Authors": [
+            "R Arathy",
+            "PM Nabeel",
+            "VV Abhidev"
+        ],
+        "Publication date": "2019/9/8",
+        "Conference": "2019 Computing in Cardiology (CinC)",
+        "Pages": "Page 1-Page 4",
+        "Publisher": "IEEE",
+        "Description": "Non-invasive, continuous measurement of arterial stiffness indices has established utility in cardiovascular risk stratification. This study aims to develop a subject-specific model of soft tissue sandwich from the common carotid artery wall to the skin surface layer using acceleration plethysmograph (APG) waveforms. It was then used to estimate the lumen arterial diameter waveform using APG for stiffness evaluation. The carotid APG waveforms were collected using the developed accelerometer probe and its associated measurement system. The relationship between carotid diameter and APG from the neck was evaluated via mathematical models using system identification in MATLAB. The performance of the developed model for non-invasive assessment of carotid diameter and stiffness indices was validated on 15 subjects.The developed model was implemented in real-time and continuously evaluated carotid …",
+        "Scholar articles": "Evaluation of Arterial Diameter by Mathematical Transformation of APG for Ambulatory StiffnessR Arathy, PM Nabeel, VV Abhidev - 2019 Computing in Cardiology (CinC), 2019Related articles",
+        "Title": "Evaluation of Arterial Diameter by Mathematical Transformation of APG for Ambulatory Stiffness",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/9005835/"
+    },
+    {
+        "index": 260,
+        "Authors": [
+            "Lalitha Pratyusha Bheemavarapu",
+            "Malay Ilesh Shah",
+            "Jayaraj Joseph",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "Publication date": "2019/7/23",
+        "Conference": "2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+        "Pages": "5447-5450",
+        "Publisher": "IEEE",
+        "Description": "Lateral flow immunoassays (LFIA) play a significant role in point-of-care (POC) diagnostics, facilitating early diagnosis of medical conditions. With simpler infrastructure requirements, POC diagnostics can be easily adopted in remote areas as well as for end-user level monitoring. As part of the current work, we present a camera based multi-cartridge fluorescence reader. The proposed system can carry out simultaneous analysis of four LFIA test cartridges. It forms a simple, rugged system requiring minimal human intervention and the average time taken for tests is lower as compared to the available LFIA readers. The hardware architecture of the system along with the software algorithms utilized is described in this paper. To validate the system performance, tests were conducted using HbA1C samples. The designed system comprises of four test-slots accommodating four test cartridges in a single go. The correlation …",
+        "Scholar articles": "Multi-cartridge Fluorescence Reader for Quantitative ImmunoassaysLP Bheemavarapu, MI Shah, J Joseph… - 2019 41st Annual International Conference of the IEEE …, 2019Related articles All 2 versions",
+        "Title": "Multi-cartridge Fluorescence Reader for Quantitative Immunoassays",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/8857256/"
+    },
+    {
+        "index": 261,
+        "Authors": [
+            "Jayaraj Joseph",
+            "PM Nabeel",
+            "Hanna Frese",
+            "Mohanasankar Sivaprakasam",
+            "Malay Ilesh Shah"
+        ],
+        "Publication date": "2019/6/26",
+        "Conference": "2019 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-5",
+        "Publisher": "IEEE",
+        "Description": "Conventional B-mode imaging systems that are clinically used for measurement of arterial diameter are expensive, non-portable and non-scalable, demand operator expertise and are not field amenable. To address this, we have previously developed a portable image-free ultrasound technology, ARTSENS®, that uses A-mode scans for easy and fully automated assessment of arterial wall dynamics. Earlier algorithms of ARTSENS® to evaluate arterial diameter were based on fit-models of the lumen well which does not directly represent the distance between the intima-lumen boundaries of the arterial walls. In this work, we have proposed a method that uses the unwrapped analytic phase of the A-mode echoes to directly identify the locations of the intima-lumen boundaries of the near and far wall for diameter estimation. The performance of the method was evaluated using systematic simulation and in-vitro …",
+        "Scholar articles": "Analytic Phase Based Approach for Arterial Diameter Evaluation Using A-Mode Ultrasound FramesJ Joseph, PM Nabeel, H Frese, M Sivaprakasam… - 2019 IEEE International Symposium on Medical …, 2019Related articles",
+        "Title": "Analytic Phase Based Approach for Arterial Diameter Evaluation Using A-Mode Ultrasound Frames",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/8802185/"
+    },
+    {
+        "index": 262,
+        "Authors": [
+            "R Dhinesh",
+            "Minhas Naheem",
+            "Shubham Khandelwal",
+            "SP Preejith",
+            "Jayaraj Joseph",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "Publication date": "2019/6/26",
+        "Conference": "2019 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "The threats and injuries caused by falling are significant and pose risks to life among the elderly population. Detecting falls and providing prompt care helps in reducing the risks associated with falling. Technology solutions are being employed for the detection of falls and to enable provisions to access immediate assistance. These solutions require the user to wear specialized equipment continuously that are inconvenient for prolonged usage, especially among the elderly population. To address this concern, numerous research works have focused on developing solutions that are minimally intrusive to the user. Insufficiency of clinical fall dataset limits the investigation of diverse approaches to improve the accuracy using devices that offer user comfort. Algorithms developed through research fall short of extensive datasets to offer reliable detection of falls through a wrist-worn device. However, such algorithms …",
+        "Scholar articles": "Fall Detection Using Kinematic Features from a Wrist-Worn Inertial SensorR Dhinesh, M Naheem, S Khandelwal, SP Preejith… - 2019 IEEE International Symposium on Medical …, 2019Related articles",
+        "Title": "Fall Detection Using Kinematic Features from a Wrist-Worn Inertial Sensor",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/8802211/"
+    },
+    {
+        "index": 263,
+        "Authors": [
+            "Jayaraj Joseph",
+            "PM Nabeel",
+            "Malay Ilesh Shah",
+            "Kiran V Raj",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "Publication date": "2018/10/28",
+        "Conference": "2018 IEEE SENSORS",
+        "Pages": "1-1",
+        "Publisher": "IEEE",
+        "Description": "Ultrasound-based techniques for non-invasive assessment of arterial stiffness - the earliest detectable manifestation of cardiovascular conditions, has gained significant attention over the years. State-of-the-art techniques use imaging systems for measuring carotid artery stiffness or rely on carotid-femoral pulse wave velocity to evaluate vascular stiffness. These techniques are expensive, require expertise to operate and are not suitable for field deployment. In this context, we developed ARTSENS® - an ultrasound technology for image-free, noninvasive, automated evaluation of vascular stiffness amenable for field use. The latest version of this novel technology, ARTSENS® Pen is proposed for a live demonstration in the IEEE SENSORS 2018 Conference.",
+        "Scholar articles": "Live Demonstration of ARTSENS® Pen-An Image-Free Ultrasound Device for Automated Evaluation of Vascular StiffnessJ Joseph, PM Nabeel, MI Shah, KV Raj… - 2018 IEEE SENSORS, 2018Related articles",
+        "Title": "Live Demonstration of ARTSENS® Pen-An Image-Free Ultrasound Device for Automated Evaluation of Vascular Stiffness",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/8589596/"
+    },
+    {
+        "index": 264,
+        "Authors": [
+            "PM Nabeel",
+            "Jayaraj Joseph",
+            "Malay Ilesh Shah",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "Publication date": "2018/6/11",
+        "Conference": "2018 IEEE International Symposium on Medical Measurements and Applications (MeMeA)",
+        "Pages": "1-6",
+        "Publisher": "IEEE",
+        "Description": "Arterial Young's modulus (Y) is an important elastic property of the artery that quantifies the material stiffness. Several studies have demonstrated that the quantitative values of Y and its standard deviation could be potentially used as an independent predictor of coronary heart diseases. For reliable measurements of Y, accurate measurements of arterial diameter and wall thickness are required. Conventionally these arterial dimensions are measured by imaging systems that are not a viable option for large-scale screening due to their form factor and a high degree of complexity. In this work, we present a portable image-free ultrasound modality - ARTSENS Pen for measurement of Y. ARTSENS is an extensively validated technology that is capable of providing clinical standard measurements of arterial dimensions and stiffness. In this present work, we have demonstrated the capability of the ARTSENS to make accurate …",
+        "Scholar articles": "Measurement of Arterial Young's Elastic Modulus using ARTSENS PenPM Nabeel, J Joseph, MI Shah, M Sivaprakasam - 2018 IEEE International Symposium on Medical …, 2018Related articles",
+        "Title": "Measurement of Arterial Young's Elastic Modulus using ARTSENS Pen",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/8438729/"
+    },
+    {
+        "index": 265,
+        "Authors": [
+            "Raj Kiran V",
+            "PM Nabeel",
+            "Jayaraj Joseph",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "Publication date": "2018",
+        "Publisher": "Universitätsbibliothek der RWTH Aachen",
+        "Scholar articles": "Non-Invasive Assessment of Arterial Incremental Elastic Modulus Variations Within a Cardiac CycleRaj Kiran V, PM Nabeel, J Joseph, M Sivaprakasam - 2018Related articles",
+        "Title": "Non-Invasive Assessment of Arterial Incremental Elastic Modulus Variations Within a Cardiac Cycle",
+        "Paper Link": "https://scholar.google.com/scholar?cluster=3485498844885062828&hl=en&oi=scholarr"
+    },
+    {
+        "index": 266,
+        "Authors": [
+            "Thendral Ganesh",
+            "Jayaraj Joseph",
+            "Bharath Bhikkaji",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "Publication date": "2017/9/1",
+        "Journal": "Biomedical Signal Processing and Control",
+        "Volume": "38",
+        "Pages": "9-21",
+        "Publisher": "Elsevier",
+        "Description": "Arteries expand and contract in every cardiac cycle. Arteries of a healthy individual are elastic. Increased arterial stiffness is an established marker of the vascular health. An estimate of this vascular stiffness may be obtained by measuring the diameter of the Common Carotid Artery (CCA) in each cardiac cycle. This is typically done using image based systems.ARTSENS1 is a portable, image free, ultrasound device for evaluating the stiffness of the CCA. ARTSENS emits a sequence of ultrasound pulses and records the reflected echoes. These echoes are then used to identify the CCA and estimate its diameter, and thereby evaluate the arterial stiffness. This paper deals with development of algorithms for determining the echoes due to the CCA and the estimation of its diameter.Here, the propagation path of each ultrasound pulse is modeled as an FIR filter considering the Gaussian modulated sine (GMS) pulse as …",
+        "Scholar articles": "Sparse models and recursive computations for determining arterial dynamicsT Ganesh, J Joseph, B Bhikkaji, M Sivaprakasam - Biomedical Signal Processing and Control, 2017Related articles",
+        "Title": "Sparse models and recursive computations for determining arterial dynamics",
+        "Paper Link": "https://www.sciencedirect.com/science/article/pii/S1746809417300368"
+    },
+    {
+        "index": 267,
+        "Authors": [
+            "Jayaraj Joseph",
+            "Anne Maria Ten Dam"
+        ],
+        "Publication date": "2017/7/11",
+        "Conference": "2017 39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+        "Pages": "1380-1384",
+        "Publisher": "IEEE",
+        "Description": "ARTSENS® (ARTerial Stiffness Evaluation for Non-invasive Screening) is a technology for image-free evaluation of carotid artery stiffness with intelligent real time ultrasound signal processing algorithms for arterial wall identification and tracking. However, the influence of the ultrasound probe orientation on the clarity of the artery wall echoes makes measurement a challenge for inexperienced operators. We present an orientation navigation system (ONS), which performs real time tracking of the probe orientation and gives feedback to the user to help take faster readings with more ease for novice ARTSENS® operators. An controlled usability study on seven operators demonstrated that the ONS could reduce the average measurement time in ARTSENS® by nearly 50%. The usability of the system was rated positive with a score of 75.4/100 and a grading of 8.3/10 by the operators. The ONS system makes …",
+        "Scholar articles": "ARTSENS® orientation navigation system: A study towards faster arterial stiffness measurementsJ Joseph, AM Ten Dam - 2017 39th Annual International Conference of the IEEE …, 2017Related articles All 3 versions",
+        "Title": "ARTSENS® orientation navigation system: A study towards faster arterial stiffness measurements",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/8037090/"
+    },
+    {
+        "index": 268,
+        "Authors": [
+            "Malay Ilesh Shah",
+            "Jayaraj Joseph",
+            "T Aryasree",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "Publication date": "2016/8/16",
+        "Conference": "2016 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+        "Pages": "5204-5207",
+        "Publisher": "IEEE",
+        "Description": "Vascular stiffness is a key physiological marker significant in screening and early diagnosis of vascular disease. However, state of art techniques for vascular stiffness evaluation are not suited for field deployment. We present ARTSENS® Mobile, a portable, image-free ultrasound technology platform for automated evaluation of carotid artery stiffness, amenable for field deployment. The technology utilises a single element ultrasound transducer operated in pulse echo modality to investigate arterial wall dynamics, assisted by intelligent algorithms for wall identification and motion tracking to completely automate the measurement. The ARTSENS Mobile is built around the NI sbRIO 9651 embedded SOM which runs all algorithms for pulsed transducer excitation, high speed synchronised ultrasound echo capture, real-time signal processing and automated measurement. The system is designed to communicate …",
+        "Scholar articles": "ARTSENS® mobile: A portable image-free platform for automated evaluation of vascular stiffnessMI Shah, J Joseph, T Aryasree, M Sivaprakasam - 2016 38th Annual International Conference of the IEEE …, 2016Related articles All 3 versions",
+        "Title": "ARTSENS® mobile: A portable image-free platform for automated evaluation of vascular stiffness",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/7591900/"
+    },
+    {
+        "index": 269,
+        "Authors": [
+            "Thendral Ganesh",
+            "Jayaraj Joseph",
+            "Bharath Bhikkaji",
+            "Mohanasankar Sivaprakasam"
+        ],
+        "Publication date": "2015/4/19",
+        "Conference": "2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "Pages": "852-856",
+        "Publisher": "IEEE",
+        "Description": "This paper deals with the estimation of the inner-diameter of the Carotid Artery (CA). Arteries pulsate as blood is pumped through them by the heart. Plaque depositions along the inner wall makes the arteries rigid and obstructs the flow of blood. This increases the risk of a heart attack. The dynamics of the inner-diameter of the CA is a good indicator of this risk. An ultrasound transducer is placed on the neck of a subject and a sequence of ultrasound pulses are sent. The echoes due to the CA and other anatomical structures in the vicinity are recorded. Considering each ultrasound pulse as an input and its corresponding echo (reflections from the CA and other structures) as the output, the propagation path is modeled as a FIR filter with a sparse impulse response. Reconstruction of the echo signal, for each pulse, from the estimated impulse response significantly reduces the measurement noise. This enables the …",
+        "Scholar articles": "Sparse models for determining arterial dynamicsT Ganesh, J Joseph, B Bhikkaji, M Sivaprakasam - 2015 IEEE International Conference on Acoustics …, 2015Related articles All 2 versions",
+        "Title": "Sparse models for determining arterial dynamics",
+        "Paper Link": "https://ieeexplore.ieee.org/abstract/document/7178090/"
+    },
+    {
+        "index": 270,
+        "Authors": [
+            "R Radhakrishnan",
+            "AK Sahani",
+            "M Sivaprakasam",
+            "J Joseph"
+        ],
+        "Publication date": "2015",
+        "Publisher": "American Society of Mechanical Engineers (ASME)",
+        "Title": "",
+        "Paper Link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jkACmbEAAAAJ&cstart=200&pagesize=100&citation_for_view=jkACmbEAAAAJ:YOwf2qJgpHMC"
+    },
+    {
+        "index": 271,
+        "Authors": [
+            "V Jayashankar",
+            "J Joseph"
+        ],
+        "Publication date": "2010",
+        "Title": "",
+        "Paper Link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jkACmbEAAAAJ&cstart=200&pagesize=100&citation_for_view=jkACmbEAAAAJ:ULOm3_A8WrAC"
+    },
+    {
+        "index": 272,
+        "Authors": [
+            "V Jayashankar",
+            "J Joseph"
+        ],
+        "Publication date": "2008",
+        "Title": "",
+        "Paper Link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jkACmbEAAAAJ&cstart=200&pagesize=100&citation_for_view=jkACmbEAAAAJ:9ZlFYXVOiuMC"
+    },
+    {
+        "index": 273,
+        "Authors": [
+            "MR Shah",
+            "G Bedrosian",
+            "J Joseph"
+        ],
+        "Publication date": "1999",
+        "Journal": "IEEE Power Engineering Review",
+        "Volume": "19",
+        "Issue": "1",
+        "Pages": "53",
+        "Publisher": "New York, NY: IEEE Power Engineering Society, Institute of Electrical and Electronics Engineers, Inc., c1981-c2002.",
+        "Scholar articles": "Steady-State Loss and Short-Circuit Force Analysis of a Three-Phase Bus Using a Coupled Finite Element Plus Circuit ApproachMR Shah, G Bedrosian, J Joseph - IEEE Power Engineering Review, 1999Related articles",
+        "Title": "Steady-State Loss and Short-Circuit Force Analysis of a Three-Phase Bus Using a Coupled Finite Element Plus Circuit Approach",
+        "Paper Link": "https://scholar.google.com/scholar?cluster=6546210130728976279&hl=en&oi=scholarr"
+    },
+    {
+        "index": 274,
+        "Authors": [
+            "J Joseph",
+            "B Ma",
+            "BT Khuri-Yakub",
+            "W Zhou",
+            "X Wang",
+            "K Wang",
+            "U Farooq",
+            "L Kang",
+            "L Niu",
+            "L Meng",
+            "J Hansen-Shearer",
+            "M Lerendegui",
+            "M Toulemonde",
+            "MX Tang",
+            "A Mamistvalov",
+            "YC Eldar",
+            "R Ali",
+            "AV Telichko",
+            "H Wang",
+            "UK Sukumar",
+            "JG Vilches-Moure",
+            "R Paulmurugan",
+            "JJ Dahl",
+            "Q You",
+            "Z Dong",
+            "MR Lowerison",
+            "P Song",
+            "S Lei",
+            "G Zhang",
+            "B Zhu",
+            "X Long",
+            "Z Jiang",
+            "Y Liu",
+            "D Hu",
+            "Z Sheng",
+            "Q Zhang",
+            "C Wang",
+            "Z Gao",
+            "H Zheng",
+            "T Ma",
+            "Approach S Schoen Jr",
+            "P Dash",
+            "CD Arvanitis",
+            "E Maneas",
+            "A Hauptmann",
+            "EJ Alles",
+            "W Xia",
+            "T Vercauteren",
+            "S Ourselin",
+            "AL David",
+            "S Arridge",
+            "AE Desjardins"
+        ],
+        "Description": "Table of Contents Page 1 FEBRUARY 2022 VOLUME 69 NUMBER 2 ITUCER (ISSN 1525-8955) \nREVIEW PAPERS Transducers and Transducer Materials Applications of Capacitive \nMicromachined Ultrasonic Transducers: A Comprehensive Review . . . . . . . . . . . . . . . . . . . . . . . . \n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . \n. . . . . . . . . . . . . . . . J. Joseph, B. Ma, and BT Khuri-Yakub 456 Frequency Control \nCharacterizing Frequency Stability Measurements Having Multiple Data Gaps . . . . . . . . . . . . . . \n. . DA Howe and N. Schlossberger 468 PAPERS Medical Ultrasonics Ultrasound Activation of \nMechanosensory Ion Channels in Caenorhabditis Elegans . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . \n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . W. Zhou, X. \nWang, K. Wang, U. Farooq, L. Kang, L. Niu, and L. Meng 473 Ultrafast 3-D Ultrasound Imaging …",
+        "Scholar articles": "REVIEW PAPERSJ Joseph, B Ma, BT Khuri-Yakub, W Zhou, X Wang…Related articles All 2 versions",
+        "Title": "REVIEW PAPERS",
+        "Paper Link": "https://scholar.archive.org/work/zrhqt3ndtvdtrorermsbqfy7dq/access/wayback/https://ieeexplore.ieee.org/ielx7/58/9695400/09695415.pdf"
+    },
+    {
+        "index": 275,
+        "Authors": [
+            "Urs Vishnu Dev",
+            "RA Henry",
+            "J Joseph",
+            "AT Oomen",
+            "GG Rao"
+        ],
+        "Journal": "Spiritual Message",
+        "Pages": "37",
+        "Description": "Adult Onset Still’s disease is an inflammatory disorder characterized by quotidian (daily) fevers, arthritis, and an evanescent rash. Neurological manifestations in a patient with Still’s Disease are very rare and usually occurs during the late stage of the disease. Only a few reports are available in literature. Neurological impairment in AOSD may lead to life-threatening complications, ie, brain stem hemorrhage, fatal seizures, hemiplegia, meningo-encephalitis, cranial nerve palsy, or sensorineural hearing loss. Here we report a patient with AOSD and right facial nerve palsy.",
+        "Scholar articles": "Adult Onset Still’s Disease with Facial Palsy–A Rare PresentationUV Dev, RA Henry, J Joseph, AT Oomen, GG Rao - Spiritual MessageRelated articles",
+        "Title": "Adult Onset Still’s Disease with Facial Palsy–A Rare Presentation",
+        "Paper Link": "https://www.researchgate.net/profile/Nithya-Haridas/publication/341371358_Correlation_of_Six_Minute_Walk_Distance_with_Clinical_Spirometric_Parameters_in_COPD/links/5ebd0bc4a6fdcc90d6751be9/Correlation-of-Six-Minute-Walk-Distance-with-Clinical-Spirometric-Parameters-in-COPD.pdf#page=39"
+    },
+    {
+        "index": 276,
+        "Authors": [
+            "Jayaraj Joseph",
+            "Kishore Kumar",
+            "V Jayashankar"
+        ],
+        "Description": "A method to estimate the risk of heart disease in a person, based on diagnostic ultrasound is proposed here. The” vascular age” obtained from carotid ultrasound is very commonly used as a measure of cardiac health. Existing methods of vascular age estimation make use of the Carotid Intima Media Thickness (CIMT) measurements to arrive at an estimate of the vascular age. Recent work has demonstrated that the carotid inter adventitial distance (CAD) has a direct relation with the risk of coronary heart disease in persons. It has also been demonstrated that CAD correlates better to a number of risk factors accounting for heart disease than the CIMT. Hence, we propose a method to estimate vascular age based on CAD. B mode images of the carotid artery are analyzed to find out the carotid inter adventitial distance. The vascular age is estimated from carotid diameter using a statistical model developed based on …",
+        "Scholar articles": "ACOUSTICS2008/437 Carotid Inter-adventitial Distance based Vascular Age and Heart Disease Risk Estimation from B mode UltrasoundJ Joseph, K Kumar, V JayashankarRelated articles",
+        "Title": "ACOUSTICS2008/437 Carotid Inter-adventitial Distance based Vascular Age and Heart Disease Risk Estimation from B mode Ultrasound",
+        "Paper Link": "http://www.conforg.fr/acoustics2008/cdrom/data/articles/000437.pdf"
     }
 ]

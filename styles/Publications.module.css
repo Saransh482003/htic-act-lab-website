@@ -1135,6 +1135,53 @@
     font-weight: 600;
 }
 
+.filterNote {
+    color: #f59e0b;
+    font-weight: 500;
+}
+
+.semanticSearchInfo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(16, 185, 129, 0.2);
+    flex-wrap: wrap;
+}
+
+.semanticBadge {
+    background: linear-gradient(135deg, #10b981, #3b82f6);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.searchQuery {
+    color: #64748b;
+    font-size: 0.8rem;
+    font-style: italic;
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.filterBadge {
+    background: rgba(245, 158, 11, 0.1);
+    color: #f59e0b;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
 .loadMoreContainer {
     display: flex;
     flex-direction: column;
@@ -1256,6 +1303,17 @@
     .endMessage {
         font-size: 1rem;
     }
+    
+    .semanticSearchInfo {
+        gap: 0.75rem;
+        margin-top: 0.75rem;
+        padding-top: 0.75rem;
+    }
+    
+    .searchQuery {
+        max-width: 200px;
+        font-size: 0.75rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1271,5 +1329,21 @@
     
     .endMessage {
         font-size: 0.9rem;
+    }
+    
+    .semanticSearchInfo {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .searchQuery {
+        max-width: 150px;
+        font-size: 0.7rem;
+    }
+    
+    .semanticBadge, .filterBadge {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.6rem;
     }
 }

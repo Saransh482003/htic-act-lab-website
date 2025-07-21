@@ -31,12 +31,12 @@ const Footer = () => {
                 <a href="https://x.com/actlab_iitm" className={styler.socialLink} target="_blank" rel="noopener noreferrer">
                   <Image src="/footer/x.png" alt="X" width={24} height={24} className={styler.socialIcon} />
                 </a>
-                <a href="https://youtube.com/@actlab-iitm" className={styler.socialLink} target="_blank" rel="noopener noreferrer">
+                {/* <a href="https://youtube.com/@actlab-iitm" className={styler.socialLink} target="_blank" rel="noopener noreferrer">
                   <Image src="/footer/youtube.png" alt="YouTube" width={24} height={24} className={styler.socialIcon} />
                 </a>
                 <a href="https://github.com/act-lab-iitm" className={styler.socialLink} target="_blank" rel="noopener noreferrer">
                   <Image src="/footer/github.png" alt="GitHub" width={24} height={24} className={styler.socialIcon} />
-                </a>
+                </a> */}
               </div>
             </div>
 

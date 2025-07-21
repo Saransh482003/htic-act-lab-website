@@ -72,12 +72,16 @@ export default async function handler(req, res) {
         // Sort by publication count in descending order
         authorArray.sort((a, b) => b.publicationCount - a.publicationCount);
         publisherArray.sort((a, b) => b.publicationCount - a.publicationCount);
-        yearArray.sort((a, b) => b.publicationCount - a.publicationCount);
+        yearArray.sort((a, b) => parseInt(b.year, 10) - parseInt(a.year, 10));
 
         // Get top items based on limits
         const topAuthors = authorArray.slice(0, authorLim);
         const topPublishers = publisherArray.slice(0, publisherLim);
         const topYears = yearArray.slice(0, yearLim);
+
+        const groundAuths = path.join(process.cwd(), "JSONs", "publications", "groundAuthors.json");
+        const groundAuthsList = await fs.promises.readFile(groundAuths, "utf-8");
+        const groundAuthors = JSON.parse(groundAuthsList);
 
         res.status(200).json({
             message: `Top ${authorLim} authors, ${publisherLim} publishers, and ${yearLim} years with most publications`,
@@ -86,7 +90,8 @@ export default async function handler(req, res) {
             totalYears: yearArray.length,
             topAuthors: topAuthors.map(author => author.name),
             topPublishers: topPublishers.map(publisher => publisher.name),
-            topYears: topYears.map(year => year.year)
+            topYears: topYears.map(year => year.year),
+            groundAuthors: groundAuthors
         });
     } catch (err) {
         console.error("Error reading projects data:", err);

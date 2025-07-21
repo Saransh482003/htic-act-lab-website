@@ -64,6 +64,7 @@ const Publications = () => {
       setPublications(allPublications);
       setSearchResults([]);
       setIsSemanticMode(false);
+      resetPagination(allPublications);
       return;
     }
 
@@ -289,28 +290,28 @@ const Publications = () => {
     if (publication["Conference"]) {
       bibtexType = "inproceedings";
       bibtexEntry = `@${bibtexType}{${key},
-  title = {${title}},
-  author = {${authors.join(' and ')}},
-  booktitle = {${cleanBibtexText(publication["Conference"])}},
-  year = {${year}},`;
+                      title = {${title}},
+                      author = {${authors.join(' and ')}},
+                      booktitle = {${cleanBibtexText(publication["Conference"])}},
+                      year = {${year}},`;
       
       if (publication["Pages"]) {
         bibtexEntry += `
-  pages = {${publication["Pages"]}},`;
+          pages = {${publication["Pages"]}},`;
       }
       
       if (publication["Publisher"]) {
         bibtexEntry += `
-  publisher = {${cleanBibtexText(publication["Publisher"])}},`;
+          publisher = {${cleanBibtexText(publication["Publisher"])}},`;
       }
       
     } else if (publication["Journal"] || publication["Source"]) {
       bibtexType = "article";
       bibtexEntry = `@${bibtexType}{${key},
-  title = {${title}},
-  author = {${authors.join(' and ')}},
-  journal = {${cleanBibtexText(publication["Journal"] || publication["Source"])}},
-  year = {${year}},`;
+            title = {${title}},
+            author = {${authors.join(' and ')}},
+            journal = {${cleanBibtexText(publication["Journal"] || publication["Source"])}},
+            year = {${year}},`;
       
       if (publication["Volume"]) {
         bibtexEntry += `
@@ -502,7 +503,8 @@ const Publications = () => {
         throw new Error('Network response was not ok');
       }
       const data = await response.json();
-      setAuthors(data.topAuthors);
+      // setAuthors(data.topAuthors);
+      setAuthors(data.groundAuthors);
       setPublishers(data.topPublishers);
       setYears(data.topYears);
     } catch (error) {
@@ -693,7 +695,10 @@ const Publications = () => {
                 ) : searchQuery ? (
                   isSemanticMode && searchResults.length > 0 ? (
                     <span className={styler.searchResults}>
-                      🎯 Found {publications.length} semantically similar papers for "{searchQuery}"
+                      🎯 Found {searchResults.length} semantically similar papers for "{searchQuery}"
+                      {publications.length !== searchResults.length && (
+                        <span className={styler.filterNote}> • {publications.length} after filters</span>
+                      )}
                     </span>
                   ) : searchQuery && !isSemanticMode ? (
                     <span className={styler.searchNoResults}>
@@ -711,10 +716,30 @@ const Publications = () => {
             <div className={styler.publicationsHeader}>
               <div className={styler.publicationsCount}>
                 Showing {displayedPublications.length} of {publications.length} publications
-                {isSemanticMode && searchQuery && (
+                {isSemanticMode && searchQuery ? (
+                  <span className={styler.searchContext}>
+                    {publications.length === searchResults.length 
+                      ? ` (${searchResults.length} semantic matches for "${searchQuery}")` 
+                      : ` (${publications.length} filtered from ${searchResults.length} semantic matches)`
+                    }
+                  </span>
+                ) : getTotalActiveFilters() > 0 ? (
                   <span className={styler.searchContext}> (filtered from {allPublications.length} total)</span>
-                )}
+                ) : null}
               </div>
+              
+              {/* Additional pagination info for semantic search */}
+              {isSemanticMode && searchQuery && (
+                <div className={styler.semanticSearchInfo}>
+                  <span className={styler.semanticBadge}>🎯 Semantic Search Active</span>
+                  <span className={styler.searchQuery}>Query: "{searchQuery}"</span>
+                  {getTotalActiveFilters() > 0 && (
+                    <span className={styler.filterBadge}>
+                      {getTotalActiveFilters()} filter{getTotalActiveFilters() !== 1 ? 's' : ''} applied
+                    </span>
+                  )}
+                </div>
+              )}
             </div>
             
             <div className={styler.publicationsGrid}>
